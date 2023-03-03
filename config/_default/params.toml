@@ -12,7 +12,7 @@ autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = true
 
-mainSections = ["Blog","Newsletter","Minutes","GAUSS"]
+mainSections = ["blog","newsletter","minutes","gauss"]
 # robots = ""
 
 disableImageOptimization = false

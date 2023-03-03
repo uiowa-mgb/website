@@ -1,6 +1,6 @@
 +++
 summary=""
-title = "GAUSS"
+title = "Minutes"
 author = "Joe Starr"
 groupByYear = true
 tags = ["index"]

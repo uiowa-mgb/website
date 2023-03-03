@@ -3,6 +3,7 @@ description=""
 author = "Joe Starr"
 title = "February 2023"
 date = "2023-02-07"
+type= "Minutes"
 layout = "simple"
 tags = [
     "Minutes",
