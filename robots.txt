@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://uiowa-mgb.com/sitemap.xml
