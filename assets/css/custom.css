@@ -1,0 +1,9 @@
+h1{
+  -webkit-text-stroke: .5px rgba(var(--color-neutral-900));
+  color: #FFCD00 !important;
+}
+
+nav a{
+  -webkit-text-stroke: .1px rgba(var(--color-neutral-900));
+  color: #FFCD00 !important;
+}

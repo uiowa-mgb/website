@@ -42,18 +42,22 @@
 </style>
 
 <div id="paginator">
-    <button id="prev">Previous</button>
-    <button id="next">Next</button>
-    &nbsp; &nbsp;
-    <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
+    <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded" id="prev">Previous</button>
+    <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded" id="next">Next</button>
 </div>
 <div id="embed-pdf-container">
     <div id="loadingWrapper">
       <div id="loading"></div>
     </div>
     <canvas id="the-canvas"></canvas>
+  </div>
+  <div id="paginator2">
+    <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded" id="prev2">Previous</button>
+    <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded" id="next2">Next</button>
+    &nbsp;
+    &nbsp;
+    <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
 </div>
-
 <script type="text/javascript">
 window.onload = function() {
 // If absolute URL from the remote server is provided, configure the CORS
@@ -170,6 +174,7 @@ function onPrevPage() {
   queueRenderPage(pageNum);
 }
 document.getElementById('prev').addEventListener('click', onPrevPage);
+document.getElementById('prev2').addEventListener('click', onPrevPage);
 
 /**
  * Displays next page.
@@ -182,6 +187,7 @@ function onNextPage() {
   queueRenderPage(pageNum);
 }
 document.getElementById('next').addEventListener('click', onNextPage);
+document.getElementById('next2').addEventListener('click', onNextPage);
 
 /**
  * Asynchronously downloads PDF.

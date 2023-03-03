@@ -1,8 +1,9 @@
 +++
 description=""
 author = "Joe Starr"
-title = "February 2023 Minutes"
+title = "February 2023"
 date = "2023-02-07"
+layout = "simple"
 tags = [
     "Minutes",
     "2023"

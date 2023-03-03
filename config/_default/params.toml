@@ -5,14 +5,14 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://blowfish.page/docs/configuration/#theme-parameters
 
-colorScheme = "Noir"
-defaultAppearance = "dark" # valid options: light or dark
+colorScheme = "iowa"
+defaultAppearance = "light" # valid options: light or dark
 autoSwitchAppearance = true
 
 enableSearch = true
 enableCodeCopy = true
 
-mainSections = ["docs"]
+mainSections = ["Blog","Newsletter","Minutes","GAUSS"]
 # robots = ""
 
 disableImageOptimization = false
@@ -34,55 +34,56 @@ smartTOCHideUnfocusedChildren = true
   showScrollToTop = true
 
 [homepage]
-  layout = "pacustomge" # valid options: page, profile, hero, card, background, custom
+  layout = "page" # valid options: page, profile, hero, card, background, custom
   # homepageImage = "/img/iceland.jpg" # used in: hero, and card
-  showRecent = true
+  showRecent = false
   showRecentItems = 10
-  showMoreLink = true
+  showMoreLink = false
   showMoreLinkDest = "docs"
-  cardView = true
+  cardView = false
   cardViewScreenWidth = false
   layoutBackgroundBlur = false # only used when layout equals background
+  showSummary = false
 
-# [article]
-#   showDate = false
-#   showViews = true
-#   showLikes = true
-#   showDateUpdated = false
-#   showAuthor = true
-#   showHero = true
-#   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-#   layoutBackgroundBlur = true # only used when heroStyle equals background
-#   showBreadcrumbs = true
-#   showDraftLabel = true
-#   showEdit = true
-#   editURL = "https://github.com/nunocoracao/blowfish/tree/main/exampleSite/content"
-#   editAppendPath = true
-#   seriesOpened = false
-#   showHeadingAnchors = true
-#   showPagination = true
-#   invertPagination = false
-#   showReadingTime = true
-#   showTableOfContents = true
-#   showTaxonomies = true
-#   showAuthorsBadges = true
-#   showWordCount = false
-#   showSummary = true
-#   sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook", "email"]
+[article]
+  showDate = false
+  showViews = false
+  showLikes = false
+  showDateUpdated = false
+  showAuthor = true
+  showHero = false
+  heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
+  layoutBackgroundBlur = false # only used when heroStyle equals background
+  showBreadcrumbs = true
+  showDraftLabel = true
+  showEdit = false
+  editURL = "https://github.com/nunocoracao/blowfish/tree/main/exampleSite/content"
+  editAppendPath = false
+  seriesOpened = false
+  showHeadingAnchors = false
+  showPagination = true
+  invertPagination = false
+  showReadingTime = false
+  showTableOfContents = false
+  showTaxonomies = false
+  showAuthorsBadges = false
+  showWordCount = false
+  showSummary = true
+  sharingLinks = [ "github", "youtube"]
 
 [list]
   showHero = true
-  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  heroStyle = "big" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background
   layoutBackgroundHeaderSpace = false
   showBreadcrumbs = false
   showSummary = false
-  showViews = true
-  showLikes = true
+  showViews = false
+  showLikes = false
   showTableOfContents = true
-  showCards = true
+  showCards = false
   groupByYear = false
-  cardView = true
+  cardView = false
   cardViewScreenWidth = false
   constrainItemsWidth = false
 
@@ -94,8 +95,8 @@ smartTOCHideUnfocusedChildren = true
   showHero = true
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = false
-  showViews = true
-  showLikes = true
+  showViews = false
+  showLikes = false
   showTableOfContents = true
   cardView = false
 
@@ -103,11 +104,11 @@ smartTOCHideUnfocusedChildren = true
   showHero = true
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = true
-  showViews = true
-  showLikes = true
+  showViews = false
+  showLikes = false
   showTableOfContents = true
   groupByYear = false
-  cardView = true
+  cardView = false
   cardViewScreenWidth = false
 
 

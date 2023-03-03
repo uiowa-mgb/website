@@ -10,25 +10,7 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
-[[main]]
-  name = "Blog"
-  pageRef = "Blog"
-  weight = 50
 
-[[main]]
-  name = "GAUSS"
-  pageRef = "GAUSS"
-  weight = 40
-
-[[main]]
-  name = "Minutes"
-  pageRef = "Minutes"
-  weight = 20
-
-[[main]]
-  name = "Newsletter"
-  pageRef = "Newsletter"
-  weight = 30
 
 [[main]]
   name = "Officers"
@@ -36,8 +18,42 @@
   weight = 10
 
 [[main]]
+  name = "Minutes"
+  pageRef = "Minutes"
+  weight = 20
+
+[[main]]
+  name = "Sum-Times"
+  pageRef = "Newsletter"
+  weight = 30
+
+[[main]]
+  name = "Speaking Series"
+  # pageRef = "Minutes"
+  weight = 70
+
+[[main]]
+  name = "GAUSS"
+  parent = "Speaking Series"
+  pageRef = "GAUSS"
+  weight = 40
+
+
+[[main]]
+  name = "Blog"
+  pageRef = "Blog"
+  weight = 50
+
+[[main]]
   name = "Resources"
   pageRef = "Resources"
+  weight = 60
+
+
+[[main]]
+  name = "Heartland"
+  parent = "Speaking Series"
+  pageRef = "Heartland"
   weight = 60
 
 
@@ -57,6 +73,12 @@
   pre = "github"
   url = "https://github.com/uiowa-mgb"
   weight = 1
+
+# [[main]]
+#   identifier = "twitter"
+#   pre = "twitter"
+#   url = "https://twitter.com/uiowamgb"
+#   weight = 1
 
 
 # -- Footer Menu --

@@ -1,9 +1,10 @@
 +++
 description=""
 author = "Joe Starr"
-title = "Newsletter February 2023"
+title = "February 2023"
 type= "Newsletter"
 date = "2023-02-28"
+layout = "simple"
 tags = [
     "Newsletter",
     "2023"
