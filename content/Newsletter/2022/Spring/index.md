@@ -19,5 +19,5 @@ tags = [
 
 ## Newsletter 2
 
-{{< embed-pdf url="./Newsletter/2022/Spring/Spring_2022_1.pdf" >}}
+{{< embed-pdf url="./newsletter/2022/Spring/Spring_2022_1.pdf" >}}
 

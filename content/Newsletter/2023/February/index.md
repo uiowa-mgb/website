@@ -11,7 +11,7 @@ tags = [
 ]
 +++
 
-## Newsletter February 2023
+## newsletter February 2023
 
-{{< embed-pdf url="./Newsletter/2023/February/Newsletter_February_2023.pdf" >}}
+{{< embed-pdf url="./newsletter/2023/February/Newsletter_February_2023.pdf" >}}
 

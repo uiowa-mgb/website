@@ -26,10 +26,10 @@ MGB has resources for grad students (CV templates, etc.) available on OrgSync, a
 # Recent Posts:
 
 
-{{< list title="Newsletter" limit=2 where="Type" value="Newsletter" >}}
+{{< list title="Newsletter" limit=2 where="Type" value="newsletter" >}}
 
-{{< list title="Minutes" limit=2 where="Type" value="Minutes" >}}
+{{< list title="Minutes" limit=2 where="Type" value="minutes" >}}
 
-{{< list title="GAUSS" limit=2 where="Type" value="GAUSS" >}}
+{{< list title="GAUSS" limit=2 where="Type" value="gauss" >}}
 
-{{< list title="Blog" limit=2 where="Type" value="Blog" >}}
+{{< list title="Blog" limit=2 where="Type" value="blog" >}}

@@ -14,17 +14,17 @@
 
 [[main]]
   name = "Officers"
-  pageRef = "Officers"
+  pageRef = "officers"
   weight = 10
 
 [[main]]
   name = "Minutes"
-  pageRef = "Minutes"
+  pageRef = "minutes"
   weight = 20
 
 [[main]]
   name = "Sum-Times"
-  pageRef = "Newsletter"
+  pageRef = "newsletter"
   weight = 30
 
 [[main]]
@@ -35,25 +35,25 @@
 [[main]]
   name = "GAUSS"
   parent = "Speaking Series"
-  pageRef = "GAUSS"
+  pageRef = "gauss"
   weight = 40
 
 
 [[main]]
   name = "Blog"
-  pageRef = "Blog"
+  pageRef = "blog"
   weight = 50
 
 [[main]]
   name = "Resources"
-  pageRef = "Resources"
+  pageRef = "resources"
   weight = 60
 
 
 [[main]]
   name = "Heartland"
   parent = "Speaking Series"
-  pageRef = "Heartland"
+  pageRef = "heartland"
   weight = 60
 
 
