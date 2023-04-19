@@ -27,7 +27,7 @@ Heartland visits serve to better integrate faculty and graduate students here at
 
 ## Further Details
 
-To view a list of participating Heartland schools, please visit our [Schools page](/schools).
+To view a list of participating Heartland schools, please visit our [Schools page](heartland/schools).
 
 To view a sampling of prior Heartland student visits, look over our Past Visits page.
 
