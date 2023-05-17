@@ -13,4 +13,4 @@ tags = [
 
 ## Minutes
 
-{{< embed-pdf url="./minutes/2023/may/MGB_Minutes_May.pdf" >}}
+{{< embed-pdf url="./minutes/2023/may/MGB_Meeting_May.pdf" >}}
