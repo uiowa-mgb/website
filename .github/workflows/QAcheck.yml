@@ -4,9 +4,8 @@ permissions:
     contents: write
 
 on:
-    push:
-        branches:
-            - master # Set a branch to deploy
+    pull_request:
+        branches: ["master"]
 
 jobs:
     deploy:
@@ -25,10 +24,3 @@ jobs:
 
             - name: Build
               run: hugo
-
-            - name: Deploy
-              uses: peaceiris/actions-gh-pages@v3
-              with:
-                  github_token: ${{ secrets.GITHUB_TOKEN }}
-                  publish_dir: ./public
-                  cname: mathgradboard.com
