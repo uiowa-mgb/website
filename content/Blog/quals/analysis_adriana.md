@@ -18,4 +18,4 @@ One of our graduate students [Adriana Fernandez I Quero](https://math.uiowa.edu/
 
 ### PDF
 
-{{< embed-pdf url="./blog/quals/Qualifying_Exam_Problems_Adriana_2023.pdf" >}}
+{{< embed-pdf url="./Blog/quals/Qualifying_Exam_Problems_Adriana_2023.pdf" >}}
