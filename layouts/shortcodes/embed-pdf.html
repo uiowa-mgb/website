@@ -33,6 +33,22 @@
   -webkit-animation: spin 1s ease-in-out infinite;
 }
 
+ /* Style buttons */
+ .btn {
+  background-color: #ffcd00 ;
+  border: none;
+  color: #28292b;
+  padding: 12px 30px;
+  margin:30px
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: #c69f00 ;
+}
+
 @keyframes spin {
   to { -webkit-transform: rotate(360deg); }
 }
@@ -41,6 +57,17 @@
 }
 </style>
 
+<br/>
+<br/>
+{{ if eq (.Get "external") "true" }}
+<form method="get" action="{{ .Get "url" }}">
+{{else}}
+<form method="get" action="{{.Site.BaseURL}}{{ .Get "url" }}">
+{{end}}
+<button class="btn" style="width:100%" type="submit"> Download</button>
+</form>
+<br/>
+<br/>
 <div id="paginator">
     <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded" id="prev">Previous</button>
     <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded" id="next">Next</button>
@@ -62,7 +89,11 @@
 window.onload = function() {
 // If absolute URL from the remote server is provided, configure the CORS
 // header on that server.
+{{ if eq (.Get "external") "true" }}
+var url = '{{ .Get "url" }}';
+{{else}}
 var url = "{{.Site.BaseURL}}" + '{{ .Get "url" }}';
+{{end}}
 
 var hidePaginator = "{{ .Get "hidePaginator" }}" === "true";
 var hideLoader = "{{ .Get "hideLoader" }}" === "true";
