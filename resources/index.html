@@ -662,10 +662,102 @@
 
   </div>
   </header>
-  <section class="mt-0 prose flex max-w-full flex-col dark:prose-invert lg:flex-row">
+  <section class="mt-12 prose flex max-w-full flex-col dark:prose-invert lg:flex-row">
+    
+    <div class="order-first px-0 lg:order-last lg:max-w-xs ltr:lg:pl-8 rtl:lg:pr-8">
+      <div class="toc ltr:pl-5 rtl:pr-5 lg:sticky lg:top-10">
+        <details open class="mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#some-resources-supplied-and-maintained-by-the-mgb">Some resources supplied and maintained by the MGB</a>
+      <ul>
+        <li><a href="#a-thesis-template">A thesis template</a></li>
+        <li><a href="#a-template-for-making-a-personal-site">A template for making a personal site</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#some-resources-supplied-and-maintained-by-the-mgb">Some resources supplied and maintained by the MGB</a>
+      <ul>
+        <li><a href="#a-thesis-template">A thesis template</a></li>
+        <li><a href="#a-template-for-making-a-personal-site">A template for making a personal site</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+ 
+<script>
+  (function () {
+    var $toc = $('#TableOfContents');
+    if ($toc.length > 0) {
+      var $window = $(window);
+
+      function onScroll() {
+        var currentScroll = $window.scrollTop();
+        var h = $('.anchor');
+        var id = "";
+        h.each(function (i, e) {
+          e = $(e);
+          if (e.offset().top - $(window).height()/3 <= currentScroll) {
+            id = e.attr('id');
+          }
+        });
+        var active = $toc.find('a.active');      
+        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
+
+        active.each(function (i, e) {
+           
+            $(e).removeClass('active').siblings('ul').hide();
+          
+        });
+        $toc.find('a[href="#' + id + '"]').addClass('active')
+        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function (i, e) {
+          $(e).children('a').parents('ul').show();          
+        });
+      }
+
+      $window.on('scroll', onScroll);
+      $(document).ready(function () {
+         
+          $toc.find('a').parent('li').find('ul').hide();
+        
+        onScroll();
+      });
+    }
+  })();
+</script>
+
+      </div>
+    </div>
     
     <div class="min-w-0 min-h-0 max-w-prose">
-      <a target="_blank" href="https://github.com/uiowa-mgb/uiowa-thesis" class="cursor-pointer">
+      <div id="some-resources-supplied-and-maintained-by-the-mgb" class="anchor">Some resources supplied and maintained by the MGB></div>
+<h2 class="relative group">Some resources supplied and maintained by the MGB 
+    
+</h2><div id="a-thesis-template" class="anchor">A thesis template></div>
+<h3 class="relative group">A thesis template 
+    
+</h3><a target="_blank" href="https://github.com/uiowa-mgb/uiowa-thesis" class="cursor-pointer">
   <div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border-2 rounded-md backdrop-blur shadow-2xl">
 
     <div class="flex items-center">
@@ -725,7 +817,10 @@
 
   </div>
 </a>
-<a target="_blank" href="https://github.com/uiowa-mgb/personal-site-template" class="cursor-pointer">
+<div id="a-template-for-making-a-personal-site" class="anchor">A template for making a personal site></div>
+<h3 class="relative group">A template for making a personal site 
+    
+</h3><a target="_blank" href="https://github.com/uiowa-mgb/personal-site-template" class="cursor-pointer">
   <div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border-2 rounded-md backdrop-blur shadow-2xl">
 
     <div class="flex items-center">

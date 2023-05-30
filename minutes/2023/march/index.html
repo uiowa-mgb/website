@@ -66,7 +66,7 @@
   
   
   <meta property="og:title" content="March 2023" />
-<meta property="og:description" content="Minutes&gt; Minutes Previous Next Previous Next &nbsp; &nbsp; Page: / " />
+<meta property="og:description" content="Minutes&gt; Minutes Download Previous Next Previous Next &nbsp; &nbsp; Page: / " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://mathgradboard.com/minutes/2023/march/" /><meta property="article:section" content="Minutes" />
 <meta property="article:published_time" content="2023-03-07T00:00:00+00:00" />
@@ -75,7 +75,7 @@
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="March 2023"/>
-<meta name="twitter:description" content="Minutes&gt; Minutes Previous Next Previous Next &nbsp; &nbsp; Page: / "/>
+<meta name="twitter:description" content="Minutes&gt; Minutes Download Previous Next Previous Next &nbsp; &nbsp; Page: / "/>
 
   
   <script type="application/ld+json">
@@ -86,7 +86,7 @@
     "name": "March 2023",
     "headline": "March 2023",
     
-    "abstract": "Minutes\u003e Minutes Previous Next Previous Next \u0026nbsp; \u0026nbsp; Page: \/ ",
+    "abstract": "Minutes\u003e Minutes Download Previous Next Previous Next \u0026nbsp; \u0026nbsp; Page: \/ ",
     "inLanguage": "en",
     "url" : "https:\/\/mathgradboard.com\/minutes\/2023\/march\/",
     "author" : {
@@ -102,7 +102,7 @@
     "keywords": ["Minutes","2023"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "10"
+    "wordCount": "11"
   }]
   </script>
 
@@ -732,6 +732,22 @@
   -webkit-animation: spin 1s ease-in-out infinite;
 }
 
+  
+ .btn {
+  background-color: #ffcd00 ;
+  border: none;
+  color: #28292b;
+  padding: 12px 30px;
+  margin:30px
+  cursor: pointer;
+  font-size: 20px;
+}
+
+ 
+.btn:hover {
+  background-color: #c69f00 ;
+}
+
 @keyframes spin {
   to { -webkit-transform: rotate(360deg); }
 }
@@ -740,6 +756,15 @@
 }
 </style>
 
+<br/>
+<br/>
+
+<form method="get" action="https://mathgradboard.com./minutes/2023/march/mgb_minutes_march.pdf">
+
+<button class="btn" style="width:100%" type="submit"> Download</button>
+</form>
+<br/>
+<br/>
 <div id="paginator">
     <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded" id="prev">Previous</button>
     <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded" id="next">Next</button>
@@ -761,7 +786,9 @@
 window.onload = function() {
 
 
+
 var url = "https:\/\/mathgradboard.com" + '.\/minutes\/2023\/march\/mgb_minutes_march.pdf';
+
 
 var hidePaginator = "" === "true";
 var hideLoader = "" === "true";

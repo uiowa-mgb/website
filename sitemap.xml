@@ -5,7 +5,42 @@
     
       <url>
             <loc>https://mathgradboard.com/</loc>
-            <lastmod>2023-05-07T00:00:00+00:00</lastmod>
+            <lastmod>2023-05-29T00:00:00+00:00</lastmod>
+            <changefreq>always</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://mathgradboard.com/blog/quals/analysis_adriana/</loc>
+            <lastmod>2023-05-29T00:00:00+00:00</lastmod>
+            <changefreq>always</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://mathgradboard.com/blog/</loc>
+            <lastmod>2023-05-29T00:00:00+00:00</lastmod>
+            <changefreq>always</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://mathgradboard.com/blog/quals/analysis_jstarr/</loc>
+            <lastmod>2023-05-28T00:00:00+00:00</lastmod>
             <changefreq>always</changefreq>
             <priority>0.5</priority>
           </url>
@@ -31,8 +66,6 @@
             <changefreq>always</changefreq>
             <priority>0.5</priority>
           </url>
-    
-  
     
   
     
@@ -101,8 +134,6 @@
     
   
     
-  
-    
       <url>
             <loc>https://mathgradboard.com/newsletter/2022/fall/</loc>
             <lastmod>2022-10-28T00:00:00+00:00</lastmod>
@@ -131,14 +162,6 @@
           </url>
     
   
-    
-  
-    
-      <url>
-            <loc>https://mathgradboard.com/blog/</loc>
-            <changefreq>always</changefreq>
-            <priority>0.5</priority>
-          </url>
     
   
     
