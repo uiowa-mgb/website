@@ -14,3 +14,7 @@ tags = ["index"]
 ### A template for making a personal site
 
 {{< github repo="uiowa-mgb/personal-site-template" >}}
+
+### A template for making university of Iowa branded slides
+
+{{< github repo="uiowa-mgb/uiowa-beamer" >}}
