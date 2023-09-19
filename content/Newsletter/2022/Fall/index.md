@@ -13,11 +13,11 @@ tags = [
 
 ## Newsletter 1
 
-{{< embed-pdf url="./Newsletter/2022/Fall/Fall_2022_1.pdf" >}}
+{{< embed-pdf url="Newsletter/2022/Fall/Fall_2022_1.pdf" >}}
 
 ---
 
 ## Newsletter 2
 
-{{< embed-pdf url="./Newsletter/2022/Fall/Fall_2022_2.pdf" >}}
+{{< embed-pdf url="Newsletter/2022/Fall/Fall_2022_2.pdf" >}}
 
