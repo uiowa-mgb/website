@@ -1,9 +1,13 @@
-h1{
-  -webkit-text-stroke: .5px rgba(var(--color-neutral-900));
-  color: #FFCD00 !important;
+
+h1 {
+    color: #ffcd00 !important;
+}
+nav a {
+    color: #ffcd00 !important;
 }
 
-nav a{
-  -webkit-text-stroke: .1px rgba(var(--color-neutral-900));
-  color: #FFCD00 !important;
+#appearance-switcher > *{
+    visibility: hidden !important;
+    width: 0px !important;
+    height: 0px !important;
 }
