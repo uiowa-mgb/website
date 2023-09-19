@@ -13,5 +13,5 @@ tags = [
 
 ## Newsletter April 2023
 
-{{< embed-pdf url="./newsletter/2023/April/Newsletter_April_2023.pdf" >}}
+{{< embed-pdf url="Newsletter/2023/April/Newsletter_April_2023.pdf" >}}
 
