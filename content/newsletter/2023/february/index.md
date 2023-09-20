@@ -2,16 +2,16 @@
 description=""
 author = "Joe Starr"
 title = "February 2023"
-type= "Newsletter"
+type= "newsletter"
 date = "2023-02-28"
 layout = "simple"
 tags = [
-    "Newsletter",
+    "newsletter",
     "2023"
 ]
 +++
 
 ## newsletter February 2023
 
-{{< embed-pdf url="/Newsletter/2023/february/Newsletter_February_2023.pdf" >}}
+{{< embed-pdf url="/newsletter/2023/february/Newsletter_February_2023.pdf" >}}
 
