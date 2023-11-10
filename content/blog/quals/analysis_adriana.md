@@ -1,7 +1,7 @@
 +++
 description=""
 author = "Joe Starr"
-title = "Analysis Qual Prep Materials - Summer 2022"
+title = "Analysis Qual Prep Question Set From Summer 2022"
 date = "2023-05-29"
 type= "Blog"
 layout = "simple"
@@ -18,4 +18,4 @@ One of our graduate students [Adriana Fernandez I Quero](https://math.uiowa.edu/
 
 ### PDF
 
-{{< embed-pdf url="/Blog/quals/Qualifying_Exam_Problems_Adriana_2023.pdf" >}}
+{{< embed-pdf url="/blog/quals/Qualifying_Exam_Problems_Adriana_2023.pdf" >}}
