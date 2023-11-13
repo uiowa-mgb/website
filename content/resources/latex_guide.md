@@ -52,3 +52,10 @@ before clicking install which will let you select which to install.
 ### Linux
 
 Install TeX live through your distros package manager
+
+
+## Perl
+
+If you are on linux or mac you have Perl already. On Windows we want to install
+[strawberry perl](https://strawberryperl.com/). Download and run the system
+installer. Hopefully that's all that we need.
