@@ -46,4 +46,4 @@ These are just some of my thoughts. Your ideas might be better than the ones lis
 {{< list title="Analysis" limit=100 where="Type"           value="analysis_qualset" >}}
 {{< list title="Topology" limit=100 where="Type"           value="topology_qualset" >}}
 {{< list title="PDE" limit=100 where="Type"                value="pde_qualset" >}}
-{{< list title="Numerical Analysis" limit=100 where="Type" value="numerical_analysis_qualset" >}}
+{{< list title="Numerical Analysis" limit=100 where="Type" value="na_qualset" >}}
