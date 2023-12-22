@@ -56,6 +56,12 @@
   pageRef = "heartland"
   weight = 60
 
+[[main]]
+  name = "Qualifying Exam Resources"
+  parent = "Blog"
+  pageRef = "qual_resources"
+  weight = 60
+
 
 #[[main]]
 #  name = "Test"
