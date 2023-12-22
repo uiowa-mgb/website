@@ -19,7 +19,11 @@ One of our graduate students [Shashank P Singh](https://math.uiowa.edu/people/sh
 
 ## PDF
 
-{{< embed-pdf url="/blog/quals/grouptheory.pdf" >}}
-{{< embed-pdf url="/blog/quals/ringtheory.pdf" >}}
-{{< embed-pdf url="/blog/quals/fieldtheory.pdf" >}}
-{{< embed-pdf url="/blog/quals/modulestheory.pdf" >}}
+### Group Theory
+{{< embed-pdf url="/qual_resources/algebra/grouptheory.pdf" >}}
+### Ring Theory
+{{< embed-pdf download_only="true" url="/qual_resources/algebra/ringtheory.pdf" >}}
+### Field Theory
+{{< embed-pdf download_only="true" url="/qual_resources/algebra/fieldtheory.pdf" >}}
+### Module Theory
+{{< embed-pdf download_only="true" url="/qual_resources/algebra/modulestheory.pdf" >}}
