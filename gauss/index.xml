@@ -5,6 +5,8 @@
     <link>https://mathgradboard.com/gauss/</link>
     <description>Recent content in GAUSS on University of Iowa Math Graduate Board</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://mathgradboard.com/gauss/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    
+    <atom:link href="https://mathgradboard.com/gauss/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

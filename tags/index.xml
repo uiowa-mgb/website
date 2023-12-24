@@ -6,32 +6,86 @@
     <description>Recent content in Tags on University of Iowa Math Graduate Board</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mathgradboard.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <lastBuildDate>Tue, 12 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mathgradboard.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2023</title>
       <link>https://mathgradboard.com/tags/2023/</link>
-      <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
       
       <guid>https://mathgradboard.com/tags/2023/</guid>
       <description></description>
+      
     </item>
     
     <item>
-      <title>Minutes</title>
-      <link>https://mathgradboard.com/tags/minutes/</link>
-      <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
+      <title>Algebra</title>
+      <link>https://mathgradboard.com/tags/algebra/</link>
+      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://mathgradboard.com/tags/minutes/</guid>
+      <guid>https://mathgradboard.com/tags/algebra/</guid>
       <description></description>
+      
     </item>
     
     <item>
       <title>newsletter</title>
       <link>https://mathgradboard.com/tags/newsletter/</link>
-      <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
       
       <guid>https://mathgradboard.com/tags/newsletter/</guid>
       <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Numerical Analysis</title>
+      <link>https://mathgradboard.com/tags/numerical-analysis/</link>
+      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/tags/numerical-analysis/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>pde</title>
+      <link>https://mathgradboard.com/tags/pde/</link>
+      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/tags/pde/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Quals</title>
+      <link>https://mathgradboard.com/tags/quals/</link>
+      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/tags/quals/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Topology</title>
+      <link>https://mathgradboard.com/tags/topology/</link>
+      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/tags/topology/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Minutes</title>
+      <link>https://mathgradboard.com/tags/minutes/</link>
+      <pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/tags/minutes/</guid>
+      <description></description>
+      
     </item>
     
     <item>
@@ -41,6 +95,7 @@
       
       <guid>https://mathgradboard.com/tags/resource/</guid>
       <description></description>
+      
     </item>
     
     <item>
@@ -50,6 +105,7 @@
       
       <guid>https://mathgradboard.com/tags/2022/</guid>
       <description></description>
+      
     </item>
     
     <item>
@@ -59,15 +115,7 @@
       
       <guid>https://mathgradboard.com/tags/analysis/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Quals</title>
-      <link>https://mathgradboard.com/tags/quals/</link>
-      <pubDate>Mon, 29 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://mathgradboard.com/tags/quals/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -77,6 +125,17 @@
       
       <guid>https://mathgradboard.com/tags/2021/</guid>
       <description></description>
+      
+    </item>
+    
+    <item>
+      <title>blog</title>
+      <link>https://mathgradboard.com/tags/blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/tags/blog/</guid>
+      <description></description>
+      
     </item>
     
     <item>
@@ -86,6 +145,7 @@
       
       <guid>https://mathgradboard.com/tags/index/</guid>
       <description></description>
+      
     </item>
     
   </channel>

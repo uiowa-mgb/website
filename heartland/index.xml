@@ -5,7 +5,9 @@
     <link>https://mathgradboard.com/heartland/</link>
     <description>Recent content in Heartland on University of Iowa Math Graduate Board</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://mathgradboard.com/heartland/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    
+    <atom:link href="https://mathgradboard.com/heartland/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Heartland Schools</title>
       <link>https://mathgradboard.com/heartland/schools/</link>
@@ -13,6 +15,7 @@
       
       <guid>https://mathgradboard.com/heartland/schools/</guid>
       <description>School Name City Location Distance/Drive Time Bradley Peoria, IL 152 miles / 2 ~h 30 ~m Central College Pella, IA 98 miles / 2 ~h Clarke College Dubuque, IA 84 miles / 1 ~h 45 ~m Coe College Cedar Rapids, IA 28 miles / 30 ~m Cornell College Mount Vernon, IA 22 miles / 30 ~m Grinnell Grinnell, IA 67 miles / 1 ~h 15 ~m Loras College Mount Vernon, IA 22 miles / 30m Luther College Decorah, IA 136 miles / 3h St.</description>
+      
     </item>
     
     <item>
@@ -22,6 +25,7 @@
       
       <guid>https://mathgradboard.com/heartland/past_talks/</guid>
       <description>School Speaker Support Talk Topic Visit Date University of Wisconsin- Platteville Nitesh Mathur Daniel J.Wackwitz An Introduction to the Generalized Factorials: Based on the Paper of Manjul Bhargava Fall 2021 Loras College Jenni Good What did J.</description>
+      
     </item>
     
   </channel>

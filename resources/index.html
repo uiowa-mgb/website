@@ -30,8 +30,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.e1bc31b97a080ca26e32cd9d61f52cf4b0ffad5938c3d688b838728318d28dd6d1498fea7f6e48fbcb9cf1d21049f6043872400b371fa7e9467ebed5f8324b74.css"
-    integrity="sha512-4bwxuXoIDKJuMs2dYfUs9LD/rVk4w9aIuDhygxjSjdbRSY/qf25I&#43;8uc8dIQSfYEOHJACzcfp&#43;lGfr7V&#43;DJLdA==" />
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.73c31c0d04f841eaa83c3762ba782e3548fa23c834f6c76fa458aa28f89648d86637fcb90c4ad50b78ca652a904208912be1614d461faee8dc6d788588d669f0.css"
+    integrity="sha512-c8McDQT4QeqoPDdiunguNUj6I8g09sdvpFiqKPiWSNhmN/y5DErVC3jKZSqQQgiRK&#43;FhTUYfrujcbXiFiNZp8A==" />
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -48,10 +48,12 @@
   
   
   
-  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.3ddcf04f5b0d4c32f72e726d3c12eebccd8c3c9f9daa9a13414808895de0ae1e1cdddda6849680d5bd96dbb60d0b1e0b24c29f5c83e5631e55e7e6bc02015490.js"
-    integrity="sha512-PdzwT1sNTDL3LnJtPBLuvM2MPJ&#43;dqpoTQUgIiV3grh4c3d2mhJaA1b2W27YNCx4LJMKfXIPlYx5V5&#43;a8AgFUkA==" data-copy="" data-copied=""></script>
+  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.6c7ae15a14b4f78dc4f6e7f92e5a4e05d69a1eafe594e439255e5f72defe4531e8fda36f83cf9730e27868220649112476686eec9d28c582deaabe019c419dbd.js"
+    integrity="sha512-bHrhWhS0943E9uf5LlpOBdaaHq/llOQ5JV5fct7&#43;RTHo/aNvg8&#43;XMOJ4aCIGSREkdmhu7J0oxYLeqr4BnEGdvQ==" data-copy="" data-copied=""></script>
+  
   
   <script src="/js/zoom.min.js"></script>
+  
   
   
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -120,18 +122,15 @@
   </div>
   
   
-  <div class="min-h-[148px]"></div>
-<div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
-  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl"></div>
-  <div class="relative max-w-[64rem] ml-auto mr-auto">
-    <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
+  <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
     class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
     
     <div class="flex flex-1 items-center justify-between">
         <nav class="flex space-x-3">
 
+            
             <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">University of Iowa Math Graduate Board</a>
-
+            
 
         </nav>
         <nav class="hidden md:flex items-center space-x-5 md:ml-12 h-12">
@@ -205,13 +204,51 @@
 
 
             
-            
-  <a href="/blog/"  class="flex items-center">
+             
+  <div>
+  <div class="cursor-pointer flex items-center nested-menu">
     
-    <p class="text-base font-medium text-gray-500 hover:text-gray-900" title="Blog">
-        Blog
-    </p>
-</a>
+    <a  href="/blog/"   class="text-base font-medium text-gray-500 hover:text-gray-900" title="The MGB Blog">
+      Blog
+    </a>
+    <span>
+      
+
+  <span class="relative block icon">
+    <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 20 20"
+  fill="currentColor"
+  aria-hidden="true"
+>
+  <path
+    fill-rule="evenodd"
+    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+    clip-rule="evenodd"
+  />
+</svg>
+
+  </span>
+
+
+    </span>
+  </div>
+  <div class="absolute menuhide">
+    <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
+      <div class="flex flex-col space-y-3">
+        
+        <a href="/blog/qual_resources/general/"  class="flex items-center">
+          
+          <p class="text-sm font-sm text-gray-500 hover:text-gray-900" title="Thoughts on qualifying exams">
+            Qualifying Exam Resources
+          </p>
+        </a>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
             
@@ -383,6 +420,7 @@
 
         <label id="menu-button" for="menu-controller" class="block">
             <input type="checkbox" id="menu-controller" class="hidden" />
+            
             <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
                 
 
@@ -394,7 +432,7 @@
 
             </div>
             <div id="menu-wrapper" style="padding-top:5px;"
-                class="fixed inset-0 z-30 invisible w-screen h-screen m-auto overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50">
+                class="fixed inset-0 z-30 invisible w-screen h-screen m-0 overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50">
                 <ul
                     class="flex space-y-2 mt-3 flex-col items-end w-full px-6 py-6 mx-auto overflow-visible list-none ltr:text-right rtl:text-left max-w-7xl">
 
@@ -410,7 +448,6 @@
 </span>
                     </li>
 
-                    
                     
 
                     
@@ -500,15 +537,47 @@
 
                     
 
-                    
+                     
   <li class="mt-1">
-    <a href="/blog/"  class="flex items-center">
+    <a class="flex items-center">
         
-        <p class="text-bg font-bg text-gray-500 hover:text-gray-900" title="Blog">
+        <p class="text-bg font-bg text-gray-500 hover:text-gray-900" title="The MGB Blog">
             Blog
+        </p>
+        <span>
+            
+
+  <span class="relative block icon">
+    <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 20 20"
+  fill="currentColor"
+  aria-hidden="true"
+>
+  <path
+    fill-rule="evenodd"
+    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+    clip-rule="evenodd"
+  />
+</svg>
+
+  </span>
+
+
+        </span>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/blog/qual_resources/general/"  class="flex items-center">
+        
+        <p class="text-sm font-small text-gray-500 hover:text-gray-900" title="Thoughts on qualifying exams">
+            Qualifying Exam Resources
         </p>
     </a>
 </li>
+
+<li class="mb-2"></li>
 
 
 
@@ -582,9 +651,9 @@
 
 
                     
-                    
 
                 </ul>
+                
                 
 
             </div>
@@ -595,35 +664,11 @@
 
 
 
-<script>
-    (function () {
-        var $mainmenu = $('.main-menu');
-        var path = window.location.pathname;
-        $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
-            $(e).children('p').addClass('active');
-        });
-    })();
-</script>
-
-
-  </div>
-</div>
-<script>
-  window.addEventListener('scroll', function (e) {
-    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-    var background_blur = document.getElementById('menu-blur');
-    background_blur.style.opacity = (scroll / 300);
-  });
-</script>
 
   
   <div class="relative flex flex-col grow">
     <main id="main-content" class="grow">
       
-
-
-
-
 
 
  <header>
@@ -665,109 +710,34 @@
   </script>
   
   
-  <script type="text/javascript" src="/js/page.min.0e49973b4ad0a382c7c6012d8bff8226316642daabc4f8a20477bd08674f3da6e2fa993bc20ad4f51e7c5bb68e6f913a207a7c4fe37ea0e7b806894afce0a64e.js" integrity="sha512-DkmXO0rQo4LHxgEti/&#43;CJjFmQtqrxPiiBHe9CGdPPabi&#43;pk7wgrU9R58W7aOb5E6IHp8T&#43;N&#43;oOe4BolK/OCmTg=="></script>
+  <script type="text/javascript" src="/js/page.min.5b1bad196a6075a1e11bae1dc95f24f67b610948a00525e347566c5a62338ea78f1c7224ab9a53873dcdb2a1a7d7d391b8a8ef45561297f68806c01315b0c4f6.js" integrity="sha512-WxutGWpgdaHhG64dyV8k9nthCUigBSXjR1ZsWmIzjqePHHIkq5pThz3NsqGn19ORuKjvRVYSl/aIBsATFbDE9g=="></script>
   </header>
-  <section class="mt-12 prose flex max-w-full flex-col dark:prose-invert lg:flex-row">
-    
-    <div class="order-first px-0 lg:order-last lg:max-w-xs ltr:lg:pl-8 rtl:lg:pr-8">
-      <div class="toc ltr:pl-5 rtl:pr-5 lg:sticky lg:top-10">
-        <details open class="mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
-  <summary
-    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
-    Table of Contents
-  </summary>
-  <div
-    class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#some-resources-supplied-and-maintained-by-the-mgb">Some resources supplied and maintained by the MGB</a>
-      <ul>
-        <li><a href="#a-thesis-template">A thesis template</a></li>
-        <li><a href="#a-template-for-making-a-personal-site">A template for making a personal site</a></li>
-        <li><a href="#a-template-for-making-university-of-iowa-branded-slides">A template for making university of Iowa branded slides</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-  </div>
-</details>
-<details class="mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
-  <summary
-    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
-    Table of Contents
-  </summary>
-  <div
-    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#some-resources-supplied-and-maintained-by-the-mgb">Some resources supplied and maintained by the MGB</a>
-      <ul>
-        <li><a href="#a-thesis-template">A thesis template</a></li>
-        <li><a href="#a-template-for-making-a-personal-site">A template for making a personal site</a></li>
-        <li><a href="#a-template-for-making-university-of-iowa-branded-slides">A template for making university of Iowa branded slides</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-  </div>
-</details>
-
- 
-<script>
-  (function () {
-    var $toc = $('#TableOfContents');
-    if ($toc.length > 0) {
-      var $window = $(window);
-
-      function onScroll() {
-        var currentScroll = $window.scrollTop();
-        var h = $('.anchor');
-        var id = "";
-        h.each(function (i, e) {
-          e = $(e);
-          if (e.offset().top - $(window).height()/3 <= currentScroll) {
-            id = e.attr('id');
-          }
-        });
-        var active = $toc.find('a.active');      
-        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
-
-        active.each(function (i, e) {
-           
-            $(e).removeClass('active').siblings('ul').hide();
-          
-        });
-        $toc.find('a[href="#' + id + '"]').addClass('active')
-        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function (i, e) {
-          $(e).children('a').parents('ul').show();          
-        });
-      }
-
-      $window.on('scroll', onScroll);
-      $(document).ready(function () {
-         
-          $toc.find('a').parent('li').find('ul').hide();
-        
-        onScroll();
-      });
-    }
-  })();
-</script>
-
-      </div>
-    </div>
+  <section class="mt-0 prose flex max-w-full flex-col dark:prose-invert lg:flex-row">
     
     <div class="min-w-0 min-h-0 max-w-prose">
-      <div id="some-resources-supplied-and-maintained-by-the-mgb" class="anchor"></div>
-<h2 class="relative group">Some resources supplied and maintained by the MGB 
+      <h2 class="relative group">Some resources supplied and maintained by the MGB 
+    <div id="some-resources-supplied-and-maintained-by-the-mgb" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#some-resources-supplied-and-maintained-by-the-mgb" aria-label="Anchor">#</a>
+    </span>        
     
 </h2>
-<div id="a-thesis-template" class="anchor"></div>
 <h3 class="relative group">A thesis template 
+    <div id="a-thesis-template" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#a-thesis-template" aria-label="Anchor">#</a>
+    </span>        
     
 </h3>
-<a target="_blank" href="https://github.com/uiowa-mgb/uiowa-thesis" class="cursor-pointer">
-  <div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
+<a id="github-0-1703390245860506712" target="_blank" href="https://github.com/uiowa-mgb/uiowa-thesis" class="cursor-pointer">
+  <div
+    class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 
     <div class="flex items-center">
       <span class="text-2xl text-neutral-800 dark:text-neutral" style="margin-right:10px;">
@@ -780,18 +750,21 @@
 
 
       </span>
-      <div class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
+      <div
+        id="github-0-1703390245860506712-full_name"
+        class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
         uiowa-mgb/uiowa-thesis
       </div>
     </div>
 
-    <p class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+    <p id="github-0-1703390245860506712-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
       Latex class to render a thesis to UIowa&rsquo;s specifications
     </p>
 
     <div class="m-0 mt-2 flex items-center">
-      
-      <span class="mr-1 inline-block h-3 w-3 rounded-full" style="background-color: #3D6117"></span>
+
+      <span class="mr-1 inline-block h-3 w-3 rounded-full"
+        style="background-color: #3D6117"></span>
       <div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
          TeX 
       </div>
@@ -805,7 +778,7 @@
 
 
       </span>
-      <div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+      <div id="github-0-1703390245860506712-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
         8
       </div>
 
@@ -818,20 +791,42 @@
 
 
       </span>
-      <div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+      <div id="github-0-1703390245860506712-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
         0
       </div>
 
     </div>
 
   </div>
+  <script>
+    fetch("https://api.github.com/repos/uiowa-mgb/uiowa-thesis", {
+      headers: new Headers({
+        'User-agent': 'Mozilla/4.0 Custom User Agent'
+      })
+    })
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById('github-0-1703390245860506712-full_name').innerHTML = data.full_name;
+        document.getElementById('github-0-1703390245860506712-description').innerHTML = data.description;
+        document.getElementById('github-0-1703390245860506712-stargazers').innerHTML = data.stargazers_count;
+        document.getElementById('github-0-1703390245860506712-forks').innerHTML = data.forks;
+      })
+      .catch(error => console.error(error))
+  </script>
 </a>
-<div id="a-template-for-making-a-personal-site" class="anchor"></div>
 <h3 class="relative group">A template for making a personal site 
+    <div id="a-template-for-making-a-personal-site" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#a-template-for-making-a-personal-site" aria-label="Anchor">#</a>
+    </span>        
     
 </h3>
-<a target="_blank" href="https://github.com/uiowa-mgb/personal-site-template-simple" class="cursor-pointer">
-  <div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
+<a id="github-1-1703390245935463399" target="_blank" href="https://github.com/uiowa-mgb/personal-site-template-simple" class="cursor-pointer">
+  <div
+    class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 
     <div class="flex items-center">
       <span class="text-2xl text-neutral-800 dark:text-neutral" style="margin-right:10px;">
@@ -844,18 +839,21 @@
 
 
       </span>
-      <div class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
+      <div
+        id="github-1-1703390245935463399-full_name"
+        class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
         uiowa-mgb/personal-site-template-simple
       </div>
     </div>
 
-    <p class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+    <p id="github-1-1703390245935463399-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
       A forkable template for a github hosted personal site
     </p>
 
     <div class="m-0 mt-2 flex items-center">
-      
-      <span class="mr-1 inline-block h-3 w-3 rounded-full" style="background-color: #f1e05a"></span>
+
+      <span class="mr-1 inline-block h-3 w-3 rounded-full"
+        style="background-color: #f1e05a"></span>
       <div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
          JavaScript 
       </div>
@@ -869,7 +867,7 @@
 
 
       </span>
-      <div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+      <div id="github-1-1703390245935463399-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
         2
       </div>
 
@@ -882,20 +880,42 @@
 
 
       </span>
-      <div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+      <div id="github-1-1703390245935463399-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
         0
       </div>
 
     </div>
 
   </div>
+  <script>
+    fetch("https://api.github.com/repos/uiowa-mgb/personal-site-template", {
+      headers: new Headers({
+        'User-agent': 'Mozilla/4.0 Custom User Agent'
+      })
+    })
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById('github-1-1703390245935463399-full_name').innerHTML = data.full_name;
+        document.getElementById('github-1-1703390245935463399-description').innerHTML = data.description;
+        document.getElementById('github-1-1703390245935463399-stargazers').innerHTML = data.stargazers_count;
+        document.getElementById('github-1-1703390245935463399-forks').innerHTML = data.forks;
+      })
+      .catch(error => console.error(error))
+  </script>
 </a>
-<div id="a-template-for-making-university-of-iowa-branded-slides" class="anchor"></div>
 <h3 class="relative group">A template for making university of Iowa branded slides 
+    <div id="a-template-for-making-university-of-iowa-branded-slides" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#a-template-for-making-university-of-iowa-branded-slides" aria-label="Anchor">#</a>
+    </span>        
     
 </h3>
-<a target="_blank" href="https://github.com/uiowa-mgb/uiowa-beamer" class="cursor-pointer">
-  <div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
+<a id="github-2-1703390246055767618" target="_blank" href="https://github.com/uiowa-mgb/uiowa-beamer" class="cursor-pointer">
+  <div
+    class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 
     <div class="flex items-center">
       <span class="text-2xl text-neutral-800 dark:text-neutral" style="margin-right:10px;">
@@ -908,18 +928,21 @@
 
 
       </span>
-      <div class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
+      <div
+        id="github-2-1703390246055767618-full_name"
+        class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
         uiowa-mgb/uiowa-beamer
       </div>
     </div>
 
-    <p class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+    <p id="github-2-1703390246055767618-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
       University of Iowa themed beamer presentations (unofficial)
     </p>
 
     <div class="m-0 mt-2 flex items-center">
-      
-      <span class="mr-1 inline-block h-3 w-3 rounded-full" style="background-color: #3D6117"></span>
+
+      <span class="mr-1 inline-block h-3 w-3 rounded-full"
+        style="background-color: #3D6117"></span>
       <div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
          TeX 
       </div>
@@ -933,8 +956,8 @@
 
 
       </span>
-      <div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
-        1
+      <div id="github-2-1703390246055767618-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+        2
       </div>
 
       <span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -946,13 +969,28 @@
 
 
       </span>
-      <div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+      <div id="github-2-1703390246055767618-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
         1
       </div>
 
     </div>
 
   </div>
+  <script>
+    fetch("https://api.github.com/repos/uiowa-mgb/uiowa-beamer", {
+      headers: new Headers({
+        'User-agent': 'Mozilla/4.0 Custom User Agent'
+      })
+    })
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById('github-2-1703390246055767618-full_name').innerHTML = data.full_name;
+        document.getElementById('github-2-1703390246055767618-description').innerHTML = data.description;
+        document.getElementById('github-2-1703390246055767618-stargazers').innerHTML = data.stargazers_count;
+        document.getElementById('github-2-1703390246055767618-forks').innerHTML = data.forks;
+      })
+      .catch(error => console.error(error))
+  </script>
 </a>
 
     </div>
@@ -1012,7 +1050,7 @@
   </script>
   
   
-  <script type="text/javascript" src="/js/process.min.35c1113bcc16c5a59bf031082f9e63822aa95280423881a7847a7ff33a16e6299ce6a840d9ef4e10d947e030a18f3f20359afb2ec0f35967484b9a9360ac3145.js" integrity="sha512-NcERO8wWxaWb8DEIL55jgiqpUoBCOIGnhHp/8zoW5imc5qhA2e9OENlH4DChjz8gNZr7LsDzWWdIS5qTYKwxRQ=="></script>
+  <script type="text/javascript" src="/js/process.min.62060bb247f4de2b6dde45903668fefb68d792f365587605177b1227c0cf43588701edaca0cb40e2c8e2789bd5ce67c1d2a215b9fb258c3496a7cd25e7cb5fdf.js" integrity="sha512-YgYLskf03itt3kWQNmj&#43;&#43;2jXkvNlWHYFF3sSJ8DPQ1iHAe2soMtA4sjieJvVzmfB0qIVufsljDSWp80l58tf3w=="></script>
   
   
 </footer><div

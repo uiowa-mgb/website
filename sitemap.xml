@@ -1,268 +1,227 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-    
-      <url>
-            <loc>https://mathgradboard.com/</loc>
-            <lastmod>2023-11-03T00:00:00+00:00</lastmod>
-            <changefreq>always</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://mathgradboard.com/minutes/</loc>
-            <lastmod>2023-11-03T00:00:00+00:00</lastmod>
-            <changefreq>always</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://mathgradboard.com/minutes/2023/november/</loc>
-            <lastmod>2023-11-03T00:00:00+00:00</lastmod>
-            <changefreq>always</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://mathgradboard.com/minutes/2023/october/</loc>
-            <lastmod>2023-10-06T00:00:00+00:00</lastmod>
-            <changefreq>always</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://mathgradboard.com/newsletter/2023/september/</loc>
-            <lastmod>2023-09-28T00:00:00+00:00</lastmod>
-            <changefreq>always</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://mathgradboard.com/newsletter/</loc>
-            <lastmod>2023-09-28T00:00:00+00:00</lastmod>
-            <changefreq>always</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://mathgradboard.com/minutes/2023/september/</loc>
-            <lastmod>2023-09-06T00:00:00+00:00</lastmod>
-            <changefreq>always</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://mathgradboard.com/blog/resources/beamer/</loc>
-            <lastmod>2023-06-29T00:00:00+00:00</lastmod>
-            <changefreq>always</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://mathgradboard.com/blog/</loc>
-            <lastmod>2023-06-29T00:00:00+00:00</lastmod>
-            <changefreq>always</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-  
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://mathgradboard.com/blog/quals/analysis_adriana/</loc>
-            <lastmod>2023-05-29T00:00:00+00:00</lastmod>
-            <changefreq>always</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://mathgradboard.com/blog/quals/analysis_jstarr/</loc>
-            <lastmod>2023-05-28T00:00:00+00:00</lastmod>
-            <changefreq>always</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://mathgradboard.com/minutes/2023/may/</loc>
-            <lastmod>2023-05-07T00:00:00+00:00</lastmod>
-            <changefreq>always</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://mathgradboard.com/newsletter/2023/april/</loc>
-            <lastmod>2023-04-28T00:00:00+00:00</lastmod>
-            <changefreq>always</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://mathgradboard.com/minutes/2023/april/</loc>
-            <lastmod>2023-04-07T00:00:00+00:00</lastmod>
-            <changefreq>always</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://mathgradboard.com/newsletter/2023/march/</loc>
-            <lastmod>2023-03-28T00:00:00+00:00</lastmod>
-            <changefreq>always</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://mathgradboard.com/minutes/2023/march/</loc>
-            <lastmod>2023-03-07T00:00:00+00:00</lastmod>
-            <changefreq>always</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://mathgradboard.com/newsletter/2023/february/</loc>
-            <lastmod>2023-02-28T00:00:00+00:00</lastmod>
-            <changefreq>always</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://mathgradboard.com/minutes/2023/february/</loc>
-            <lastmod>2023-02-07T00:00:00+00:00</lastmod>
-            <changefreq>always</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://mathgradboard.com/newsletter/2022/fall/</loc>
-            <lastmod>2022-10-28T00:00:00+00:00</lastmod>
-            <changefreq>always</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://mathgradboard.com/newsletter/2022/spring/</loc>
-            <lastmod>2022-02-28T00:00:00+00:00</lastmod>
-            <changefreq>always</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://mathgradboard.com/newsletter/2021/</loc>
-            <lastmod>2021-02-28T00:00:00+00:00</lastmod>
-            <changefreq>always</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://mathgradboard.com/gauss/</loc>
-            <changefreq>always</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://mathgradboard.com/heartland/</loc>
-            <changefreq>always</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://mathgradboard.com/heartland/schools/</loc>
-            <changefreq>always</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://mathgradboard.com/officers/</loc>
-            <changefreq>always</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://mathgradboard.com/heartland/past_talks/</loc>
-            <changefreq>always</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://mathgradboard.com/resources/</loc>
-            <changefreq>always</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-  
+
+  <url>
+    <loc>https://mathgradboard.com/</loc>
+    <lastmod>2023-12-12T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/newsletter/2023/december/</loc>
+    <lastmod>2023-12-12T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/blog/qual_resources/algebra/ssingh_s23/</loc>
+    <lastmod>2023-12-12T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/blog/qual_resources/na/nkapur_s22/</loc>
+    <lastmod>2023-12-12T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/blog/qual_resources/pde/jdbeltranlizarazo_s23/</loc>
+    <lastmod>2023-12-12T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/blog/qual_resources/topology/nscecil_s23/</loc>
+    <lastmod>2023-12-12T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/newsletter/</loc>
+    <lastmod>2023-12-12T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/minutes/2023/december/</loc>
+    <lastmod>2023-12-03T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/minutes/</loc>
+    <lastmod>2023-12-03T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/minutes/2023/november/</loc>
+    <lastmod>2023-11-03T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/minutes/2023/october/</loc>
+    <lastmod>2023-10-06T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/newsletter/2023/september/</loc>
+    <lastmod>2023-09-28T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/minutes/2023/september/</loc>
+    <lastmod>2023-09-06T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/blog/resources/beamer/</loc>
+    <lastmod>2023-06-29T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/blog/</loc>
+    <lastmod>2023-06-29T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/blog/qual_resources/analysis/adriana_s22/</loc>
+    <lastmod>2023-05-29T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/blog/qual_resources/analysis/jstarr3_s22/</loc>
+    <lastmod>2023-05-28T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/minutes/2023/may/</loc>
+    <lastmod>2023-05-07T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/newsletter/2023/april/</loc>
+    <lastmod>2023-04-28T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/minutes/2023/april/</loc>
+    <lastmod>2023-04-07T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/newsletter/2023/march/</loc>
+    <lastmod>2023-03-28T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/minutes/2023/march/</loc>
+    <lastmod>2023-03-07T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/newsletter/2023/february/</loc>
+    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/minutes/2023/february/</loc>
+    <lastmod>2023-02-07T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/newsletter/2022/fall/</loc>
+    <lastmod>2022-10-28T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/newsletter/2022/spring/</loc>
+    <lastmod>2022-02-28T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/newsletter/2021/</loc>
+    <lastmod>2021-02-28T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/blog/qual_resources/algebra/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/blog/qual_resources/analysis/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/blog/qual_resources/na/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/blog/qual_resources/pde/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/blog/qual_resources/topology/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/gauss/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/heartland/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/heartland/schools/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/officers/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/heartland/past_talks/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/resources/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/blog/qual_resources/general/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>

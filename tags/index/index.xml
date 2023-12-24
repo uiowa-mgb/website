@@ -5,23 +5,17 @@
     <link>https://mathgradboard.com/tags/index/</link>
     <description>Recent content in index on University of Iowa Math Graduate Board</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://mathgradboard.com/tags/index/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    
+    <atom:link href="https://mathgradboard.com/tags/index/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://mathgradboard.com/</link>
-      <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
       
       <guid>https://mathgradboard.com/</guid>
-      <description>Statement of Purpose The Math Graduate Board (MGB) exists to provide a forum for departmental discourse, to organize departmental events, and to generally enrich the graduate mathematics experience at the University of Iowa.</description>
-    </item>
-    
-    <item>
-      <title>Blog</title>
-      <link>https://mathgradboard.com/blog/</link>
-      <pubDate>Thu, 29 Jun 2023 00:00:00 +0000</pubDate>
+      <description>Statement of Purpose # The Math Graduate Board (MGB) exists to provide a forum for departmental discourse, to organize departmental events, and to generally enrich the graduate mathematics experience at the University of Iowa.</description>
       
-      <guid>https://mathgradboard.com/blog/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -31,6 +25,7 @@
       
       <guid>https://mathgradboard.com/gauss/</guid>
       <description></description>
+      
     </item>
     
     <item>
@@ -39,7 +34,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://mathgradboard.com/heartland/</guid>
-      <description>General Information What is the Heartland Partnership? The Heartland Partnership is a collection of schools in the Midwest that have come together in order to help each other. There are thirteen schools in the partnership including the University of Iowa.</description>
+      <description>General Information # What is the Heartland Partnership? # The Heartland Partnership is a collection of schools in the Midwest that have come together in order to help each other. There are thirteen schools in the partnership including the University of Iowa.</description>
+      
     </item>
     
     <item>
@@ -49,15 +45,17 @@
       
       <guid>https://mathgradboard.com/heartland/schools/</guid>
       <description>School Name City Location Distance/Drive Time Bradley Peoria, IL 152 miles / 2 ~h 30 ~m Central College Pella, IA 98 miles / 2 ~h Clarke College Dubuque, IA 84 miles / 1 ~h 45 ~m Coe College Cedar Rapids, IA 28 miles / 30 ~m Cornell College Mount Vernon, IA 22 miles / 30 ~m Grinnell Grinnell, IA 67 miles / 1 ~h 15 ~m Loras College Mount Vernon, IA 22 miles / 30m Luther College Decorah, IA 136 miles / 3h St.</description>
+      
     </item>
     
     <item>
       <title>Minutes</title>
       <link>https://mathgradboard.com/minutes/</link>
-      <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate>
       
       <guid>https://mathgradboard.com/minutes/</guid>
       <description></description>
+      
     </item>
     
     <item>
@@ -66,7 +64,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://mathgradboard.com/officers/</guid>
-      <description>Chair The Chair is responsible for planning and running the monthly MGB meetings as well as any other open meetings the Chair shall call. The Chair has the then power to convene a meeting of the Executive Board, which may be closed to members-at-large.</description>
+      <description>Chair # The Chair is responsible for planning and running the monthly MGB meetings as well as any other open meetings the Chair shall call. The Chair has the then power to convene a meeting of the Executive Board, which may be closed to members-at-large.</description>
+      
     </item>
     
     <item>
@@ -76,6 +75,7 @@
       
       <guid>https://mathgradboard.com/heartland/past_talks/</guid>
       <description>School Speaker Support Talk Topic Visit Date University of Wisconsin- Platteville Nitesh Mathur Daniel J.Wackwitz An Introduction to the Generalized Factorials: Based on the Paper of Manjul Bhargava Fall 2021 Loras College Jenni Good What did J.</description>
+      
     </item>
     
     <item>
@@ -84,16 +84,29 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://mathgradboard.com/resources/</guid>
-      <description> Some resources supplied and maintained by the MGB A thesis template uiowa-mgb/uiowa-thesis Latex class to render a thesis to UIowa&amp;rsquo;s specifications TeX 8 0 A template for making a personal site uiowa-mgb/personal-site-template-simple A forkable template for a github hosted personal site JavaScript 2 0 A template for making university of Iowa branded slides uiowa-mgb/uiowa-beamer University of Iowa themed beamer presentations (unofficial) TeX 1 1 </description>
+      <description>Some resources supplied and maintained by the MGB # A thesis template # uiowa-mgb/uiowa-thesis Latex class to render a thesis to UIowa&amp;rsquo;s specifications TeX 8 0 A template for making a personal site # uiowa-mgb/personal-site-template-simple A forkable template for a github hosted personal site JavaScript 2 0 A template for making university of Iowa branded slides # uiowa-mgb/uiowa-beamer University of Iowa themed beamer presentations (unofficial) TeX 2 1 </description>
+      
     </item>
     
     <item>
       <title>Sum-Times</title>
       <link>https://mathgradboard.com/newsletter/</link>
-      <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
       
       <guid>https://mathgradboard.com/newsletter/</guid>
       <description></description>
+      
+    </item>
+    
+    <item>
+      <title>The MGB Blog</title>
+      <link>https://mathgradboard.com/blog/</link>
+      <pubDate>Thu, 29 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/blog/</guid>
+      <description>The MGB blog is a place for MGB members to blog about their experiences.
+Recent Blog Posts # </description>
+      
     </item>
     
   </channel>
