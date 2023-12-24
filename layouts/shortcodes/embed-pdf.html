@@ -61,13 +61,16 @@
 <br/>
 {{ if eq (.Get "external") "true" }}
 <form method="get" action="{{ .Get "url" }}">
-{{else}}
-<form method="get" action="{{.Site.BaseURL}}{{ .Get "url" }}">
-{{end}}
-<button class="btn" style="width:100%" type="submit"> Download</button>
+    {{else}}
+    <form method="get" action="{{.Site.BaseURL}}{{ .Get "url" }}">
+        {{end}}
+        <button class="btn" style="width:100%" type="submit"> Download</button>
 </form>
 <br/>
 <br/>
+    {{ if eq (.Get "download_only") "true" }}
+{{else}}
+
 <div id="paginator">
     <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded" id="prev">Previous</button>
     <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded" id="next">Next</button>
@@ -239,3 +242,4 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 }
 
 </script>
+{{end}}

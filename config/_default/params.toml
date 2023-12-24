@@ -16,15 +16,17 @@ mainSections = ["blog","newsletter","minutes","gauss"]
 # robots = ""
 
 disableImageOptimization = false
+disableTextInHeader = false
 
-defaultBackgroundImage = "/img/bg.jpg"
+# defaultBackgroundImage = "IMAGE.jpg" # used as default for background images 
+# defaultFeaturedImage = "IMAGE.jpg" # used as default for featured images in all articles
 
-highlightCurrentMenuArea = true
-smartTOC = true
-smartTOCHideUnfocusedChildren = true
+# highlightCurrentMenuArea = true
+# smartTOC = true
+# smartTOCHideUnfocusedChildren = true
 
 [header]
-  layout = "fixed" # valid options: basic, fixed, fixed-fill, fixed-fill-blur
+  layout = "basic" # valid options: basic, fixed, fixed-fill, fixed-fill-blur
 
 [footer]
   showMenu = true
@@ -34,16 +36,15 @@ smartTOCHideUnfocusedChildren = true
   showScrollToTop = true
 
 [homepage]
-  layout = "page" # valid options: page, profile, hero, card, background, custom
-  # homepageImage = "/img/iceland.jpg" # used in: hero, and card
+  layout = "profile" # valid options: page, profile, hero, card, background, custom
+  #homepageImage = "IMAGE.jpg" # used in: hero, and card
   showRecent = false
   showRecentItems = 10
   showMoreLink = false
-  showMoreLinkDest = "docs"
+  showMoreLinkDest = "/blog"
   cardView = false
   cardViewScreenWidth = false
   layoutBackgroundBlur = false # only used when layout equals background
-  showSummary = false
 
 [article]
   showDate = false
@@ -52,35 +53,35 @@ smartTOCHideUnfocusedChildren = true
   showDateUpdated = false
   showAuthor = true
   showHero = false
-  heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
-  layoutBackgroundBlur = false # only used when heroStyle equals background
-  showBreadcrumbs = true
+  # heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
+  layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
+  layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
+  showBreadcrumbs = false
   showDraftLabel = true
   showEdit = false
-  editURL = "https://github.com/nunocoracao/blowfish/tree/main/exampleSite/content"
-  editAppendPath = false
+  #editURL = "https://github.com/uiowa-mgb/website/tree/master/content"
+  editAppendPath = true
   seriesOpened = false
-  showHeadingAnchors = false
+  showHeadingAnchors = true
   showPagination = true
   invertPagination = false
   showReadingTime = false
-  showTableOfContents = false
+  showTableOfContents = true
   showTaxonomies = false
   showAuthorsBadges = false
   showWordCount = false
-  showSummary = true
   sharingLinks = [ "github", "youtube"]
 
 [list]
-  showHero = true
-  heroStyle = "big" # valid options: basic, big, background, thumbAndBackground
-  layoutBackgroundBlur = true # only used when heroStyle equals background
-  layoutBackgroundHeaderSpace = false
+  showHero = false
+  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
+  layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
   showBreadcrumbs = false
   showSummary = false
   showViews = false
   showLikes = false
-  showTableOfContents = true
+  showTableOfContents = false
   showCards = false
   groupByYear = false
   cardView = false
@@ -88,22 +89,22 @@ smartTOCHideUnfocusedChildren = true
   constrainItemsWidth = false
 
 [sitemap]
-  excludedKinds = ["taxonomy","term"]
+  excludedKinds = ["taxonomy", "term"]
 
 [taxonomy]
   showTermCount = true
-  showHero = true
-  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  showHero = false
+  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = false
   showViews = false
   showLikes = false
-  showTableOfContents = true
+  showTableOfContents = false
   cardView = false
 
 [term]
-  showHero = true
-  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-  showBreadcrumbs = true
+  showHero = false
+  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  showBreadcrumbs = false
   showViews = false
   showLikes = false
   showTableOfContents = true
@@ -111,28 +112,27 @@ smartTOCHideUnfocusedChildren = true
   cardView = false
   cardViewScreenWidth = false
 
+[firebase]
+  # apiKey = "XXXXXX"
+  # authDomain = "XXXXXX"
+  # projectId = "XXXXXX"
+  # storageBucket = "XXXXXX"
+  # messagingSenderId = "XXXXXX"
+  # appId = "XXXXXX"
+  # measurementId = "XXXXXX"
 
-# [firebase]
-#   apiKey = "AIzaSyB5tqlqDky77Vb4Tc4apiHV4hRZI18KGiY"
-#   authDomain = "blowfish-21fff.firebaseapp.com"
-#   projectId = "blowfish-21fff"
-#   storageBucket = "blowfish-21fff.appspot.com"
-#   messagingSenderId = "60108104191"
-#   appId = "1:60108104191:web:039842ebe1370698b487ca"
-#   measurementId = "G-PEDMYR1V0K"
-
-# [fathomAnalytics]
+[fathomAnalytics]
   # site = "ABC12345"
   # domain = "llama.yoursite.com"
 
-# [buymeacoffee]
-#   identifier = "nunocoracao"
-#   globalWidget = true
-#   globalWidgetMessage = ""
-#   globalWidgetColor = "#FFDD00"
-#   globalWidgetPosition = "Right"
+[buymeacoffee]
+  # identifier = ""
+  # globalWidget = true
+  # globalWidgetMessage = "Hello"
+  # globalWidgetColor = "#FFDD00"
+  # globalWidgetPosition = "Right"
 
-# [verification]
+[verification]
   # google = ""
   # bing = ""
   # pinterest = ""
