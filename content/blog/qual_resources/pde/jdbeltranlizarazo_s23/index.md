@@ -18,4 +18,4 @@ One of our graduate students [Jose Beltran Lizarazo](https://jdavidbel.github.io
 
 ## PDF
 
-{{< embed-pdf url="/qual_resources/pde/jdbeltranlizarazo_s23/pdes_qual_guide_summer_23.pdf" >}}
+{{< embed-pdf url="/blog/qual_resources/pde/jdbeltranlizarazo_s23/pdes_qual_guide_summer_23.pdf" >}}

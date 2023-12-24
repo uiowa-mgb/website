@@ -20,10 +20,10 @@ One of our graduate students [Shashank P Singh](https://math.uiowa.edu/people/sh
 ## PDF
 
 ### Group Theory
-{{< embed-pdf url="/qual_resources/algebra/ssingh_s23/grouptheory.pdf" >}}
+{{< embed-pdf url="/blog/qual_resources/algebra/ssingh_s23/grouptheory.pdf" >}}
 ### Ring Theory
-{{< embed-pdf download_only="true" url="/qual_resources/algebra/ssingh_s23/ringtheory.pdf" >}}
+{{< embed-pdf download_only="true" url="/blog/qual_resources/algebra/ssingh_s23/ringtheory.pdf" >}}
 ### Field Theory
-{{< embed-pdf download_only="true" url="/qual_resources/algebra/ssingh_s23/fieldtheory.pdf" >}}
+{{< embed-pdf download_only="true" url="/blog/qual_resources/algebra/ssingh_s23/fieldtheory.pdf" >}}
 ### Module Theory
-{{< embed-pdf download_only="true" url="/qual_resources/algebra/ssingh_s23/modulestheory.pdf" >}}
+{{< embed-pdf download_only="true" url="/blog/qual_resources/algebra/ssingh_s23/modulestheory.pdf" >}}
