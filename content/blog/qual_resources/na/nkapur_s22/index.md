@@ -1,10 +1,10 @@
 +++
 description=""
-author = "Kapur, Nikita"
+showAuthor = false
+authors = ["nkapur"]
 title = "Question Sets From Summer 2023"
 date = "2023-12-12"
 type= "na_qualset"
-layout = "simple"
 tags = [
     "Quals",
     "Numerical Analysis",
@@ -19,4 +19,4 @@ One of our graduate students [Nikita Kapur](https://math.uiowa.edu/people/nikita
 
 ## PDF
 
-{{< embed-pdf url="/qual_resources/na/na_f23.pdf" >}}
+{{< embed-pdf url="/qual_resources/na/nkapur_s22/na_f23.pdf" >}}

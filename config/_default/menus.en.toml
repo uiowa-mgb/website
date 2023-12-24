@@ -59,7 +59,7 @@
 [[main]]
   name = "Qualifying Exam Resources"
   parent = "Blog"
-  pageRef = "qual_resources"
+  pageRef = "blog/qual_resources/general"
   weight = 60
 
 

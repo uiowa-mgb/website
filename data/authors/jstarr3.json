@@ -1,0 +1,10 @@
+{
+    "name": "Joe Starr",
+    "image" : "img/default_author.png",
+    "bio": "",
+    "social": [
+        { "link": "https://joe-starr.com" },
+        { "linkedin": "https://www.linkedin.com/in/joseph-c-starr/" },
+        { "github": "https://github.com/Joecstarr/" }
+        ]
+}

@@ -1,10 +1,10 @@
 +++
 description=""
-author = "Ethan Rooke"
+showAuthor= false
+authors=[ "erooke"]
 title = "(unofficial) UIowa Beamer Theme Released"
 date = "2023-06-29"
 type= "Blog"
-layout = "simple"
 tags = [
     "Resource",
     "2023"
@@ -26,7 +26,7 @@ Here are the key features of the UIowa Beamer theme:
    with UIowa and adds a professional touch to your work. Embrace the power of
    conformity!
 
-1. Easy-to-Use: We understand that time is precious, so we have designed the
+2. Easy-to-Use: We understand that time is precious, so we have designed the
    Beamer theme to be user-friendly. With an overleaf template ready to go, if
    you already know how to use beamer your presentations can become on-brand
    masterpieces in seconds. Hail corporate.

@@ -1,0 +1,9 @@
+{
+    "name": "Ethan Rooke",
+    "image" : "img/default_author.png",
+    "bio": "",
+    "social": [
+        { "link": "https://ethan.roo.ke/" },
+        { "github": "https://github.com/erooke" }
+    ]
+}

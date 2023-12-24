@@ -1,10 +1,10 @@
 +++
 description=""
-author = "Joe Starr"
+showAuthor = false
+authors = ["jstarr3"]
 title = "Prep Sheet From Summer 2022"
 date = "2023-05-28"
 type= "analysis_qualset"
-layout = "simple"
 tags = [
     "Quals",
     "Analysis",
@@ -13,7 +13,7 @@ tags = [
 +++
 
 
-## [Joe's](https://joe-starr.com) Prep Sheet
+## Joe's Prep Sheet
 
 I made a qual prepsheet based on Dr. Curto's exam prep sheets. There's PDF and Anki deck.
 

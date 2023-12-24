@@ -1,10 +1,10 @@
 +++
 description=""
-author = "Joe Starr"
+showAuthor = false
+authors = ["adriana_fernandeziquero"]
 title = "Question Set From Summer 2022"
 date = "2023-05-29"
 type= "analysis_qualset"
-layout = "simple"
 tags = [
     "Quals",
     "Analysis",
@@ -18,4 +18,4 @@ One of our graduate students [Adriana Fernandez I Quero](https://math.uiowa.edu/
 
 ### PDF
 
-{{< embed-pdf url="/qual_resources/analysis/Qualifying_Exam_Problems_Adriana_2023.pdf" >}}
+{{< embed-pdf url="/qual_resources/analysis/adriana_s22/Qualifying_Exam_Problems_Adriana_2023.pdf" >}}

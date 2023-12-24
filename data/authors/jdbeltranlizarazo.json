@@ -1,0 +1,11 @@
+{
+    "name": "Jose Beltran Lizarazo",
+    "image" : "img/default_author.png",
+    "bio": "",
+    "social": [
+        { "link": "https://jdavidbel.github.io/" },
+        { "linkedin": "https://www.linkedin.com/in/jos%C3%A9-david-beltr%C3%A1n-lizarazo-3bb2a41b2/" },
+        { "stack-overflow": "https://math.stackexchange.com/users/790876/j-david-beltran?tab=profile" },
+        { "github": "https://github.com/jdavidbel" }
+    ]
+}

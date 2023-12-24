@@ -1,12 +1,14 @@
-+++
-summary="So, you're gearing up for your Qualification Exams, but before you begin, I'd like to share a few thoughts about the exams and the preparation. "
-title = "General thoughts and suggested practices on qualifying exams"
-author = "Shashank P Singh"
-tags = ["index"]
-layout = "page"
-showTableOfContents = true
-type= "Blog"
-+++
+---
+title: Thoughts on qualifying exams
+showAuthor: false
+authors:
+  - "ssingh17"
+tags:
+  - blog
+showTableOfContents: true
+showAuthorsBadges : false
+---
+
 
 So, you're gearing up for your Qualification Exams, but before you begin, I'd like to share a few thoughts about the exams and the preparation. This has less to do with the course material and more to do with the _'exam'_ aspect of it. It is a rather long rant about _'preparation'_. I'm sure most of us are aware of the things listed below. You may even find it boring but I recommend that you read it. It never hurts to remind ourselves of the easier things that we take for granted.
 There's no one-size-fits-all preparation strategy. We all learn differently and at our own pace. However, there are general ideas that can streamline your preparation. Even if you don't find anything helpful here, this should at least encourage you to take a step back and think about _'how to prepare'_ before you start the prep. It is good to have a plan so that you use your time more effectively.
