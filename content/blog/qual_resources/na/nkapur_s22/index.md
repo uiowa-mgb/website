@@ -19,4 +19,4 @@ One of our graduate students [Nikita Kapur](https://math.uiowa.edu/people/nikita
 
 ## PDF
 
-{{< embed-pdf url="/qual_resources/na/nkapur_s22/na_f23.pdf" >}}
+{{< embed-pdf url="/blog/qual_resources/na/nkapur_s22/na_f23.pdf" >}}
