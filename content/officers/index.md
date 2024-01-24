@@ -14,7 +14,7 @@ The Chair is responsible for planning and running the monthly MGB meetings as we
 
 **Current**
 
-- Garrett Mason
+- Adriana Fernández Quero
 
 ---
 
@@ -24,7 +24,7 @@ The Vice-Chair is responsible for recording minutes during any open meeting of M
 
 **Current**
 
-- Adriana Fernandez I Quero    
+- Jacob van Grinsven   
 
 ---
 ## GAUSS Co-Chairs
@@ -33,8 +33,8 @@ GAUSS (Graduate and Undergraduate Student Seminar) is a weekly lecture series by
 
 **Current**
 
-- Dylan M. Johnson
-- Yilin Zhu
+- Eddie White
+- Paria Karimi Kousalari
 
 ---
 
@@ -42,9 +42,9 @@ GAUSS (Graduate and Undergraduate Student Seminar) is a weekly lecture series by
 
 **Current**
 
-- Adriana Fernandez I Quero
-- Parker D Evans
-- Paria Karimi Kousalari
+- Cole Hengel
+- Joseph Small
+- Garrett Mason
 
 ---
 
@@ -64,7 +64,7 @@ GAUSS (Graduate and Undergraduate Student Seminar) is a weekly lecture series by
 
 **Current**
 
-- Eddie White
+- Garrett Mason
 
 ---
 
@@ -75,7 +75,7 @@ The International Student Liaison shall be responsible for representing the need
 
 **Current**
 
-- Nikita Kapur
+- José David Beltrán Lizarazo
 
 ---
 
@@ -86,8 +86,8 @@ The Newsletter Committee puts together a monthly newsletter intended for the gra
 
 **Current**
 
-- Jessa Rhea
-- Margarita Bustos Gonzalez
+- Nandita Nair
+- Evelyn Smith
 
 ---
 
@@ -98,8 +98,8 @@ The Social Committee oversees the semi-annual department picnics, securing fundi
 
 **Current**
 
-- Jacob Van Grinsven
-- Kitrick L Fynaardt
+- Matthew Barber
+- Merrick Dodge
 
 ---
 
@@ -108,10 +108,10 @@ The Social Committee oversees the semi-annual department picnics, securing fundi
 
 **Current**
 
-- Matthew L Barber
-- Dylan M Johnson
-- Javier Flores Arjona
-- Hemanth Kumar
+- Garrett Mason
+- Paria Karimi Kousalari
+- Marc Moore
+- Blake Mattson
 
 ---
 
