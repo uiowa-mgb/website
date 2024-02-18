@@ -141,11 +141,18 @@ proprietary version of Visual Studio Code. With that in mind [configure vs-code]
 
 ## Configure Visual Studio Code
 
-(This is still rough)
 Install the following extensions
 
 - [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop). This does most of the latex stuff
 - [LaTeX Utilities](https://marketplace.visualstudio.com/items?itemName=tecosaur.latex-utilities). This adds some more latex stuff
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker). This will let you tune the spell checker
 
-TODO: link to the example config
+## Start a new project
+
+Congratulations you now have all the tools and a shiny new editor to write
+LaTeX documents! The simplest way to get up and running would be to copy our
+[LaTeX template](https://github.com/uiowa-mgb/vscode-latex-template). If you
+open the `main.tex` file in vscode it should be automatically configured to
+give a nice experience out of the box. If something is not clear please feel
+free to ask a question by [opening an
+issue](https://github.com/uiowa-mgb/website/issues/new).
