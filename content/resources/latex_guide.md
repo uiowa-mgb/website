@@ -1,7 +1,7 @@
 +++
 description="How to set up a local latex environment"
 author = "Ethan Rooke"
-title = "LaTeX guide"
+title = "Local LaTeX guide"
 date = "2023-11-13"
 type= "Blog"
 layout = "simple"
