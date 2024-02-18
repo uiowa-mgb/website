@@ -62,7 +62,7 @@ Code](#configure-visual-studio-code).
 
 These instructions are as complete as I, a filthy poor person with no macOS
 machine at their disposal, could make them. If you run into problems feel free
-to open an issue. TODO: link
+to [open an issue](https://github.com/uiowa-mgb/website/issues/new).
 
 ### 1. TeX Live
 
@@ -81,7 +81,7 @@ before clicking install which will let you select which to install.
 
 ### 2. Perl
 
-MacOS ships with Perl!
+MacOS ships with Perl, you don't have to do anything!
 
 ### 3. Visual Studio Code
 
