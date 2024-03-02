@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>University of Iowa Math Graduate Board</title>
+    <link>https://mathgradboard.com/heartland/past_talks/abstracts/</link>
+    <description>Recent content on University of Iowa Math Graduate Board</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+    <atom:link href="https://mathgradboard.com/heartland/past_talks/abstracts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Constructing the Jones polynomial to save the world.</title>
+      <link>https://mathgradboard.com/heartland/past_talks/abstracts/joe_starr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/heartland/past_talks/abstracts/joe_starr/</guid>
+      <description>Title: # Constructing the Jones polynomial to save the world.
+Abstract: # DNA are molecules made long chains of four nucleobases: cytosine, guanine, adenine, and thymine. We find ourselves working at the CDC at the outbreak of the zombie apocalypse.</description>
+      
+    </item>
+    
+    <item>
+      <title>The Topological Data Analysis Pipeline</title>
+      <link>https://mathgradboard.com/heartland/past_talks/abstracts/elise_askelsen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/heartland/past_talks/abstracts/elise_askelsen/</guid>
+      <description>Title: # The Topological Data Analysis Pipeline
+Abstract: # As the amount of data collected has increased in recent years, new methods for understanding data have been sought. One such method, Topological Data Analysis, or TDA, studies data and draws conclusions using the shape of the data set.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

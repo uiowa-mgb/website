@@ -4,7 +4,19 @@
 
   <url>
     <loc>https://mathgradboard.com/</loc>
-    <lastmod>2023-12-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/minutes/2024/february/</loc>
+    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/minutes/</loc>
+    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -46,12 +58,6 @@
   </url>
   <url>
     <loc>https://mathgradboard.com/minutes/2023/december/</loc>
-    <lastmod>2023-12-03T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://mathgradboard.com/minutes/</loc>
     <lastmod>2023-12-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -190,6 +196,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://mathgradboard.com/heartland/past_talks/abstracts/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/heartland/past_talks/abstracts/joe_starr/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://mathgradboard.com/gauss/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -216,6 +232,11 @@
   </url>
   <url>
     <loc>https://mathgradboard.com/resources/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/heartland/past_talks/abstracts/elise_askelsen/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

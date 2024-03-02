@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-    <lastBuildDate>Tue, 12 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mathgradboard.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mathgradboard.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>February 2024</title>
+      <link>https://mathgradboard.com/minutes/2024/february/</link>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/minutes/2024/february/</guid>
+      <description>Minutes # Download Previous Next Previous Next &amp;nbsp; &amp;nbsp; Page: / </description>
+      
+    </item>
+    
     <item>
       <title>December 2023</title>
       <link>https://mathgradboard.com/newsletter/2023/december/</link>
@@ -243,6 +253,17 @@ Joecstarr/Analysis_prepsheet TeX 0 0 Download Previous Next Previous Next &amp;n
     </item>
     
     <item>
+      <title>Constructing the Jones polynomial to save the world.</title>
+      <link>https://mathgradboard.com/heartland/past_talks/abstracts/joe_starr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/heartland/past_talks/abstracts/joe_starr/</guid>
+      <description>Title: # Constructing the Jones polynomial to save the world.
+Abstract: # DNA are molecules made long chains of four nucleobases: cytosine, guanine, adenine, and thymine. We find ourselves working at the CDC at the outbreak of the zombie apocalypse.</description>
+      
+    </item>
+    
+    <item>
       <title>Heartland Schools</title>
       <link>https://mathgradboard.com/heartland/schools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -263,12 +284,13 @@ Joecstarr/Analysis_prepsheet TeX 0 0 Download Previous Next Previous Next &amp;n
     </item>
     
     <item>
-      <title>Past Heartland Talks</title>
-      <link>https://mathgradboard.com/heartland/past_talks/</link>
+      <title>The Topological Data Analysis Pipeline</title>
+      <link>https://mathgradboard.com/heartland/past_talks/abstracts/elise_askelsen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mathgradboard.com/heartland/past_talks/</guid>
-      <description>School Speaker Support Talk Topic Visit Date University of Wisconsin- Platteville Nitesh Mathur Daniel J.Wackwitz An Introduction to the Generalized Factorials: Based on the Paper of Manjul Bhargava Fall 2021 Loras College Jenni Good What did J.</description>
+      <guid>https://mathgradboard.com/heartland/past_talks/abstracts/elise_askelsen/</guid>
+      <description>Title: # The Topological Data Analysis Pipeline
+Abstract: # As the amount of data collected has increased in recent years, new methods for understanding data have been sought. One such method, Topological Data Analysis, or TDA, studies data and draws conclusions using the shape of the data set.</description>
       
     </item>
     
