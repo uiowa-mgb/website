@@ -1,15 +1,17 @@
 languageCode = "en"
 languageName = "English"
-displayName = "EN"
-isoCode = "en"
 weight = 1
-rtl = false
+
+[params]
+    rtl = false
+    description = "The Math Graduate Board (MGB) exists to provide a forum for departmental discourse"
+    dateFormat = "2 January 2006"
+    displayName = "EN"
+    isoCode = "en"
 
 title = "University of Iowa Math Graduate Board"
 # logo = "img/blowfish_logo_transparent.png"
-description = "The Math Graduate Board (MGB) exists to provide a forum for departmental discourse"
 
-dateFormat = "2 January 2006"
 
 # [author]
 #   name = "Blowfish"

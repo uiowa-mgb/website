@@ -40,6 +40,8 @@ GAUSS (Graduate and Undergraduate Student Seminar) is a weekly lecture series by
 
 ## GLC
 
+The GLC exists to facilitate communication between faculty and graduate students about the graduate program. The committee helps gather information from faculty and other graduate students about changes to the graduate program or other issues and communicates with the appropriate parties to address any concerns. The committee also helps disseminate information about the department to graduate students.
+
 **Current**
 
 - Cole Hengel
@@ -51,7 +53,7 @@ GAUSS (Graduate and Undergraduate Student Seminar) is a weekly lecture series by
 
 ## Graduate Liaison
 
-
+As chair of the GLC Committee, the General Liaison works to communicate between faculty and graduate students about the graduate program. Within the Mathematics department, the General Liaison acts as a liaison between MGB, faculty, administration, undergrads, post-docs, and other graduate students and chairs the GLC Committee. Outside of the Mathematics department, the General Liaison facilitates communication with campus organizations representing general graduate student interests or with the University administration, if necessary.
 
 **Current**
 

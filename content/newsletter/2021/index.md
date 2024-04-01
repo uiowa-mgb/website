@@ -11,19 +11,19 @@ tags = [
 ]
 +++
 
-## newsletter 1
+## Newsletter 1
 
 {{< embed-pdf url="/newsletter/2021/April_2021.pdf" >}}
 
 ---
 
-## newsletter 2
+## Newsletter 2
 
 {{< embed-pdf url="/newsletter/2021/Sept2021.pdf" >}}
 
 ---
 
-## newsletter 3
+## Newsletter 3
 
 {{< embed-pdf url="/newsletter/2021/Newsletter_November_2021.pdf" >}}
 
