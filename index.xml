@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>University of Iowa Math Graduate Board</title>
+    <title></title>
     <link>https://mathgradboard.com/</link>
-    <description>Recent content on University of Iowa Math Graduate Board</description>
+    <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-    <lastBuildDate>Mon, 05 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mathgradboard.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mathgradboard.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>March 2024</title>
+      <link>https://mathgradboard.com/minutes/2024/march/</link>
+      <pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/minutes/2024/march/</guid>
+      <description>Minutes # Download Previous Next Previous Next &amp;nbsp; &amp;nbsp; Page: / </description>
+      
+    </item>
+    
+    <item>
+      <title>March 2024</title>
+      <link>https://mathgradboard.com/newsletter/2024/march/</link>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/newsletter/2024/march/</guid>
+      <description>Newsletter March 2024 # Download Previous Next Previous Next &amp;nbsp; &amp;nbsp; Page: / </description>
+      
+    </item>
+    
     <item>
       <title>February 2024</title>
       <link>https://mathgradboard.com/minutes/2024/february/</link>
@@ -168,7 +188,7 @@ Joecstarr/Analysis_prepsheet TeX 0 0 Download Previous Next Previous Next &amp;n
       <pubDate>Fri, 28 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>https://mathgradboard.com/newsletter/2023/april/</guid>
-      <description>newsletter April 2023 # Download Previous Next Previous Next &amp;nbsp; &amp;nbsp; Page: / </description>
+      <description>Newsletter April 2023 # Download Previous Next Previous Next &amp;nbsp; &amp;nbsp; Page: / </description>
       
     </item>
     
@@ -188,7 +208,7 @@ Joecstarr/Analysis_prepsheet TeX 0 0 Download Previous Next Previous Next &amp;n
       <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://mathgradboard.com/newsletter/2023/march/</guid>
-      <description>newsletter March 2023 # Download Previous Next Previous Next &amp;nbsp; &amp;nbsp; Page: / </description>
+      <description>Newsletter March 2023 # Download Previous Next Previous Next &amp;nbsp; &amp;nbsp; Page: / </description>
       
     </item>
     
@@ -208,7 +228,7 @@ Joecstarr/Analysis_prepsheet TeX 0 0 Download Previous Next Previous Next &amp;n
       <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://mathgradboard.com/newsletter/2023/february/</guid>
-      <description>newsletter February 2023 # Download Previous Next Previous Next &amp;nbsp; &amp;nbsp; Page: / </description>
+      <description>Newsletter February 2023 # Download Previous Next Previous Next &amp;nbsp; &amp;nbsp; Page: / </description>
       
     </item>
     
@@ -228,7 +248,7 @@ Joecstarr/Analysis_prepsheet TeX 0 0 Download Previous Next Previous Next &amp;n
       <pubDate>Fri, 28 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>https://mathgradboard.com/newsletter/2022/fall/</guid>
-      <description>newsletter 1 # Download Previous Next Previous Next &amp;nbsp; &amp;nbsp; Page: / newsletter 2 # Download Previous Next Previous Next &amp;nbsp; &amp;nbsp; Page: / </description>
+      <description>Newsletter 1 # Download Previous Next Previous Next &amp;nbsp; &amp;nbsp; Page: / Newsletter 2 # Download Previous Next Previous Next &amp;nbsp; &amp;nbsp; Page: / </description>
       
     </item>
     
@@ -238,7 +258,7 @@ Joecstarr/Analysis_prepsheet TeX 0 0 Download Previous Next Previous Next &amp;n
       <pubDate>Mon, 28 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://mathgradboard.com/newsletter/2022/spring/</guid>
-      <description>newsletter 1 # Download Previous Next Previous Next &amp;nbsp; &amp;nbsp; Page: / newsletter 2 # Download Previous Next Previous Next &amp;nbsp; &amp;nbsp; Page: / </description>
+      <description>Newsletter 1 # Download Previous Next Previous Next &amp;nbsp; &amp;nbsp; Page: / Newsletter 2 # Download Previous Next Previous Next &amp;nbsp; &amp;nbsp; Page: / </description>
       
     </item>
     
@@ -248,7 +268,7 @@ Joecstarr/Analysis_prepsheet TeX 0 0 Download Previous Next Previous Next &amp;n
       <pubDate>Sun, 28 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://mathgradboard.com/newsletter/2021/</guid>
-      <description>newsletter 1 # Download Previous Next Previous Next &amp;nbsp; &amp;nbsp; Page: / newsletter 2 # Download Previous Next Previous Next &amp;nbsp; &amp;nbsp; Page: / newsletter 3 # Download Previous Next Previous Next &amp;nbsp; &amp;nbsp; Page: / </description>
+      <description>Newsletter 1 # Download Previous Next Previous Next &amp;nbsp; &amp;nbsp; Page: / Newsletter 2 # Download Previous Next Previous Next &amp;nbsp; &amp;nbsp; Page: / Newsletter 3 # Download Previous Next Previous Next &amp;nbsp; &amp;nbsp; Page: / </description>
       
     </item>
     

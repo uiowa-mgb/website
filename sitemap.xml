@@ -4,18 +4,36 @@
 
   <url>
     <loc>https://mathgradboard.com/</loc>
-    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-07T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://mathgradboard.com/minutes/2024/february/</loc>
-    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+    <loc>https://mathgradboard.com/minutes/2024/march/</loc>
+    <lastmod>2024-03-07T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mathgradboard.com/minutes/</loc>
+    <lastmod>2024-03-07T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/newsletter/2024/march/</loc>
+    <lastmod>2024-03-05T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/newsletter/</loc>
+    <lastmod>2024-03-05T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/minutes/2024/february/</loc>
     <lastmod>2024-02-05T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -46,12 +64,6 @@
   </url>
   <url>
     <loc>https://mathgradboard.com/blog/qual_resources/topology/nscecil_s23/</loc>
-    <lastmod>2023-12-12T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://mathgradboard.com/newsletter/</loc>
     <lastmod>2023-12-12T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
