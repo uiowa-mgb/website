@@ -3,3 +3,4 @@
 **/build_dir/**/*
 /.vscode
 public
+shell.nix
