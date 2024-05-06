@@ -1,17 +1,17 @@
 +++
 description=""
 author = "Joe Starr"
-title = "April 2023"
-date = "2023-04-07"
+title = "April 2024"
+date = "2024-04-07"
 type= "Minutes"
 layout = "simple"
-draft = true
+draft = false
 tags = [
     "Minutes",
-    "2023"
+    "2024"
 ]
 +++
 
 ## Minutes
 
-{{< embed-pdf url="./minutes/2023/april/MGB_Minutes_April.pdf" >}}
+{{< embed-pdf url="./minutes/2024/april/MGB_Minutes_April.pdf" >}}
