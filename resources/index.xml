@@ -7,6 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-    <atom:link href="https://mathgradboard.com/resources/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mathgradboard.com/resources/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Local LaTeX guide</title>
+      <link>https://mathgradboard.com/resources/latex_guide/</link>
+      <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/resources/latex_guide/</guid>
+      <description>This guide will walk you through how to get a LaTeX environment setup on your computer. In general this takes 4 steps.
+Install a Tex distribution. This is what supplies LaTeX and all packages associated with it.</description>
+      
+    </item>
+    
   </channel>
 </rss>

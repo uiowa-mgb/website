@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
   data-auto-appearance="false"><head>
-	<meta name="generator" content="Hugo 0.115.0">
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="en" />
@@ -9,18 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title></title>
-  <meta name="title" content="" />
+  <title>Local LaTeX guide &middot; </title>
+  <meta name="title" content="Local LaTeX guide &middot; " />
   
-  <meta name="description" content="The Math Graduate Board (MGB) exists to provide a forum for departmental discourse" />
-  <meta name="keywords" content="index, " />
+  <meta name="description" content="How to set up a local latex environment" />
   
   
-  <link rel="canonical" href="https://mathgradboard.com/" />
   
-  <link rel="alternate" type="application/rss+xml" href="/index.xml" title="" />
-  
-  <link rel="alternate" type="application/json" href="/index.json" title="" />
+  <link rel="canonical" href="https://mathgradboard.com/resources/latex_guide/" />
   
   
   
@@ -70,31 +65,44 @@
   
   
   
-  <meta property="og:title" content="" />
-<meta property="og:description" content="The Math Graduate Board (MGB) exists to provide a forum for departmental discourse" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://mathgradboard.com/" /><meta property="og:site_name" content="University of Iowa Math Graduate Board" />
+  <meta property="og:title" content="Local LaTeX guide" />
+<meta property="og:description" content="How to set up a local latex environment" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mathgradboard.com/resources/latex_guide/" /><meta property="article:section" content="resources" />
+<meta property="article:published_time" content="2023-11-13T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-11-13T00:00:00+00:00" /><meta property="og:site_name" content="University of Iowa Math Graduate Board" />
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="The Math Graduate Board (MGB) exists to provide a forum for departmental discourse"/>
+<meta name="twitter:title" content="Local LaTeX guide"/>
+<meta name="twitter:description" content="How to set up a local latex environment"/>
 
   
   <script type="application/ld+json">
-  {
+  [{
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    "@id": "https:\/\/mathgradboard.com\/",
-    "name": "",
-    "description": "The Math Graduate Board (MGB) exists to provide a forum for departmental discourse",
+    "@type": "Article",
+    "articleSection": "Resources",
+    "name": "Local LaTeX guide",
+    "headline": "Local LaTeX guide",
+    "description": "How to set up a local latex environment",
+    "abstract": "This guide will walk you through how to get a LaTeX environment setup on your computer. In general this takes 4 steps.\nInstall a Tex distribution. This is what supplies LaTeX and all packages associated with it.",
     "inLanguage": "en",
-    "url": "https:\/\/mathgradboard.com\/",
-    
-    "publisher" : {
+    "url" : "https:\/\/mathgradboard.com\/resources\/latex_guide\/",
+    "author" : {
       "@type": "Person",
       "name": ""
-    }
-  }
+    },
+    "copyrightYear": "2023",
+    "dateCreated": "2023-11-13T00:00:00\u002b00:00",
+    "datePublished": "2023-11-13T00:00:00\u002b00:00",
+    
+    "dateModified": "2023-11-13T00:00:00\u002b00:00",
+    
+    
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "834"
+  }]
   </script>
 
 
@@ -692,828 +700,333 @@
   <div class="relative flex flex-col grow">
     <main id="main-content" class="grow">
       
-  
-  
-    
-<article class="
-    h-full
-   flex flex-col items-center justify-center text-center">
-  <header class="relative px-1 py-1 flex flex-col items-center mb-3">
-    
-    <h1 class="text-4xl font-extrabold">
+  <article class="max-w-full">
+    <header>
       
-    </h1>
-    
-    <div class="mt-1 text-2xl">
-      
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        Local LaTeX guide
+      </h1>
+    </header>
+    <section class="max-w-full mt-6 prose dark:prose-invert">
+      <p>This guide will walk you through how to get a LaTeX environment setup on your
+computer. In general this takes 4 steps.</p>
+<ol>
+<li>Install a Tex distribution. This is what supplies LaTeX and all packages
+associated with it. We will be installing TeX Live.</li>
+<li>Install Perl. Perl is old person python, LaTeX packages and tools like to
+use it. Installing it will help everything run seamlessly.</li>
+<li>Install Visual Studio Code</li>
+<li>Install and configure extensions for Visual Studio Code</li>
+</ol>
+<p>Below there are system specific installation instructions for <a href="#windows"  >
+    Windows</a>,
+<a href="#macos"  >
+    macOS</a>, and <a href="#linux"  >
+    Linux</a>.</p>
 
-    </div>
-  </header>
-  <section class="prose dark:prose-invert">
 
-<h1 class="relative group">Statement of Purpose 
-    <div id="statement-of-purpose" class="anchor"></div>
+<h2 class="relative group">Windows 
+    <div id="windows" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#statement-of-purpose" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#windows" aria-label="Anchor">#</a>
     </span>        
     
-</h1>
-<p>The Math Graduate Board (MGB) exists to provide a forum for departmental discourse, to organize departmental events, and to generally enrich the graduate mathematics experience at the University of Iowa.  It is an official university student organization established and led entirely by math graduate students.
-The MGB general meetings are held monthly in the Muhly Lounge.  Meeting minutes are available shortly after.</p>
-<!--
-
-See our calendar for upcoming GAUSS talks.  GAUSS is held weekly. In addition, for those involved in the Directed Reading Program, information and meetings regarding the program can be found here.
-
--->
-<hr>
+</h2>
 
 
-<h1 class="relative group">Recent Posts: 
-    <div id="recent-posts" class="anchor"></div>
+<h3 class="relative group">1. TeX Live 
+    <div id="1-tex-live" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#recent-posts" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#1-tex-live" aria-label="Anchor">#</a>
     </span>        
     
-</h1>
+</h3>
+<p>To do this you have to download and run an installer. Windows will possibly
+tell you that it prevented installation to protect you. You can enable
+installation by clicking on details then install anyway.</p>
+<p>When running the installer there are three options you should change:</p>
+<ol>
+<li>Default paper size: set this to letter, you live in the US you will always
+be printing on letter paper.</li>
+<li>Install for all users: uncheck this, you are probably the only person who
+uses your computer anyway. It is probably unchecked to begin with.</li>
+<li>Install TeXworks front end: uncheck this, we will be installing vscode
+as our front end.</li>
+</ol>
+<p>The official installer can be found here: <a href="https://mirror.ctan.org/systems/texlive/tlnet/install-tl-windows.exe"   target="_blank">
+    https://mirror.ctan.org/systems/texlive/tlnet/install-tl-windows.exe</a></p>
+<p>This will take a while to install: on a test machine it took approximately 1.5
+hours. You can continue on to the next steps while this is installing.</p>
 
 
-
-
-
-
-
-<h2 class="mt-20 text-2xl font-extrabold mb-10">Minutes</h2>
-
-
-
-
-<section class="space-y-10 w-full mt-10 mb-10">
+<h3 class="relative group">2. Perl 
+    <div id="2-perl" class="anchor"></div>
     
-        
-            
-                
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a class="flex flex-wrap article " href="/minutes/2024/april/">
-    <div class=" mt-3 md:mt-0">
-      <div class="items-center text-left text-xl font-semibold">
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/minutes/2024/april/">April 2024</div>
-        
-        
-        
-      </div>
-      <div class="text-sm text-neutral-500 dark:text-neutral-400">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-
-  
-  
-</div>
-
-
-
-
-
-
-
-      </div>
-      
-    </div>
-  </a>
-            
-        
-            
-                
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a class="flex flex-wrap article " href="/minutes/2024/march/">
-    <div class=" mt-3 md:mt-0">
-      <div class="items-center text-left text-xl font-semibold">
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/minutes/2024/march/">March 2024</div>
-        
-        
-        
-      </div>
-      <div class="text-sm text-neutral-500 dark:text-neutral-400">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-
-  
-  
-</div>
-
-
-
-
-
-
-
-      </div>
-      
-    </div>
-  </a>
-            
-        
-            
-                
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a class="flex flex-wrap article " href="/minutes/2024/february/">
-    <div class=" mt-3 md:mt-0">
-      <div class="items-center text-left text-xl font-semibold">
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/minutes/2024/february/">February 2024</div>
-        
-        
-        
-      </div>
-      <div class="text-sm text-neutral-500 dark:text-neutral-400">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-
-  
-  
-</div>
-
-
-
-
-
-
-
-      </div>
-      
-    </div>
-  </a>
-            
-        
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#2-perl" aria-label="Anchor">#</a>
+    </span>        
     
-</section>
+</h3>
+<p>We will install <a href="https://strawberryperl.com/"   target="_blank">
+    strawberry perl</a>. Download and
+run the system installer. Just like with TeX Live windows will warn you about
+the installation. Unlike TeX Live it will prompt you for admin privileges as it
+will be system-wide installation.</p>
 
 
-
-<hr>
-
-
-
-
-
-
-
-<h2 class="mt-20 text-2xl font-extrabold mb-10">Newsletter</h2>
-
-
-
-
-<section class="space-y-10 w-full mt-10 mb-10">
+<h3 class="relative group">3. Visual Studio Code 
+    <div id="3-visual-studio-code" class="anchor"></div>
     
-        
-            
-                
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a class="flex flex-wrap article " href="/newsletter/2024/march/">
-    <div class=" mt-3 md:mt-0">
-      <div class="items-center text-left text-xl font-semibold">
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/newsletter/2024/march/">March 2024</div>
-        
-        
-        
-      </div>
-      <div class="text-sm text-neutral-500 dark:text-neutral-400">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-
-  
-  
-</div>
-
-
-
-
-
-
-
-      </div>
-      
-    </div>
-  </a>
-            
-        
-            
-                
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a class="flex flex-wrap article " href="/newsletter/2023/december/">
-    <div class=" mt-3 md:mt-0">
-      <div class="items-center text-left text-xl font-semibold">
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/newsletter/2023/december/">December 2023</div>
-        
-        
-        
-      </div>
-      <div class="text-sm text-neutral-500 dark:text-neutral-400">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-
-  
-  
-</div>
-
-
-
-
-
-
-
-      </div>
-      
-    </div>
-  </a>
-            
-        
-            
-                
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a class="flex flex-wrap article " href="/newsletter/2023/september/">
-    <div class=" mt-3 md:mt-0">
-      <div class="items-center text-left text-xl font-semibold">
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/newsletter/2023/september/">September 2023</div>
-        
-        
-        
-      </div>
-      <div class="text-sm text-neutral-500 dark:text-neutral-400">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-
-  
-  
-</div>
-
-
-
-
-
-
-
-      </div>
-      
-    </div>
-  </a>
-            
-        
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#3-visual-studio-code" aria-label="Anchor">#</a>
+    </span>        
     
-</section>
+</h3>
+<p>Install from <a href="https://code.visualstudio.com/"   target="_blank">
+    this link</a>, then follow the
+instructions for <a href="#configure-visual-studio-code"  >
+    configuring Visual Studio
+Code</a>.</p>
 
 
-
-<!--
----
-
- 
- 
- 
- 
- 
- 
- 
- <h2 class="mt-20 text-2xl font-extrabold mb-10">GAUSS</h2>
- 
- 
- 
- 
- <section class="space-y-10 w-full mt-10 mb-10">
-     
-         
-     
- </section>
- 
- 
- -->
-<hr>
-
-
-
-
-
-
-
-<h2 class="mt-20 text-2xl font-extrabold mb-10">Blog</h2>
-
-
-
-
-<section class="space-y-10 w-full mt-10 mb-10">
+<h2 class="relative group">MacOS 
+    <div id="macos" class="anchor"></div>
     
-        
-            
-                
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a class="flex flex-wrap article " href="/resources/latex_guide/">
-    <div class=" mt-3 md:mt-0">
-      <div class="items-center text-left text-xl font-semibold">
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/resources/latex_guide/">Local LaTeX guide</div>
-        
-        
-        
-      </div>
-      <div class="text-sm text-neutral-500 dark:text-neutral-400">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-
-  
-  
-</div>
-
-
-
-
-
-
-
-      </div>
-      
-    </div>
-  </a>
-            
-        
-            
-                
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a class="flex flex-wrap article " href="/blog/resources/beamer/">
-    <div class=" mt-3 md:mt-0">
-      <div class="items-center text-left text-xl font-semibold">
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/blog/resources/beamer/">(unofficial) UIowa Beamer Theme Released</div>
-        
-        
-        
-      </div>
-      <div class="text-sm text-neutral-500 dark:text-neutral-400">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-
-  
-  
-</div>
-
-
-
-
-
-
-
-      </div>
-      
-    </div>
-  </a>
-            
-        
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#macos" aria-label="Anchor">#</a>
+    </span>        
     
-</section>
+</h2>
+<p>These instructions are as complete as I, a filthy poor person with no macOS
+machine at their disposal, could make them. If you run into problems feel free
+to <a href="https://github.com/uiowa-mgb/website/issues/new"   target="_blank">
+    open an issue</a>.</p>
 
 
+<h3 class="relative group">1. TeX Live 
+    <div id="1-tex-live-1" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#1-tex-live-1" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>There is an installer called <a href="https://tug.org/mactex/"   target="_blank">
+    MacTeX</a>, instructions
+for installing it can be found <a href="https://tug.org/mactex/mactex-download.html"   target="_blank">
+    here</a>.
+This installer will install a couple of programs along side TeXlive. If you
+wish to not install some of them there is a customize button on the final page
+before clicking install which will let you select which to install.</p>
+<ol>
+<li>TeX Live Utility: you want this. It lets you manage TeX Live.</li>
+<li><a href="https://pages.uoregon.edu/koch/texshop/index.html"   target="_blank">
+    TeXShop</a>: is a LaTeX
+editor made for macOS. This is redundant if you wish to install vscode. It
+does look pretty nice tho.</li>
+<li><a href="https://pierre.chachatelier.fr/latexit/"   target="_blank">
+    LaTeXiT</a>: lets you write TeX
+snippets and include them in any document</li>
+<li><a href="https://bibdesk.sourceforge.io/"   target="_blank">
+    BibDesk</a>: A bibliography manager</li>
+</ol>
 
-</section>
-</article>
-<section>
+
+<h3 class="relative group">2. Perl 
+    <div id="2-perl-1" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#2-perl-1" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>MacOS ships with Perl, you don&rsquo;t have to do anything!</p>
+
+
+<h3 class="relative group">3. Visual Studio Code 
+    <div id="3-visual-studio-code-1" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#3-visual-studio-code-1" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Install from <a href="https://code.visualstudio.com/"   target="_blank">
+    this link</a>, then follow the
+instructions for <a href="#configure-visual-studio-code"  >
+    configuring Visual Studio
+Code</a>.</p>
+
+
+<h2 class="relative group">Linux 
+    <div id="linux" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#linux" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>These instructions will be rather brief. There are too many Linux distributions
+to worry about. I&rsquo;m assuming you know how to handle yourself well enough. If
+someone has good distro agnostic install instructions feel free to open a PR.</p>
+
+
+<h3 class="relative group">1. TeX Live 
+    <div id="1-tex-live-2" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#1-tex-live-2" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Install TeX live through your distros package manager. For example if your
+distro uses <code>apt</code>:</p>
+<pre tabindex="0"><code># apt-get install texlive-full
+</code></pre>
+
+<h3 class="relative group">2. Perl 
+    <div id="2-perl-2" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#2-perl-2" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Install Perl through your package manager (you almost surely have it installed
+already). For example if your distro uses <code>pacman</code>:</p>
+<pre tabindex="0"><code># pacman -S perl
+</code></pre>
+
+<h3 class="relative group">3. Visual Studio Code 
+    <div id="3-visual-studio-code-2" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#3-visual-studio-code-2" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Install VS code through your package mana-&hellip; Ok so, unfortunately vs code is not open source!</p>
+<blockquote>
+<p>Code is a cross-platform text editor developed by Microsoft, built on the
+Electron framework. Visual Studio Code is a binary distribution of the
+MIT-licensed Code - OSS repository, with Microsoft specific customizations
+and released under a proprietary license. For details on the mixed licensing,
+see <a href="https://github.com/Microsoft/vscode/issues/60#issuecomment-161792005"   target="_blank">
+    this GitHub
+comment</a>.
+There is also a community-driven, MIT-licensed binary release called VSCodium
+with telemetry disabled by default.</p>
+<p><a href="https://wiki.archlinux.org/title/Visual_Studio_Code"   target="_blank">
+    The Arch Wiki</a></p>
+</blockquote>
+<p>So I guess&hellip; Install <code>code</code>, <code>vs-codium</code>, or <code>vs-code</code> through your distros
+package manager. See <a href="https://wiki.archlinux.org/title/Visual_Studio_Code"   target="_blank">
+    the arch
+wiki</a> for more details,
+all hail the arch wiki.</p>
+
+
+<h3 class="relative group">4. Configure Visual Studio Code 
+    <div id="4-configure-visual-studio-code" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#4-configure-visual-studio-code" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Depending on your choice for the previous step how you actually do this
+configuring will change. <a href="https://wiki.archlinux.org/title/Visual_Studio_Code#Extensions_support"   target="_blank">
+    The arch
+wiki</a>
+(praise be) details how to install extensions if you decided to not use the
+proprietary version of Visual Studio Code. With that in mind <a href="#configure-visual-studio-code"  >
+    configure vs-code</a></p>
+
+
+<h2 class="relative group">Configure Visual Studio Code 
+    <div id="configure-visual-studio-code" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#configure-visual-studio-code" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Install the following extensions</p>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop"   target="_blank">
+    LaTeX Workshop</a>. This does most of the latex stuff</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=tecosaur.latex-utilities"   target="_blank">
+    LaTeX Utilities</a>. This adds some more latex stuff</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker"   target="_blank">
+    Code Spell Checker</a>. This will let you tune the spell checker</li>
+</ul>
+
+
+<h2 class="relative group">Start a new project 
+    <div id="start-a-new-project" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#start-a-new-project" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Congratulations you now have all the tools and a shiny new editor to write
+LaTeX documents! The simplest way to get up and running would be to copy our
+<a href="https://github.com/uiowa-mgb/vscode-latex-template"   target="_blank">
+    LaTeX template</a>. If you
+open the <code>main.tex</code> file in vscode it should be automatically configured to
+give a nice experience out of the box. If something is not clear please feel
+free to ask a question by <a href="https://github.com/uiowa-mgb/website/issues/new"   target="_blank">
+    opening an
+issue</a>.</p>
+
+    </section>
+    <footer class="pt-8">
+      
   
+  <section class="flex flex-row flex-wrap justify-center pt-4 text-xl">
+    
+      
+    
+      
+    
+  </section>
 
 
-</section>
-  
+    </footer>
+  </article>
 
       <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
   <a href="#the-top"
