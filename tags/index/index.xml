@@ -91,10 +91,10 @@ Abstract: # DNA are molecules made long chains of four nucleobases: cytosine, gu
     
     <item>
       <title>Resources</title>
-      <link>https://mathgradboard.com/resources/</link>
+      <link>https://mathgradboard.com/blog/resources/</link>
       <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://mathgradboard.com/resources/</guid>
+      <guid>https://mathgradboard.com/blog/resources/</guid>
       <description> Some resources supplied and maintained by the MGB # A thesis template # uiowa-mgb/uiowa-thesis Latex class to render a thesis to UIowa&amp;rsquo;s specifications TeX 8 0 A template for making a personal site # uiowa-mgb/personal-site-template A forkable template for a github hosted personal site JavaScript 2 6 A template for making university of Iowa branded slides # uiowa-mgb/uiowa-beamer University of Iowa themed beamer presentations (unofficial) TeX 2 1 Guides # </description>
       
     </item>
@@ -112,7 +112,7 @@ Abstract: # DNA are molecules made long chains of four nucleobases: cytosine, gu
     <item>
       <title>The MGB Blog</title>
       <link>https://mathgradboard.com/blog/</link>
-      <pubDate>Thu, 29 Jun 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
       
       <guid>https://mathgradboard.com/blog/</guid>
       <description>The MGB blog is a place for MGB members to blog about their experiences.

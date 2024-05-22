@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resources on </title>
+    <link>https://mathgradboard.com/blog/resources/</link>
+    <description>Recent content in Resources on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+    <lastBuildDate>Mon, 13 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mathgradboard.com/blog/resources/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Local LaTeX guide</title>
+      <link>https://mathgradboard.com/blog/resources/latex_guide/</link>
+      <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/blog/resources/latex_guide/</guid>
+      <description>This guide will walk you through how to get a LaTeX environment setup on your computer. In general this takes 4 steps.
+Install a Tex distribution. This is what supplies LaTeX and all packages associated with it.</description>
+      
+    </item>
+    
+    <item>
+      <title>(unofficial) UIowa Beamer Theme Released</title>
+      <link>https://mathgradboard.com/blog/resources/beamer/</link>
+      <pubDate>Thu, 29 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/blog/resources/beamer/</guid>
+      <description>Exciting News: Introducing the UIowa Beamer Theme!
+Thanks to the contributions of Alex Polenberg and Ethan Rooke the initial release of this beamer theme is ready for public consumption! This theme has been designed with the University of Iowa community in mind, and we are thrilled to share it with you.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

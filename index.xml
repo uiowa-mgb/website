@@ -111,10 +111,10 @@ PDF # Download Previous Next Previous Next &amp;nbsp; &amp;nbsp; Page: / </descr
     
     <item>
       <title>Local LaTeX guide</title>
-      <link>https://mathgradboard.com/resources/latex_guide/</link>
+      <link>https://mathgradboard.com/blog/resources/latex_guide/</link>
       <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://mathgradboard.com/resources/latex_guide/</guid>
+      <guid>https://mathgradboard.com/blog/resources/latex_guide/</guid>
       <description>This guide will walk you through how to get a LaTeX environment setup on your computer. In general this takes 4 steps.
 Install a Tex distribution. This is what supplies LaTeX and all packages associated with it.</description>
       
