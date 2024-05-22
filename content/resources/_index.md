@@ -18,3 +18,5 @@ tags = ["index"]
 ### A template for making university of Iowa branded slides
 
 {{< github repo="uiowa-mgb/uiowa-beamer" >}}
+
+## Guides
