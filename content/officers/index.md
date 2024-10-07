@@ -51,13 +51,17 @@ The GLC exists to facilitate communication between faculty and graduate students
 ---
 
 
-## Graduate Liaison
+## General Liaison Committee
 
-As chair of the GLC Committee, the General Liaison works to communicate between faculty and graduate students about the graduate program. Within the Mathematics department, the General Liaison acts as a liaison between MGB, faculty, administration, undergrads, post-docs, and other graduate students and chairs the GLC Committee. Outside of the Mathematics department, the General Liaison facilitates communication with campus organizations representing general graduate student interests or with the University administration, if necessary.
+The GLC exists to facilitate communication between faculty and graduate students about the graduate program. The committee can help faculty by gathering information and feedback from graduate students on changes to the graduate program or other issues. If graduate students have a concern they would like to address, the committee can gather information and communicate with the appropriate faculty or administrator to address these concerns. The committee will also help disseminate information about the department to graduate students.
 
 **Current**
 
-- Elise Askelsen
+- Elise Askelsen (Chair)
+- Cole Hengel
+- Joey Small
+- Garrett Mason
+
 
 ---
 
