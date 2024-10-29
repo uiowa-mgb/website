@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-    <lastBuildDate>Sun, 06 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mathgradboard.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mathgradboard.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Index</title>
+      <link>https://mathgradboard.com/tags/index/</link>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/tags/index/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>2024</title>
       <link>https://mathgradboard.com/tags/2024/</link>
@@ -39,7 +49,7 @@
     </item>
     
     <item>
-      <title>newsletter</title>
+      <title>Newsletter</title>
       <link>https://mathgradboard.com/tags/newsletter/</link>
       <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
       
@@ -69,7 +79,7 @@
     </item>
     
     <item>
-      <title>pde</title>
+      <title>Pde</title>
       <link>https://mathgradboard.com/tags/pde/</link>
       <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
       
@@ -94,6 +104,26 @@
       <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
       
       <guid>https://mathgradboard.com/tags/topology/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Abstract</title>
+      <link>https://mathgradboard.com/tags/abstract/</link>
+      <pubDate>Wed, 29 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/tags/abstract/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Heartland</title>
+      <link>https://mathgradboard.com/tags/heartland/</link>
+      <pubDate>Wed, 29 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/tags/heartland/</guid>
       <description></description>
       
     </item>
@@ -134,46 +164,6 @@
       <pubDate>Sun, 28 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://mathgradboard.com/tags/2021/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>abstract</title>
-      <link>https://mathgradboard.com/tags/abstract/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://mathgradboard.com/tags/abstract/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>blog</title>
-      <link>https://mathgradboard.com/tags/blog/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://mathgradboard.com/tags/blog/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>heartland</title>
-      <link>https://mathgradboard.com/tags/heartland/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://mathgradboard.com/tags/heartland/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>index</title>
-      <link>https://mathgradboard.com/tags/index/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://mathgradboard.com/tags/index/</guid>
       <description></description>
       
     </item>

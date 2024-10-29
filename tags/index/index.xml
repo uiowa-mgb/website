@@ -1,61 +1,114 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>index on </title>
+    <title>Index on </title>
     <link>https://mathgradboard.com/tags/index/</link>
-    <description>Recent content in index on </description>
+    <description>Recent content in Index on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-    <atom:link href="https://mathgradboard.com/tags/index/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mathgradboard.com/tags/index/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://mathgradboard.com/</link>
-      <pubDate>Sun, 06 Oct 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
       
       <guid>https://mathgradboard.com/</guid>
-      <description>Statement of Purpose # The Math Graduate Board (MGB) exists to provide a forum for departmental discourse, to organize departmental events, and to generally enrich the graduate mathematics experience at the University of Iowa.</description>
-      
-    </item>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;Statement of Purpose 
+    &lt;div id=&#34;statement-of-purpose&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
-    <item>
-      <title>Constructing the Jones polynomial to save the world.</title>
-      <link>https://mathgradboard.com/heartland/past_talks/abstracts/joe_starr/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://mathgradboard.com/heartland/past_talks/abstracts/joe_starr/</guid>
-      <description>Title: # Constructing the Jones polynomial to save the world.
-Abstract: # DNA are molecules made long chains of four nucleobases: cytosine, guanine, adenine, and thymine. We find ourselves working at the CDC at the outbreak of the zombie apocalypse.</description>
-      
-    </item>
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#statement-of-purpose&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
     
-    <item>
-      <title>GAUSS</title>
-      <link>https://mathgradboard.com/gauss/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://mathgradboard.com/gauss/</guid>
-      <description></description>
+&lt;/h1&gt;
+&lt;p&gt;The Math Graduate Board (MGB) exists to provide a forum for departmental discourse, to organize departmental events, and to generally enrich the graduate mathematics experience at the University of Iowa.  It is an official university student organization established and led entirely by math graduate students.
+The MGB general meetings are held monthly in the Muhly Lounge.  Meeting minutes are available shortly after.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>Heartland</title>
       <link>https://mathgradboard.com/heartland/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
       
       <guid>https://mathgradboard.com/heartland/</guid>
-      <description>General Information # What is the Heartland Partnership? # The Heartland Partnership is a collection of schools in the Midwest that have come together in order to help each other.</description>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;General Information 
+    &lt;div id=&#34;general-information&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#general-information&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h1&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;What is the Heartland Partnership? 
+    &lt;div id=&#34;what-is-the-heartland-partnership&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#what-is-the-heartland-partnership&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;The Heartland Partnership is a collection of schools in the Midwest that have come together in order to help each other. There are thirteen schools in the partnership including the University of Iowa. You may view a map of the schools, as well as a list of contacts here.&lt;/p&gt;</description>
       
     </item>
     
     <item>
-      <title>Heartland Schools</title>
-      <link>https://mathgradboard.com/heartland/schools/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Heartland Talks on Offer 2024-2025</title>
+      <link>https://mathgradboard.com/heartland/talks_on_offer/2024_2025/</link>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mathgradboard.com/heartland/schools/</guid>
-      <description>School Name City Location Distance/Drive Time Bradley Peoria, IL 152 miles / 2 ~h 30 ~m Central College Pella, IA 98 miles / 2 ~h Clarke College Dubuque, IA 84 miles / 1 ~h 45 ~m Coe College Cedar Rapids, IA 28 miles / 30 ~m Cornell College Mount Vernon, IA 22 miles / 30 ~m Grinnell Grinnell, IA 67 miles / 1 ~h 15 ~m Loras College Mount Vernon, IA 22 miles / 30m Luther College Decorah, IA 136 miles / 3h St.</description>
+      <guid>https://mathgradboard.com/heartland/talks_on_offer/2024_2025/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Talks to Date 
+    &lt;div id=&#34;talks-to-date&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#talks-to-date&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;School&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Speaker&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Support&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Talk Topic&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Visit Date&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;Available Talks 
+    &lt;div id=&#34;available-talks&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#available-talks&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;</description>
       
     </item>
     
@@ -66,36 +119,6 @@ Abstract: # DNA are molecules made long chains of four nucleobases: cytosine, gu
       
       <guid>https://mathgradboard.com/minutes/</guid>
       <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Officers</title>
-      <link>https://mathgradboard.com/officers/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://mathgradboard.com/officers/</guid>
-      <description>Chair # The Chair is responsible for planning and running the monthly MGB meetings as well as any other open meetings the Chair shall call. The Chair has the then power to convene a meeting of the Executive Board, which may be closed to members-at-large.</description>
-      
-    </item>
-    
-    <item>
-      <title>Past Heartland Talks</title>
-      <link>https://mathgradboard.com/heartland/past_talks/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://mathgradboard.com/heartland/past_talks/</guid>
-      <description>School Speaker Support Talk Topic Visit Date Truman State University Joe Starr Constructing the Jones polynomial to save the world Spring 2024 Grinnell College Joe Starr Edo Biluar Constructing the Jones polynomial to save the world Fall 2023 Central College Elise Askelsen The Topological Data Analysis Pipeline Fall 2023 University of Wisconsin-Platteville Nitesh Mathur Daniel J.</description>
-      
-    </item>
-    
-    <item>
-      <title>Resources</title>
-      <link>https://mathgradboard.com/blog/resources/</link>
-      <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://mathgradboard.com/blog/resources/</guid>
-      <description> Some resources supplied and maintained by the MGB # A thesis template # uiowa-mgb/uiowa-thesis Latex class to render a thesis to UIowa&amp;rsquo;s specifications TeX 8 0 A template for making a personal site # uiowa-mgb/personal-site-template A forkable template for a github hosted personal site JavaScript 2 6 A template for making university of Iowa branded slides # uiowa-mgb/uiowa-beamer University of Iowa themed beamer presentations (unofficial) TeX 3 1 Guides # </description>
       
     </item>
     
@@ -112,22 +135,478 @@ Abstract: # DNA are molecules made long chains of four nucleobases: cytosine, gu
     <item>
       <title>The MGB Blog</title>
       <link>https://mathgradboard.com/blog/</link>
-      <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
       
       <guid>https://mathgradboard.com/blog/</guid>
-      <description>The MGB blog is a place for MGB members to blog about their experiences.
-Recent Blog Posts # </description>
+      <description>&lt;p&gt;The MGB blog is a place for MGB members to blog about their experiences.&lt;/p&gt;
+
+
+&lt;h1 class=&#34;relative group&#34;&gt;Recent Blog Posts 
+    &lt;div id=&#34;recent-blog-posts&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#recent-blog-posts&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h1&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Thoughts on qualifying exams</title>
+      <link>https://mathgradboard.com/blog/qual_resources/</link>
+      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/blog/qual_resources/</guid>
+      <description>&lt;p&gt;So, you&amp;rsquo;re gearing up for your Qualification Exams, but before you begin, I&amp;rsquo;d like to share a few thoughts about the exams and the preparation. This has less to do with the course material and more to do with the &lt;em&gt;&amp;rsquo;exam&amp;rsquo;&lt;/em&gt; aspect of it. It is a rather long rant about &lt;em&gt;&amp;lsquo;preparation&amp;rsquo;&lt;/em&gt;. I&amp;rsquo;m sure most of us are aware of the things listed below. You may even find it boring but I recommend that you read it. It never hurts to remind ourselves of the easier things that we take for granted.
+There&amp;rsquo;s no one-size-fits-all preparation strategy. We all learn differently and at our own pace. However, there are general ideas that can streamline your preparation. Even if you don&amp;rsquo;t find anything helpful here, this should at least encourage you to take a step back and think about &lt;em&gt;&amp;lsquo;how to prepare&amp;rsquo;&lt;/em&gt; before you start the prep. It is good to have a plan so that you use your time more effectively.
+The qualifying exams are designed to test your understanding of the material covered in the 5000-level courses. Therefore, it won&amp;rsquo;t be enough to just know the material if you do not know how to apply it. &lt;em&gt;Memorizing has its place but cannot be a substitute for understanding.&lt;/em&gt; Thus, I would like to draw attention to the following aspects of the exams. This should, hopefully, guide your preparation better.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Constructing the Jones polynomial to save the world.</title>
+      <link>https://mathgradboard.com/heartland/talks_on_offer/2023_2024/joe_starr/</link>
+      <pubDate>Wed, 29 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/heartland/talks_on_offer/2023_2024/joe_starr/</guid>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;Title: 
+    &lt;div id=&#34;title&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#title&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h1&gt;
+&lt;p&gt;Constructing the Jones polynomial to save the world.&lt;/p&gt;
+
+
+&lt;h1 class=&#34;relative group&#34;&gt;Abstract: 
+    &lt;div id=&#34;abstract&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#abstract&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h1&gt;
+&lt;p&gt;DNA are molecules made long chains of four nucleobases: cytosine, guanine, adenine, and thymine. We find ourselves working at the CDC at the outbreak of the zombie apocalypse. We&amp;rsquo;ve been able to image the DNA of the &amp;ldquo;Z&amp;rdquo; virus and found that the DNA is knotted. We can use this fact to construct an anti-virus, the &amp;ldquo;mirror&amp;rdquo; of the virus. In this activity we build a tool, the Jones polynomial, to check our work and save the world.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Heartland Talks on Offer 2023-2024</title>
+      <link>https://mathgradboard.com/heartland/talks_on_offer/2023_2024/</link>
+      <pubDate>Wed, 29 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/heartland/talks_on_offer/2023_2024/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Talks to Date 
+    &lt;div id=&#34;talks-to-date&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#talks-to-date&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;School&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Speaker&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Support&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Talk Topic&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Visit Date&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Truman State University&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Joe Starr&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;abstracts/joe_starr/&#34;&gt;Constructing the Jones polynomial to save the world&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Spring  2024&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Grinnell College&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Joe Starr&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Edo Biluar&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;abstracts/joe_starr/&#34;&gt;Constructing the Jones polynomial to save the world&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fall  2023&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Central College&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Elise Askelsen&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;abstracts/elise_askelsen/&#34;&gt;The Topological Data Analysis Pipeline&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fall  2023&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;Available Talks 
+    &lt;div id=&#34;available-talks&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#available-talks&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;</description>
       
     </item>
     
     <item>
       <title>The Topological Data Analysis Pipeline</title>
-      <link>https://mathgradboard.com/heartland/past_talks/abstracts/elise_askelsen/</link>
+      <link>https://mathgradboard.com/heartland/talks_on_offer/2023_2024/elise_askelsen/</link>
+      <pubDate>Wed, 29 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/heartland/talks_on_offer/2023_2024/elise_askelsen/</guid>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;Title: 
+    &lt;div id=&#34;title&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#title&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h1&gt;
+&lt;p&gt;The Topological Data Analysis Pipeline&lt;/p&gt;
+
+
+&lt;h1 class=&#34;relative group&#34;&gt;Abstract: 
+    &lt;div id=&#34;abstract&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#abstract&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h1&gt;
+&lt;p&gt;As the amount of data collected has increased in recent years, new methods for understanding data have been sought. One such method, Topological Data Analysis, or TDA, studies data and draws conclusions using the shape of the data set. In this talk, we will walk through the TDA pipeline in the one parameter case to illustrate the process of taking a data set and transforming it to have a geometric shape. We will then apply persistent homology in order to draw a conclusion about the data. To conclude, we will look at applications of TDA as well as briefly discuss the multiparameter setting.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>General Resources</title>
+      <link>https://mathgradboard.com/blog/resources/</link>
+      <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/blog/resources/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Some resources supplied and maintained by the MGB 
+    &lt;div id=&#34;some-resources-supplied-and-maintained-by-the-mgb&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#some-resources-supplied-and-maintained-by-the-mgb&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+
+
+&lt;h3 class=&#34;relative group&#34;&gt;A thesis template 
+    &lt;div id=&#34;a-thesis-template&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#a-thesis-template&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h3&gt;
+&lt;a id=&#34;github-4805bff26027cfb73929384292dcc9a1&#34; target=&#34;_blank&#34; href=&#34;https://github.com/uiowa-mgb/uiowa-thesis&#34; class=&#34;cursor-pointer&#34;&gt;
+  &lt;div
+    class=&#34;w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md shadow-2xl&#34;&gt;
+
+    &lt;div class=&#34;flex items-center&#34;&gt;
+      &lt;span class=&#34;text-2xl text-neutral-800 dark:text-neutral&#34; style=&#34;margin-right:10px;&#34;&gt;
+        
+
+  &lt;span class=&#34;relative block icon&#34;&gt;
+    &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 496 512&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z&#34;/&gt;&lt;/svg&gt;
+
+  &lt;/span&gt;
+
+
+      &lt;/span&gt;
+      &lt;div
+        id=&#34;github-4805bff26027cfb73929384292dcc9a1-full_name&#34;
+        class=&#34;m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral&#34;&gt;
+        uiowa-mgb/uiowa-thesis
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;p id=&#34;github-4805bff26027cfb73929384292dcc9a1-description&#34; class=&#34;m-0 mt-2 text-md text-neutral-800 dark:text-neutral&#34;&gt;
+      Latex class to render a thesis to UIowa&amp;rsquo;s specifications
+    &lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Historical Heartland Talks</title>
+      <link>https://mathgradboard.com/heartland/talks_on_offer/historical/</link>
+      <pubDate>Tue, 29 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/heartland/talks_on_offer/historical/</guid>
+      <description>&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;School&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Speaker&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Support&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Talk Topic&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Visit Date&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;University of Wisconsin-Platteville&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Nitesh Mathur&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Daniel J.Wackwitz&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;An Introduction to the Generalized Factorials: Based on the Paper of Manjul Bhargava&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fall  2021&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Loras College&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Jenni Good&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;What did J.S. Bach Know About Fractals?&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fall  2014&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Loras College&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Morgan   Fonley&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;c Amplification and Damping of an Oscillating Streamflow   Signal in a River Network&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fall  2014&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Cornell College&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Erin   Griesenauer&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Functions and Continuity: Lies Your Calculus Teacher Told   You&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fall  2014&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Luther College&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Kevin Gerstle&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Rolando de   Santiago&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;SURPRISE! Generalizations of the Birthday Problem&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fall  2014&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Truman State University&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Kevin Gerstle&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Cristina   Runnalls&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Brownian Motion and HMD-Functions&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Spring  2014&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Wartburg College&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Kevin Gerstle&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Rolando de   Santiago&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Brownian Motion and HMD-Functions&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Spring  2014&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Truman State University&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Rebecca   Gasper&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Andy Mills&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Math Biology&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Spring  2013&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Central College&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Jeff Langdren&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Annette   Honken&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;How Google Works&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Spring  2013&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Grinnell College&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Colin Grove&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Christine   Caples&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Bridge Position of Knots&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Spring  2013&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Loras College&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Chris Mooney&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Katie   Benson&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Algebra: Factorization&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Spring  2013&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;UW La Crosse&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Sam Ferguson&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Alejandro   Samaniego&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;(Applied Mathematics)&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Spring  2013&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Coe College&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Jessica   Williams&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Annette   Honken&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Emmy Noether and the Fundamental Theorem of Algebra&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fall  2009&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Constructing the Jones polynomial to save the world.</title>
+      <link>https://mathgradboard.com/heartland/talks_on_offer/2024_2025/joe_starr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mathgradboard.com/heartland/past_talks/abstracts/elise_askelsen/</guid>
-      <description>Title: # The Topological Data Analysis Pipeline
-Abstract: # As the amount of data collected has increased in recent years, new methods for understanding data have been sought. One such method, Topological Data Analysis, or TDA, studies data and draws conclusions using the shape of the data set.</description>
+      <guid>https://mathgradboard.com/heartland/talks_on_offer/2024_2025/joe_starr/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Title: 
+    &lt;div id=&#34;title&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#title&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;Constructing the Jones polynomial to save the world.&lt;/p&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;Abstract: 
+    &lt;div id=&#34;abstract&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#abstract&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;DNA are molecules made long chains of four nucleobases: cytosine, guanine, adenine, and thymine. We find ourselves working at the CDC at the outbreak of the zombie apocalypse. We&amp;rsquo;ve been able to image the DNA of the &amp;ldquo;Z&amp;rdquo; virus and found that the DNA is knotted. We can use this fact to construct an anti-virus, the &amp;ldquo;mirror&amp;rdquo; of the virus. In this activity we build a tool, the Jones polynomial, to check our work and save the world.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>GAUSS</title>
+      <link>https://mathgradboard.com/gauss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/gauss/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>How Many Different Unknots Are There?</title>
+      <link>https://mathgradboard.com/heartland/talks_on_offer/2024_2025/matthew_barber_2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/heartland/talks_on_offer/2024_2025/matthew_barber_2/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Title: 
+    &lt;div id=&#34;title&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#title&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;How Many Different Unknots Are There?&lt;/p&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;Abstract: 
+    &lt;div id=&#34;abstract&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#abstract&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;A knot is defined mathematically as a closed non-self-intersecting curve in three-dimensional space, and as mathematicians we would
+like to know how many different knots exist. That is a hard question. So instead, we can ask the question, how many different knots
+exist that have no crossings? In classical knot theory the answer to this question is not interesting since there is only one. However,
+when we restrict ourselves to specific knots called Legendrian knots, the answer becomes that there are infinitely many which was
+proven by Yakov Eliashberg and Maia Fraser in 1995. In this talk, we will explore this question and see why there are infinitely many
+Legendrian unknots. The talk is designed for any undergraduate student who is interested in math.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Officers</title>
+      <link>https://mathgradboard.com/officers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/officers/</guid>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;Chair 
+    &lt;div id=&#34;chair&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#chair&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h1&gt;
+&lt;p&gt;The Chair is responsible for planning and running the monthly MGB meetings as well as any other open meetings the Chair shall call. The Chair has the then power to convene a meeting of the Executive Board, which may be closed to members-at-large. The Chair shall be responsible for the integration of committees into MGB. In the event of a vacant seat on the Executive Board (excepting Chair or vice-chair), the Chair shall appoint a replacement to finish the term. The Chair is the only non-voting member of MGB, but shall cast the deciding vote in the event of a tie.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Understanding Ribbon Categories with :ribbon:</title>
+      <link>https://mathgradboard.com/heartland/talks_on_offer/2024_2025/matthew_barber_1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/heartland/talks_on_offer/2024_2025/matthew_barber_1/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Title: 
+    &lt;div id=&#34;title&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#title&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;Understanding Ribbon Categories with 🎀&lt;/p&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;Abstract: 
+    &lt;div id=&#34;abstract&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#abstract&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;In category theory and abstract algebra in general, it can sometimes be very difficult to know when a composition of functions can be
+simplified. Then even if we know that this composition does simplify, writing a proof for the equality might be a notational nightmare
+which results in a huge string of function compositions which can be extremely difficult to understand. Fortunately, there is a way to
+depict these function compositions using ribbons when the category you are working with has enough structure. These types of
+categories are called strict ribbon categories for this reason. When an isotopy exists between two ribbon diagrams, those two diagrams
+correspond to an equality of functions in the category. Therefore, we can use these ribbon diagrams to better understand long
+compositions of functions and provide understandable proofs for why certain compositions can be simplified. In this talk we will
+establish the relationship between strict ribbon categories and ribbon diagrams by looking at the definition of a ribbon category and
+associating to each requirement a property of ribbon diagrams. This talk will follow the definition of a strict ribbon category as
+defined by Turaev in his book, Quantum Invariants of Knots and 3-Manifold. The talk is designed for undergraduate students who
+have seen at least linear algebra and a proof based course.&lt;/p&gt;</description>
       
     </item>
     

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mbarber on </title>
+    <link>https://mathgradboard.com/authors/mbarber/</link>
+    <description>Recent content in Mbarber on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+    <atom:link href="https://mathgradboard.com/authors/mbarber/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Many Different Unknots Are There?</title>
+      <link>https://mathgradboard.com/heartland/talks_on_offer/2024_2025/matthew_barber_2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/heartland/talks_on_offer/2024_2025/matthew_barber_2/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Title: 
+    &lt;div id=&#34;title&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#title&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;How Many Different Unknots Are There?&lt;/p&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;Abstract: 
+    &lt;div id=&#34;abstract&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#abstract&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;A knot is defined mathematically as a closed non-self-intersecting curve in three-dimensional space, and as mathematicians we would
+like to know how many different knots exist. That is a hard question. So instead, we can ask the question, how many different knots
+exist that have no crossings? In classical knot theory the answer to this question is not interesting since there is only one. However,
+when we restrict ourselves to specific knots called Legendrian knots, the answer becomes that there are infinitely many which was
+proven by Yakov Eliashberg and Maia Fraser in 1995. In this talk, we will explore this question and see why there are infinitely many
+Legendrian unknots. The talk is designed for any undergraduate student who is interested in math.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Understanding Ribbon Categories with :ribbon:</title>
+      <link>https://mathgradboard.com/heartland/talks_on_offer/2024_2025/matthew_barber_1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/heartland/talks_on_offer/2024_2025/matthew_barber_1/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Title: 
+    &lt;div id=&#34;title&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#title&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;Understanding Ribbon Categories with 🎀&lt;/p&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;Abstract: 
+    &lt;div id=&#34;abstract&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#abstract&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;In category theory and abstract algebra in general, it can sometimes be very difficult to know when a composition of functions can be
+simplified. Then even if we know that this composition does simplify, writing a proof for the equality might be a notational nightmare
+which results in a huge string of function compositions which can be extremely difficult to understand. Fortunately, there is a way to
+depict these function compositions using ribbons when the category you are working with has enough structure. These types of
+categories are called strict ribbon categories for this reason. When an isotopy exists between two ribbon diagrams, those two diagrams
+correspond to an equality of functions in the category. Therefore, we can use these ribbon diagrams to better understand long
+compositions of functions and provide understandable proofs for why certain compositions can be simplified. In this talk we will
+establish the relationship between strict ribbon categories and ribbon diagrams by looking at the definition of a ribbon category and
+associating to each requirement a property of ribbon diagrams. This talk will follow the definition of a strict ribbon category as
+defined by Turaev in his book, Quantum Invariants of Knots and 3-Manifold. The talk is designed for undergraduate students who
+have seen at least linear algebra and a proof based course.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

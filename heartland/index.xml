@@ -7,14 +7,117 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-    <atom:link href="https://mathgradboard.com/heartland/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mathgradboard.com/heartland/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Heartland Schools</title>
-      <link>https://mathgradboard.com/heartland/schools/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Historical Heartland Talks</title>
+      <link>https://mathgradboard.com/heartland/talks_on_offer/historical/</link>
+      <pubDate>Tue, 29 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://mathgradboard.com/heartland/schools/</guid>
-      <description>School Name City Location Distance/Drive Time Bradley Peoria, IL 152 miles / 2 ~h 30 ~m Central College Pella, IA 98 miles / 2 ~h Clarke College Dubuque, IA 84 miles / 1 ~h 45 ~m Coe College Cedar Rapids, IA 28 miles / 30 ~m Cornell College Mount Vernon, IA 22 miles / 30 ~m Grinnell Grinnell, IA 67 miles / 1 ~h 15 ~m Loras College Mount Vernon, IA 22 miles / 30m Luther College Decorah, IA 136 miles / 3h St.</description>
+      <guid>https://mathgradboard.com/heartland/talks_on_offer/historical/</guid>
+      <description>&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;School&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Speaker&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Support&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Talk Topic&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Visit Date&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;University of Wisconsin-Platteville&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Nitesh Mathur&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Daniel J.Wackwitz&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;An Introduction to the Generalized Factorials: Based on the Paper of Manjul Bhargava&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fall  2021&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Loras College&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Jenni Good&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;What did J.S. Bach Know About Fractals?&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fall  2014&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Loras College&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Morgan   Fonley&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;c Amplification and Damping of an Oscillating Streamflow   Signal in a River Network&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fall  2014&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Cornell College&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Erin   Griesenauer&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Functions and Continuity: Lies Your Calculus Teacher Told   You&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fall  2014&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Luther College&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Kevin Gerstle&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Rolando de   Santiago&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;SURPRISE! Generalizations of the Birthday Problem&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fall  2014&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Truman State University&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Kevin Gerstle&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Cristina   Runnalls&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Brownian Motion and HMD-Functions&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Spring  2014&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Wartburg College&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Kevin Gerstle&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Rolando de   Santiago&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Brownian Motion and HMD-Functions&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Spring  2014&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Truman State University&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Rebecca   Gasper&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Andy Mills&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Math Biology&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Spring  2013&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Central College&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Jeff Langdren&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Annette   Honken&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;How Google Works&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Spring  2013&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Grinnell College&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Colin Grove&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Christine   Caples&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Bridge Position of Knots&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Spring  2013&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Loras College&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Chris Mooney&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Katie   Benson&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Algebra: Factorization&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Spring  2013&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;UW La Crosse&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Sam Ferguson&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Alejandro   Samaniego&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;(Applied Mathematics)&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Spring  2013&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Coe College&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Jessica   Williams&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Annette   Honken&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Emmy Noether and the Fundamental Theorem of Algebra&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fall  2009&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</description>
       
     </item>
     

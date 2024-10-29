@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Resources on </title>
+    <title>General Resources on </title>
     <link>https://mathgradboard.com/blog/resources/</link>
-    <description>Recent content in Resources on </description>
+    <description>Recent content in General Resources on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
@@ -14,8 +14,18 @@
       <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
       
       <guid>https://mathgradboard.com/blog/resources/latex_guide/</guid>
-      <description>This guide will walk you through how to get a LaTeX environment setup on your computer. In general this takes 4 steps.
-Install a Tex distribution. This is what supplies LaTeX and all packages associated with it.</description>
+      <description>&lt;p&gt;This guide will walk you through how to get a LaTeX environment setup on your
+computer. In general this takes 4 steps.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Install a Tex distribution. This is what supplies LaTeX and all packages
+associated with it. We will be installing TeX Live.&lt;/li&gt;
+&lt;li&gt;Install Perl. Perl is old person python, LaTeX packages and tools like to
+use it. Installing it will help everything run seamlessly.&lt;/li&gt;
+&lt;li&gt;Install Visual Studio Code&lt;/li&gt;
+&lt;li&gt;Install and configure extensions for Visual Studio Code&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Below there are system specific installation instructions for &lt;a href=&#34;#windows&#34;&gt;Windows&lt;/a&gt;,
+&lt;a href=&#34;#macos&#34;&gt;macOS&lt;/a&gt;, and &lt;a href=&#34;#linux&#34;&gt;Linux&lt;/a&gt;.&lt;/p&gt;</description>
       
     </item>
     
@@ -25,8 +35,11 @@ Install a Tex distribution. This is what supplies LaTeX and all packages associa
       <pubDate>Thu, 29 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>https://mathgradboard.com/blog/resources/beamer/</guid>
-      <description>Exciting News: Introducing the UIowa Beamer Theme!
-Thanks to the contributions of Alex Polenberg and Ethan Rooke the initial release of this beamer theme is ready for public consumption! This theme has been designed with the University of Iowa community in mind, and we are thrilled to share it with you.</description>
+      <description>&lt;p&gt;Exciting News: Introducing the UIowa Beamer Theme!&lt;/p&gt;
+&lt;p&gt;Thanks to the contributions of Alex Polenberg and Ethan Rooke the initial
+release of this beamer theme is ready for public consumption! This theme has
+been designed with the University of Iowa community in mind, and we are thrilled
+to share it with you.&lt;/p&gt;</description>
       
     </item>
     
