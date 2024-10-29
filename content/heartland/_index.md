@@ -1,7 +1,7 @@
 +++
 summary=""
 title = "Heartland"
-author = "Joe Starr"
+authors = ["jstarr3"]
 layout = "page"
 showTableOfContents = true
 tags = ["index"]

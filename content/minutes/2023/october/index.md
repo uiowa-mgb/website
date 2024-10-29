@@ -1,6 +1,6 @@
 +++
 description=""
-author = "Joe Starr"
+authors = ["jstarr3"]
 title = "October 2023"
 date = "2023-10-06"
 type= "Minutes"

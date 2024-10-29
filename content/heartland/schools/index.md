@@ -1,10 +1,14 @@
 +++
 summary=""
 title = "Heartland Schools"
-author = "Joe Starr"
+authors = ["jstarr3"]
 groupByYear = true
 tags = ["index"]
 type= "Heartland"
+[build]
+  list = 'never'
+  publishResources = true
+  render = 'always'
 +++
 
 | School Name | City Location | Distance/Drive Time  |

@@ -1,13 +1,8 @@
----
-title: Thoughts on qualifying exams
-showAuthor: false
-authors:
-  - "ssingh17"
-tags:
-  - blog
-showTableOfContents: true
-showAuthorsBadges : false
----
++++
+title= "Thoughts on qualifying exams"
+authors = ["ssingh17"]
+tags = ["index"]
++++
 
 
 So, you're gearing up for your Qualification Exams, but before you begin, I'd like to share a few thoughts about the exams and the preparation. This has less to do with the course material and more to do with the _'exam'_ aspect of it. It is a rather long rant about _'preparation'_. I'm sure most of us are aware of the things listed below. You may even find it boring but I recommend that you read it. It never hurts to remind ourselves of the easier things that we take for granted.

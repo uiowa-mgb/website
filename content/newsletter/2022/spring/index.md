@@ -1,6 +1,6 @@
 +++
 description=""
-author = "Joe Starr"
+authors = ["jstarr3"]
 title = "Spring 2022"
 type= "newsletter"
 date = "2022-02-28"

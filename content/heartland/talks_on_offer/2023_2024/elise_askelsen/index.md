@@ -1,12 +1,11 @@
 +++
 summary=""
 title = "The Topological Data Analysis Pipeline"
-author = "Elise Askelsen"
+authors = ["easkelsen"]
+date = "2023-11-29"
 tags = ["index","heartland","abstract"]
 type= "Heartland"
 +++
-
-
 
 
 # Title:

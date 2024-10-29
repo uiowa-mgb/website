@@ -1,7 +1,6 @@
 +++
 summary=""
 title = "Officers"
-author = "Joe Starr"
 layout = "page"
 showTableOfContents = true
 tags = ["index"]

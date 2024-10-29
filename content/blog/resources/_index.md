@@ -1,7 +1,7 @@
 +++
 summary=""
-title = "Resources"
-author = "Joe Starr"
+title = "General Resources"
+authors = ["jstarr3"]
 tags = ["index"]
 +++
 
