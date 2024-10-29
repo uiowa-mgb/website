@@ -4,3 +4,4 @@
 /.vscode
 public
 shell.nix
+resources/_gen

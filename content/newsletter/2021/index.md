@@ -1,6 +1,6 @@
 +++
 description=""
-author = "Joe Starr"
+authors = ["jstarr3"]
 title = "2021 Sum-Times"
 type= "newsletter"
 date = "2021-02-28"

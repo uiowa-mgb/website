@@ -1,7 +1,7 @@
 +++
 summary=""
 title = "Minutes"
-author = "Joe Starr"
+authors = ["jstarr3"]
 groupByYear = true
 tags = ["index"]
 type= "Minutes"

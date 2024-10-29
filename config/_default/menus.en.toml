@@ -45,7 +45,8 @@
   weight = 50
 
 [[main]]
-  name = "Resources"
+  name = "General Resources"
+  parent = "Blog"
   pageRef = "blog/resources"
   weight = 60
 

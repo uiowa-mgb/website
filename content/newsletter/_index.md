@@ -1,7 +1,7 @@
 +++
 summary=""
 title = "Sum-Times"
-author = "Joe Starr"
+authors = ["jstarr3"]
 groupByYear = true
 tags = ["index"]
 type= "Newsletter"
