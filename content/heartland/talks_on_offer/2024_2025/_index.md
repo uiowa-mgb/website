@@ -11,6 +11,6 @@ type= "Heartland"
 
 | School | Speaker | Support | Talk Topic | Visit Date |
 | ------ | ------- | ------- | ---------- | ---------- |
-|        |         |         |            |            |
+| St. Ambrose University                  | Matthew Barber            |                       | Understanding Ribbon Categories with 🎀                                               | Fall  2024   |
 
 ## Available Talks
