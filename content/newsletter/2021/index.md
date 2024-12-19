@@ -1,7 +1,7 @@
 +++
 description=""
 authors = ["jstarr3"]
-title = "2021 Sum-Times"
+title = "2021 SumTimes"
 type= "newsletter"
 date = "2021-02-28"
 layout = "simple"

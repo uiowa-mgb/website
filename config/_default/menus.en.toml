@@ -23,7 +23,7 @@
   weight = 20
 
 [[main]]
-  name = "Sum-Times"
+  name = "SumTimes"
   pageRef = "newsletter"
   weight = 30
 
