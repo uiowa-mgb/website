@@ -2,16 +2,16 @@
 description=""
 authors = ["jstarr3"]
 title = "November 2023"
-date = "2023-11-03"
+date = "2024-11-03"
 type= "Minutes"
-draft = true
+draft = false
 layout = "simple"
 tags = [
     "Minutes",
-    "2023"
+    "2024"
 ]
 +++
 
 ## Minutes
 
-{{< embed-pdf url="./minutes/2023/november/mgb_minutes.pdf" >}}
+{{< embed-pdf url="./minutes/2024/november/mgb_minutes.pdf" >}}
