@@ -2,6 +2,7 @@
 title= "Thoughts on qualifying exams"
 authors = ["ssingh17"]
 tags = ["index"]
+layout = "simple"
 +++
 
 

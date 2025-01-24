@@ -1,6 +1,6 @@
 +++
 summary=""
-title = "Sum-Times"
+title = "SumTimes"
 authors = ["jstarr3"]
 groupByYear = true
 tags = ["index"]
