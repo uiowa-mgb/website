@@ -9,7 +9,7 @@ tags = ["index"]
 
 ## President
 
-The President is responsible for planning and running the monthly MGB meetings as well as any other open meetings the Chair shall call. The Chair has the then power to convene a meeting of the Executive Board, which may be closed to members-at-large. The Chair shall be responsible for the integration of committees into MGB. In the event of a vacant seat on the Executive Board (excepting Chair or vice-chair), the Chair shall appoint a replacement to finish the term. The Chair is the only non-voting member of MGB, but shall cast the deciding vote in the event of a tie.
+The President is responsible for planning and running the monthly MGB meetings as well as any other open meetings the President shall call. The President has the then power to convene a meeting of the Executive Board, which may be closed to members-at-large. The President shall be responsible for the integration of committees into MGB. In the event of a vacant seat on the Executive Board (excepting President or Vice-President), the President shall appoint a replacement to finish the term. The President is the only non-voting member of MGB, but shall cast the deciding vote in the event of a tie.
 
 **Current**
 
@@ -19,7 +19,7 @@ The President is responsible for planning and running the monthly MGB meetings a
 
 ## Vice-President
 
-The Vice-President is responsible for recording minutes during any open meeting of MGB. These minutes must be distributed to all graduate students within 48 hours. The Vice-Chair is also tasked with recording and sharing minutes from Executive Board meetings within the same time frame. In the event of the Chair's temporary incapacity or illness, the Vice-Chair shall assume the Chair's responsibilities and may appoint a temporary Vice-Chair if necessary. Additionally, the Vice-Chair of MGB presides over the Travel Funding Committee, which involves organizing committee meetings, posting funding announcements, and overseeing the committee's general operations.
+The Vice-President is responsible for recording minutes during any open meeting of MGB. These minutes must be distributed to all graduate students within 48 hours. The Vice-President is also tasked with recording and sharing minutes from Executive Board meetings within the same time frame. In the event of the President's temporary incapacity or illness, the Vice-President shall assume the President's responsibilities and may appoint a temporary Vice-President if necessary. Additionally, the Vice-President of MGB presides over the Travel Funding Committee, which involves organizing committee meetings, posting funding announcements, and overseeing the committee's general operations.
 
 **Current**
 
