@@ -7,21 +7,12 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-    <lastBuildDate>Tue, 29 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mathgradboard.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Index</title>
-      <link>https://mathgradboard.com/tags/index/</link>
-      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://mathgradboard.com/tags/index/</guid>
-      <description></description>
-      
-    </item>
+    <lastBuildDate>Thu, 05 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mathgradboard.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>2024</title>
       <link>https://mathgradboard.com/tags/2024/</link>
-      <pubDate>Sun, 06 Oct 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
       
       <guid>https://mathgradboard.com/tags/2024/</guid>
       <description></description>
@@ -29,9 +20,29 @@
     </item>
     
     <item>
+      <title>Index</title>
+      <link>https://mathgradboard.com/tags/index/</link>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/tags/index/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Newsletter</title>
+      <link>https://mathgradboard.com/tags/newsletter/</link>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/tags/newsletter/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Minutes</title>
       <link>https://mathgradboard.com/tags/minutes/</link>
-      <pubDate>Sun, 06 Oct 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
       
       <guid>https://mathgradboard.com/tags/minutes/</guid>
       <description></description>
@@ -44,16 +55,6 @@
       <pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>https://mathgradboard.com/tags/2023/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Newsletter</title>
-      <link>https://mathgradboard.com/tags/newsletter/</link>
-      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://mathgradboard.com/tags/newsletter/</guid>
       <description></description>
       
     </item>

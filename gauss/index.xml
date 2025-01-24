@@ -8,5 +8,6 @@
     <language>en</language>
     
     <atom:link href="https://mathgradboard.com/gauss/index.xml" rel="self" type="application/rss+xml" />
+    
   </channel>
 </rss>

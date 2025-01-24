@@ -4,7 +4,37 @@
 
   <url>
     <loc>https://mathgradboard.com/</loc>
-    <lastmod>2024-10-29T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-05T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/newsletter/2024/december/</loc>
+    <lastmod>2024-12-05T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/newsletter/</loc>
+    <lastmod>2024-12-05T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/minutes/2024/december/</loc>
+    <lastmod>2024-12-03T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/minutes/</loc>
+    <lastmod>2024-12-03T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/minutes/2024/november/</loc>
+    <lastmod>2024-11-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -21,14 +51,26 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://mathgradboard.com/minutes/</loc>
+    <loc>https://mathgradboard.com/minutes/2024/october/</loc>
     <lastmod>2024-10-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://mathgradboard.com/minutes/2024/october/</loc>
-    <lastmod>2024-10-06T00:00:00+00:00</lastmod>
+    <loc>https://mathgradboard.com/newsletter/2024/october/</loc>
+    <lastmod>2024-10-05T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/minutes/2024/september/</loc>
+    <lastmod>2024-09-06T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mathgradboard.com/newsletter/2024/may/</loc>
+    <lastmod>2024-05-05T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -46,12 +88,6 @@
   </url>
   <url>
     <loc>https://mathgradboard.com/newsletter/2024/march/</loc>
-    <lastmod>2024-03-05T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://mathgradboard.com/newsletter/</loc>
     <lastmod>2024-03-05T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
