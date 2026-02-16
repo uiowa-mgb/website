@@ -1,0 +1,8 @@
+{
+    "name": "Robin Huang",
+    "image" : "img/default_author.png",
+    "bio": "",
+    "social": [
+        { "github": "https://github.com/dirac-oceans" }
+    ]
+}

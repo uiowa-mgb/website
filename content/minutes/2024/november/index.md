@@ -1,7 +1,7 @@
 +++
 description=""
 authors = ["jstarr3"]
-title = "November 2023"
+title = "November 2024"
 date = "2024-11-03"
 type= "Minutes"
 draft = false
