@@ -7,7 +7,1991 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-    <lastBuildDate>Tue, 03 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mathgradboard.com/minutes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://mathgradboard.com/minutes/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>December 2025</title>
+      <link>https://mathgradboard.com/minutes/2025/december/</link>
+      <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/minutes/2025/december/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Minutes 
+    &lt;div id=&#34;minutes&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#minutes&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;script type=&#34;text/javascript&#34; src= &#39;/js/pdf-js/build/pdf.js&#39;&gt;&lt;/script&gt;
+&lt;style&gt;
+#the-canvas {
+  border: 1px solid black;
+  direction: ltr;
+  width: 100%;
+  height: auto;
+  display: none;
+}
+
+#paginator {
+  display: none;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#loadingWrapper {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+}
+
+#loading {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 3px solid #d2d0d0;;
+  border-radius: 50%;
+  border-top-color: #383838;
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+}
+
+  
+ .btn {
+  background-color: #ffcd00 ;
+  border: none;
+  color: #28292b;
+  padding: 12px 30px;
+  margin:30px
+  cursor: pointer;
+  font-size: 20px;
+}
+
+ 
+.btn:hover {
+  background-color: #c69f00 ;
+}
+
+@keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+&lt;/style&gt;
+
+&lt;br/&gt;
+&lt;br/&gt;
+
+    &lt;form method=&#34;get&#34; action=&#34;https://mathgradboard.com/./minutes/2025/december/mgb_minutes.pdf&#34;&gt;
+        
+        &lt;button class=&#34;btn&#34; style=&#34;width:100%&#34; type=&#34;submit&#34;&gt; Download&lt;/button&gt;
+&lt;/form&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+    
+
+&lt;div id=&#34;paginator&#34;&gt;
+    &lt;button class=&#34;bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded&#34; id=&#34;prev&#34;&gt;Previous&lt;/button&gt;
+    &lt;button class=&#34;bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded&#34; id=&#34;next&#34;&gt;Next&lt;/button&gt;
+&lt;/div&gt;
+&lt;div id=&#34;embed-pdf-container&#34;&gt;
+    &lt;div id=&#34;loadingWrapper&#34;&gt;
+      &lt;div id=&#34;loading&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;canvas id=&#34;the-canvas&#34;&gt;&lt;/canvas&gt;
+  &lt;/div&gt;
+  &lt;div id=&#34;paginator2&#34;&gt;
+    &lt;button class=&#34;bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded&#34; id=&#34;prev2&#34;&gt;Previous&lt;/button&gt;
+    &lt;button class=&#34;bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded&#34; id=&#34;next2&#34;&gt;Next&lt;/button&gt;
+    &amp;nbsp;
+    &amp;nbsp;
+    &lt;span&gt;Page: &lt;span id=&#34;page_num&#34;&gt;&lt;/span&gt; / &lt;span id=&#34;page_count&#34;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;script type=&#34;text/javascript&#34;&gt;
+window.onload = function() {
+
+
+
+var url = &#34;https:\/\/mathgradboard.com\/&#34; + &#39;.\/minutes\/2025\/december\/mgb_minutes.pdf&#39;;
+
+
+var hidePaginator = &#34;&#34; === &#34;true&#34;;
+var hideLoader = &#34;&#34; === &#34;true&#34;;
+var selectedPageNum = parseInt(&#34;&#34;) || 1;
+
+
+var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];
+
+
+pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;https:\/\/mathgradboard.com\/&#34; + &#39;/js/pdf-js/build/pdf.worker.js&#39;;
+
+
+var pdfDoc = null,
+    pageNum = selectedPageNum,
+    pageRendering = false,
+    pageNumPending = null,
+    scale = 3,
+    canvas = document.getElementById(&#39;the-canvas&#39;),
+    ctx = canvas.getContext(&#39;2d&#39;),
+    paginator = document.getElementById(&#34;paginator&#34;),
+    loadingWrapper = document.getElementById(&#39;loadingWrapper&#39;);
+
+
+
+showPaginator();
+showLoader();
+
+
+
+function renderPage(num) {
+  pageRendering = true;
+  
+  pdfDoc.getPage(num).then(function(page) {
+    var viewport = page.getViewport({scale: scale});
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+
+    
+    var renderContext = {
+      canvasContext: ctx,
+      viewport: viewport
+    };
+    var renderTask = page.render(renderContext);
+
+    
+    renderTask.promise.then(function() {
+      pageRendering = false;
+      showContent();
+
+      if (pageNumPending !== null) {
+        
+        renderPage(pageNumPending);
+        pageNumPending = null;
+      }
+    });
+  });
+
+  
+  document.getElementById(&#39;page_num&#39;).textContent = num;
+}
+
+
+
+function showContent() {
+  loadingWrapper.style.display = &#39;none&#39;;
+  canvas.style.display = &#39;block&#39;;
+}
+
+
+
+function showLoader() {
+  if(hideLoader) return
+  loadingWrapper.style.display = &#39;flex&#39;;
+  canvas.style.display = &#39;none&#39;;
+}
+
+
+
+function showPaginator() {
+  if(hidePaginator) return
+  paginator.style.display = &#39;block&#39;;
+}
+
+
+
+function queueRenderPage(num) {
+  if (pageRendering) {
+    pageNumPending = num;
+  } else {
+    renderPage(num);
+  }
+}
+
+
+
+function onPrevPage() {
+  if (pageNum &lt;= 1) {
+    return;
+  }
+  pageNum--;
+  queueRenderPage(pageNum);
+}
+document.getElementById(&#39;prev&#39;).addEventListener(&#39;click&#39;, onPrevPage);
+document.getElementById(&#39;prev2&#39;).addEventListener(&#39;click&#39;, onPrevPage);
+
+
+
+function onNextPage() {
+  if (pageNum &gt;= pdfDoc.numPages) {
+    return;
+  }
+  pageNum++;
+  queueRenderPage(pageNum);
+}
+document.getElementById(&#39;next&#39;).addEventListener(&#39;click&#39;, onNextPage);
+document.getElementById(&#39;next2&#39;).addEventListener(&#39;click&#39;, onNextPage);
+
+
+
+pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+  pdfDoc = pdfDoc_;
+  var numPages = pdfDoc.numPages;
+  document.getElementById(&#39;page_count&#39;).textContent = numPages;
+
+  
+  if(pageNum &gt; numPages) {
+    pageNum = numPages
+  }
+
+  
+  renderPage(pageNum);
+});
+}
+
+&lt;/script&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>November 2025</title>
+      <link>https://mathgradboard.com/minutes/2025/november/</link>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/minutes/2025/november/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Minutes 
+    &lt;div id=&#34;minutes&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#minutes&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;script type=&#34;text/javascript&#34; src= &#39;/js/pdf-js/build/pdf.js&#39;&gt;&lt;/script&gt;
+&lt;style&gt;
+#the-canvas {
+  border: 1px solid black;
+  direction: ltr;
+  width: 100%;
+  height: auto;
+  display: none;
+}
+
+#paginator {
+  display: none;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#loadingWrapper {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+}
+
+#loading {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 3px solid #d2d0d0;;
+  border-radius: 50%;
+  border-top-color: #383838;
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+}
+
+  
+ .btn {
+  background-color: #ffcd00 ;
+  border: none;
+  color: #28292b;
+  padding: 12px 30px;
+  margin:30px
+  cursor: pointer;
+  font-size: 20px;
+}
+
+ 
+.btn:hover {
+  background-color: #c69f00 ;
+}
+
+@keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+&lt;/style&gt;
+
+&lt;br/&gt;
+&lt;br/&gt;
+
+    &lt;form method=&#34;get&#34; action=&#34;https://mathgradboard.com/./minutes/2025/november/mgb_minutes.pdf&#34;&gt;
+        
+        &lt;button class=&#34;btn&#34; style=&#34;width:100%&#34; type=&#34;submit&#34;&gt; Download&lt;/button&gt;
+&lt;/form&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+    
+
+&lt;div id=&#34;paginator&#34;&gt;
+    &lt;button class=&#34;bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded&#34; id=&#34;prev&#34;&gt;Previous&lt;/button&gt;
+    &lt;button class=&#34;bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded&#34; id=&#34;next&#34;&gt;Next&lt;/button&gt;
+&lt;/div&gt;
+&lt;div id=&#34;embed-pdf-container&#34;&gt;
+    &lt;div id=&#34;loadingWrapper&#34;&gt;
+      &lt;div id=&#34;loading&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;canvas id=&#34;the-canvas&#34;&gt;&lt;/canvas&gt;
+  &lt;/div&gt;
+  &lt;div id=&#34;paginator2&#34;&gt;
+    &lt;button class=&#34;bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded&#34; id=&#34;prev2&#34;&gt;Previous&lt;/button&gt;
+    &lt;button class=&#34;bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded&#34; id=&#34;next2&#34;&gt;Next&lt;/button&gt;
+    &amp;nbsp;
+    &amp;nbsp;
+    &lt;span&gt;Page: &lt;span id=&#34;page_num&#34;&gt;&lt;/span&gt; / &lt;span id=&#34;page_count&#34;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;script type=&#34;text/javascript&#34;&gt;
+window.onload = function() {
+
+
+
+var url = &#34;https:\/\/mathgradboard.com\/&#34; + &#39;.\/minutes\/2025\/november\/mgb_minutes.pdf&#39;;
+
+
+var hidePaginator = &#34;&#34; === &#34;true&#34;;
+var hideLoader = &#34;&#34; === &#34;true&#34;;
+var selectedPageNum = parseInt(&#34;&#34;) || 1;
+
+
+var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];
+
+
+pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;https:\/\/mathgradboard.com\/&#34; + &#39;/js/pdf-js/build/pdf.worker.js&#39;;
+
+
+var pdfDoc = null,
+    pageNum = selectedPageNum,
+    pageRendering = false,
+    pageNumPending = null,
+    scale = 3,
+    canvas = document.getElementById(&#39;the-canvas&#39;),
+    ctx = canvas.getContext(&#39;2d&#39;),
+    paginator = document.getElementById(&#34;paginator&#34;),
+    loadingWrapper = document.getElementById(&#39;loadingWrapper&#39;);
+
+
+
+showPaginator();
+showLoader();
+
+
+
+function renderPage(num) {
+  pageRendering = true;
+  
+  pdfDoc.getPage(num).then(function(page) {
+    var viewport = page.getViewport({scale: scale});
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+
+    
+    var renderContext = {
+      canvasContext: ctx,
+      viewport: viewport
+    };
+    var renderTask = page.render(renderContext);
+
+    
+    renderTask.promise.then(function() {
+      pageRendering = false;
+      showContent();
+
+      if (pageNumPending !== null) {
+        
+        renderPage(pageNumPending);
+        pageNumPending = null;
+      }
+    });
+  });
+
+  
+  document.getElementById(&#39;page_num&#39;).textContent = num;
+}
+
+
+
+function showContent() {
+  loadingWrapper.style.display = &#39;none&#39;;
+  canvas.style.display = &#39;block&#39;;
+}
+
+
+
+function showLoader() {
+  if(hideLoader) return
+  loadingWrapper.style.display = &#39;flex&#39;;
+  canvas.style.display = &#39;none&#39;;
+}
+
+
+
+function showPaginator() {
+  if(hidePaginator) return
+  paginator.style.display = &#39;block&#39;;
+}
+
+
+
+function queueRenderPage(num) {
+  if (pageRendering) {
+    pageNumPending = num;
+  } else {
+    renderPage(num);
+  }
+}
+
+
+
+function onPrevPage() {
+  if (pageNum &lt;= 1) {
+    return;
+  }
+  pageNum--;
+  queueRenderPage(pageNum);
+}
+document.getElementById(&#39;prev&#39;).addEventListener(&#39;click&#39;, onPrevPage);
+document.getElementById(&#39;prev2&#39;).addEventListener(&#39;click&#39;, onPrevPage);
+
+
+
+function onNextPage() {
+  if (pageNum &gt;= pdfDoc.numPages) {
+    return;
+  }
+  pageNum++;
+  queueRenderPage(pageNum);
+}
+document.getElementById(&#39;next&#39;).addEventListener(&#39;click&#39;, onNextPage);
+document.getElementById(&#39;next2&#39;).addEventListener(&#39;click&#39;, onNextPage);
+
+
+
+pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+  pdfDoc = pdfDoc_;
+  var numPages = pdfDoc.numPages;
+  document.getElementById(&#39;page_count&#39;).textContent = numPages;
+
+  
+  if(pageNum &gt; numPages) {
+    pageNum = numPages
+  }
+
+  
+  renderPage(pageNum);
+});
+}
+
+&lt;/script&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>October 2025</title>
+      <link>https://mathgradboard.com/minutes/2025/october/</link>
+      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/minutes/2025/october/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Minutes 
+    &lt;div id=&#34;minutes&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#minutes&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;script type=&#34;text/javascript&#34; src= &#39;/js/pdf-js/build/pdf.js&#39;&gt;&lt;/script&gt;
+&lt;style&gt;
+#the-canvas {
+  border: 1px solid black;
+  direction: ltr;
+  width: 100%;
+  height: auto;
+  display: none;
+}
+
+#paginator {
+  display: none;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#loadingWrapper {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+}
+
+#loading {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 3px solid #d2d0d0;;
+  border-radius: 50%;
+  border-top-color: #383838;
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+}
+
+  
+ .btn {
+  background-color: #ffcd00 ;
+  border: none;
+  color: #28292b;
+  padding: 12px 30px;
+  margin:30px
+  cursor: pointer;
+  font-size: 20px;
+}
+
+ 
+.btn:hover {
+  background-color: #c69f00 ;
+}
+
+@keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+&lt;/style&gt;
+
+&lt;br/&gt;
+&lt;br/&gt;
+
+    &lt;form method=&#34;get&#34; action=&#34;https://mathgradboard.com/./minutes/2025/october/mgb_minutes.pdf&#34;&gt;
+        
+        &lt;button class=&#34;btn&#34; style=&#34;width:100%&#34; type=&#34;submit&#34;&gt; Download&lt;/button&gt;
+&lt;/form&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+    
+
+&lt;div id=&#34;paginator&#34;&gt;
+    &lt;button class=&#34;bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded&#34; id=&#34;prev&#34;&gt;Previous&lt;/button&gt;
+    &lt;button class=&#34;bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded&#34; id=&#34;next&#34;&gt;Next&lt;/button&gt;
+&lt;/div&gt;
+&lt;div id=&#34;embed-pdf-container&#34;&gt;
+    &lt;div id=&#34;loadingWrapper&#34;&gt;
+      &lt;div id=&#34;loading&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;canvas id=&#34;the-canvas&#34;&gt;&lt;/canvas&gt;
+  &lt;/div&gt;
+  &lt;div id=&#34;paginator2&#34;&gt;
+    &lt;button class=&#34;bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded&#34; id=&#34;prev2&#34;&gt;Previous&lt;/button&gt;
+    &lt;button class=&#34;bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded&#34; id=&#34;next2&#34;&gt;Next&lt;/button&gt;
+    &amp;nbsp;
+    &amp;nbsp;
+    &lt;span&gt;Page: &lt;span id=&#34;page_num&#34;&gt;&lt;/span&gt; / &lt;span id=&#34;page_count&#34;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;script type=&#34;text/javascript&#34;&gt;
+window.onload = function() {
+
+
+
+var url = &#34;https:\/\/mathgradboard.com\/&#34; + &#39;.\/minutes\/2025\/october\/mgb_minutes.pdf&#39;;
+
+
+var hidePaginator = &#34;&#34; === &#34;true&#34;;
+var hideLoader = &#34;&#34; === &#34;true&#34;;
+var selectedPageNum = parseInt(&#34;&#34;) || 1;
+
+
+var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];
+
+
+pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;https:\/\/mathgradboard.com\/&#34; + &#39;/js/pdf-js/build/pdf.worker.js&#39;;
+
+
+var pdfDoc = null,
+    pageNum = selectedPageNum,
+    pageRendering = false,
+    pageNumPending = null,
+    scale = 3,
+    canvas = document.getElementById(&#39;the-canvas&#39;),
+    ctx = canvas.getContext(&#39;2d&#39;),
+    paginator = document.getElementById(&#34;paginator&#34;),
+    loadingWrapper = document.getElementById(&#39;loadingWrapper&#39;);
+
+
+
+showPaginator();
+showLoader();
+
+
+
+function renderPage(num) {
+  pageRendering = true;
+  
+  pdfDoc.getPage(num).then(function(page) {
+    var viewport = page.getViewport({scale: scale});
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+
+    
+    var renderContext = {
+      canvasContext: ctx,
+      viewport: viewport
+    };
+    var renderTask = page.render(renderContext);
+
+    
+    renderTask.promise.then(function() {
+      pageRendering = false;
+      showContent();
+
+      if (pageNumPending !== null) {
+        
+        renderPage(pageNumPending);
+        pageNumPending = null;
+      }
+    });
+  });
+
+  
+  document.getElementById(&#39;page_num&#39;).textContent = num;
+}
+
+
+
+function showContent() {
+  loadingWrapper.style.display = &#39;none&#39;;
+  canvas.style.display = &#39;block&#39;;
+}
+
+
+
+function showLoader() {
+  if(hideLoader) return
+  loadingWrapper.style.display = &#39;flex&#39;;
+  canvas.style.display = &#39;none&#39;;
+}
+
+
+
+function showPaginator() {
+  if(hidePaginator) return
+  paginator.style.display = &#39;block&#39;;
+}
+
+
+
+function queueRenderPage(num) {
+  if (pageRendering) {
+    pageNumPending = num;
+  } else {
+    renderPage(num);
+  }
+}
+
+
+
+function onPrevPage() {
+  if (pageNum &lt;= 1) {
+    return;
+  }
+  pageNum--;
+  queueRenderPage(pageNum);
+}
+document.getElementById(&#39;prev&#39;).addEventListener(&#39;click&#39;, onPrevPage);
+document.getElementById(&#39;prev2&#39;).addEventListener(&#39;click&#39;, onPrevPage);
+
+
+
+function onNextPage() {
+  if (pageNum &gt;= pdfDoc.numPages) {
+    return;
+  }
+  pageNum++;
+  queueRenderPage(pageNum);
+}
+document.getElementById(&#39;next&#39;).addEventListener(&#39;click&#39;, onNextPage);
+document.getElementById(&#39;next2&#39;).addEventListener(&#39;click&#39;, onNextPage);
+
+
+
+pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+  pdfDoc = pdfDoc_;
+  var numPages = pdfDoc.numPages;
+  document.getElementById(&#39;page_count&#39;).textContent = numPages;
+
+  
+  if(pageNum &gt; numPages) {
+    pageNum = numPages
+  }
+
+  
+  renderPage(pageNum);
+});
+}
+
+&lt;/script&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>September 2025</title>
+      <link>https://mathgradboard.com/minutes/2025/september/</link>
+      <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/minutes/2025/september/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Minutes 
+    &lt;div id=&#34;minutes&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#minutes&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;script type=&#34;text/javascript&#34; src= &#39;/js/pdf-js/build/pdf.js&#39;&gt;&lt;/script&gt;
+&lt;style&gt;
+#the-canvas {
+  border: 1px solid black;
+  direction: ltr;
+  width: 100%;
+  height: auto;
+  display: none;
+}
+
+#paginator {
+  display: none;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#loadingWrapper {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+}
+
+#loading {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 3px solid #d2d0d0;;
+  border-radius: 50%;
+  border-top-color: #383838;
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+}
+
+  
+ .btn {
+  background-color: #ffcd00 ;
+  border: none;
+  color: #28292b;
+  padding: 12px 30px;
+  margin:30px
+  cursor: pointer;
+  font-size: 20px;
+}
+
+ 
+.btn:hover {
+  background-color: #c69f00 ;
+}
+
+@keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+&lt;/style&gt;
+
+&lt;br/&gt;
+&lt;br/&gt;
+
+    &lt;form method=&#34;get&#34; action=&#34;https://mathgradboard.com/./minutes/2025/september/mgb_minutes.pdf&#34;&gt;
+        
+        &lt;button class=&#34;btn&#34; style=&#34;width:100%&#34; type=&#34;submit&#34;&gt; Download&lt;/button&gt;
+&lt;/form&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+    
+
+&lt;div id=&#34;paginator&#34;&gt;
+    &lt;button class=&#34;bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded&#34; id=&#34;prev&#34;&gt;Previous&lt;/button&gt;
+    &lt;button class=&#34;bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded&#34; id=&#34;next&#34;&gt;Next&lt;/button&gt;
+&lt;/div&gt;
+&lt;div id=&#34;embed-pdf-container&#34;&gt;
+    &lt;div id=&#34;loadingWrapper&#34;&gt;
+      &lt;div id=&#34;loading&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;canvas id=&#34;the-canvas&#34;&gt;&lt;/canvas&gt;
+  &lt;/div&gt;
+  &lt;div id=&#34;paginator2&#34;&gt;
+    &lt;button class=&#34;bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded&#34; id=&#34;prev2&#34;&gt;Previous&lt;/button&gt;
+    &lt;button class=&#34;bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded&#34; id=&#34;next2&#34;&gt;Next&lt;/button&gt;
+    &amp;nbsp;
+    &amp;nbsp;
+    &lt;span&gt;Page: &lt;span id=&#34;page_num&#34;&gt;&lt;/span&gt; / &lt;span id=&#34;page_count&#34;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;script type=&#34;text/javascript&#34;&gt;
+window.onload = function() {
+
+
+
+var url = &#34;https:\/\/mathgradboard.com\/&#34; + &#39;.\/minutes\/2025\/september\/mgb_minutes.pdf&#39;;
+
+
+var hidePaginator = &#34;&#34; === &#34;true&#34;;
+var hideLoader = &#34;&#34; === &#34;true&#34;;
+var selectedPageNum = parseInt(&#34;&#34;) || 1;
+
+
+var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];
+
+
+pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;https:\/\/mathgradboard.com\/&#34; + &#39;/js/pdf-js/build/pdf.worker.js&#39;;
+
+
+var pdfDoc = null,
+    pageNum = selectedPageNum,
+    pageRendering = false,
+    pageNumPending = null,
+    scale = 3,
+    canvas = document.getElementById(&#39;the-canvas&#39;),
+    ctx = canvas.getContext(&#39;2d&#39;),
+    paginator = document.getElementById(&#34;paginator&#34;),
+    loadingWrapper = document.getElementById(&#39;loadingWrapper&#39;);
+
+
+
+showPaginator();
+showLoader();
+
+
+
+function renderPage(num) {
+  pageRendering = true;
+  
+  pdfDoc.getPage(num).then(function(page) {
+    var viewport = page.getViewport({scale: scale});
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+
+    
+    var renderContext = {
+      canvasContext: ctx,
+      viewport: viewport
+    };
+    var renderTask = page.render(renderContext);
+
+    
+    renderTask.promise.then(function() {
+      pageRendering = false;
+      showContent();
+
+      if (pageNumPending !== null) {
+        
+        renderPage(pageNumPending);
+        pageNumPending = null;
+      }
+    });
+  });
+
+  
+  document.getElementById(&#39;page_num&#39;).textContent = num;
+}
+
+
+
+function showContent() {
+  loadingWrapper.style.display = &#39;none&#39;;
+  canvas.style.display = &#39;block&#39;;
+}
+
+
+
+function showLoader() {
+  if(hideLoader) return
+  loadingWrapper.style.display = &#39;flex&#39;;
+  canvas.style.display = &#39;none&#39;;
+}
+
+
+
+function showPaginator() {
+  if(hidePaginator) return
+  paginator.style.display = &#39;block&#39;;
+}
+
+
+
+function queueRenderPage(num) {
+  if (pageRendering) {
+    pageNumPending = num;
+  } else {
+    renderPage(num);
+  }
+}
+
+
+
+function onPrevPage() {
+  if (pageNum &lt;= 1) {
+    return;
+  }
+  pageNum--;
+  queueRenderPage(pageNum);
+}
+document.getElementById(&#39;prev&#39;).addEventListener(&#39;click&#39;, onPrevPage);
+document.getElementById(&#39;prev2&#39;).addEventListener(&#39;click&#39;, onPrevPage);
+
+
+
+function onNextPage() {
+  if (pageNum &gt;= pdfDoc.numPages) {
+    return;
+  }
+  pageNum++;
+  queueRenderPage(pageNum);
+}
+document.getElementById(&#39;next&#39;).addEventListener(&#39;click&#39;, onNextPage);
+document.getElementById(&#39;next2&#39;).addEventListener(&#39;click&#39;, onNextPage);
+
+
+
+pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+  pdfDoc = pdfDoc_;
+  var numPages = pdfDoc.numPages;
+  document.getElementById(&#39;page_count&#39;).textContent = numPages;
+
+  
+  if(pageNum &gt; numPages) {
+    pageNum = numPages
+  }
+
+  
+  renderPage(pageNum);
+});
+}
+
+&lt;/script&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>May 2025</title>
+      <link>https://mathgradboard.com/minutes/2025/may/</link>
+      <pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/minutes/2025/may/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Minutes 
+    &lt;div id=&#34;minutes&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#minutes&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;script type=&#34;text/javascript&#34; src= &#39;/js/pdf-js/build/pdf.js&#39;&gt;&lt;/script&gt;
+&lt;style&gt;
+#the-canvas {
+  border: 1px solid black;
+  direction: ltr;
+  width: 100%;
+  height: auto;
+  display: none;
+}
+
+#paginator {
+  display: none;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#loadingWrapper {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+}
+
+#loading {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 3px solid #d2d0d0;;
+  border-radius: 50%;
+  border-top-color: #383838;
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+}
+
+  
+ .btn {
+  background-color: #ffcd00 ;
+  border: none;
+  color: #28292b;
+  padding: 12px 30px;
+  margin:30px
+  cursor: pointer;
+  font-size: 20px;
+}
+
+ 
+.btn:hover {
+  background-color: #c69f00 ;
+}
+
+@keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+&lt;/style&gt;
+
+&lt;br/&gt;
+&lt;br/&gt;
+
+    &lt;form method=&#34;get&#34; action=&#34;https://mathgradboard.com/./minutes/2025/may/mgb_minutes.pdf&#34;&gt;
+        
+        &lt;button class=&#34;btn&#34; style=&#34;width:100%&#34; type=&#34;submit&#34;&gt; Download&lt;/button&gt;
+&lt;/form&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+    
+
+&lt;div id=&#34;paginator&#34;&gt;
+    &lt;button class=&#34;bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded&#34; id=&#34;prev&#34;&gt;Previous&lt;/button&gt;
+    &lt;button class=&#34;bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded&#34; id=&#34;next&#34;&gt;Next&lt;/button&gt;
+&lt;/div&gt;
+&lt;div id=&#34;embed-pdf-container&#34;&gt;
+    &lt;div id=&#34;loadingWrapper&#34;&gt;
+      &lt;div id=&#34;loading&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;canvas id=&#34;the-canvas&#34;&gt;&lt;/canvas&gt;
+  &lt;/div&gt;
+  &lt;div id=&#34;paginator2&#34;&gt;
+    &lt;button class=&#34;bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded&#34; id=&#34;prev2&#34;&gt;Previous&lt;/button&gt;
+    &lt;button class=&#34;bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded&#34; id=&#34;next2&#34;&gt;Next&lt;/button&gt;
+    &amp;nbsp;
+    &amp;nbsp;
+    &lt;span&gt;Page: &lt;span id=&#34;page_num&#34;&gt;&lt;/span&gt; / &lt;span id=&#34;page_count&#34;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;script type=&#34;text/javascript&#34;&gt;
+window.onload = function() {
+
+
+
+var url = &#34;https:\/\/mathgradboard.com\/&#34; + &#39;.\/minutes\/2025\/may\/mgb_minutes.pdf&#39;;
+
+
+var hidePaginator = &#34;&#34; === &#34;true&#34;;
+var hideLoader = &#34;&#34; === &#34;true&#34;;
+var selectedPageNum = parseInt(&#34;&#34;) || 1;
+
+
+var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];
+
+
+pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;https:\/\/mathgradboard.com\/&#34; + &#39;/js/pdf-js/build/pdf.worker.js&#39;;
+
+
+var pdfDoc = null,
+    pageNum = selectedPageNum,
+    pageRendering = false,
+    pageNumPending = null,
+    scale = 3,
+    canvas = document.getElementById(&#39;the-canvas&#39;),
+    ctx = canvas.getContext(&#39;2d&#39;),
+    paginator = document.getElementById(&#34;paginator&#34;),
+    loadingWrapper = document.getElementById(&#39;loadingWrapper&#39;);
+
+
+
+showPaginator();
+showLoader();
+
+
+
+function renderPage(num) {
+  pageRendering = true;
+  
+  pdfDoc.getPage(num).then(function(page) {
+    var viewport = page.getViewport({scale: scale});
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+
+    
+    var renderContext = {
+      canvasContext: ctx,
+      viewport: viewport
+    };
+    var renderTask = page.render(renderContext);
+
+    
+    renderTask.promise.then(function() {
+      pageRendering = false;
+      showContent();
+
+      if (pageNumPending !== null) {
+        
+        renderPage(pageNumPending);
+        pageNumPending = null;
+      }
+    });
+  });
+
+  
+  document.getElementById(&#39;page_num&#39;).textContent = num;
+}
+
+
+
+function showContent() {
+  loadingWrapper.style.display = &#39;none&#39;;
+  canvas.style.display = &#39;block&#39;;
+}
+
+
+
+function showLoader() {
+  if(hideLoader) return
+  loadingWrapper.style.display = &#39;flex&#39;;
+  canvas.style.display = &#39;none&#39;;
+}
+
+
+
+function showPaginator() {
+  if(hidePaginator) return
+  paginator.style.display = &#39;block&#39;;
+}
+
+
+
+function queueRenderPage(num) {
+  if (pageRendering) {
+    pageNumPending = num;
+  } else {
+    renderPage(num);
+  }
+}
+
+
+
+function onPrevPage() {
+  if (pageNum &lt;= 1) {
+    return;
+  }
+  pageNum--;
+  queueRenderPage(pageNum);
+}
+document.getElementById(&#39;prev&#39;).addEventListener(&#39;click&#39;, onPrevPage);
+document.getElementById(&#39;prev2&#39;).addEventListener(&#39;click&#39;, onPrevPage);
+
+
+
+function onNextPage() {
+  if (pageNum &gt;= pdfDoc.numPages) {
+    return;
+  }
+  pageNum++;
+  queueRenderPage(pageNum);
+}
+document.getElementById(&#39;next&#39;).addEventListener(&#39;click&#39;, onNextPage);
+document.getElementById(&#39;next2&#39;).addEventListener(&#39;click&#39;, onNextPage);
+
+
+
+pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+  pdfDoc = pdfDoc_;
+  var numPages = pdfDoc.numPages;
+  document.getElementById(&#39;page_count&#39;).textContent = numPages;
+
+  
+  if(pageNum &gt; numPages) {
+    pageNum = numPages
+  }
+
+  
+  renderPage(pageNum);
+});
+}
+
+&lt;/script&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>April 2025</title>
+      <link>https://mathgradboard.com/minutes/2025/april/</link>
+      <pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/minutes/2025/april/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Minutes 
+    &lt;div id=&#34;minutes&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#minutes&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;script type=&#34;text/javascript&#34; src= &#39;/js/pdf-js/build/pdf.js&#39;&gt;&lt;/script&gt;
+&lt;style&gt;
+#the-canvas {
+  border: 1px solid black;
+  direction: ltr;
+  width: 100%;
+  height: auto;
+  display: none;
+}
+
+#paginator {
+  display: none;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#loadingWrapper {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+}
+
+#loading {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 3px solid #d2d0d0;;
+  border-radius: 50%;
+  border-top-color: #383838;
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+}
+
+  
+ .btn {
+  background-color: #ffcd00 ;
+  border: none;
+  color: #28292b;
+  padding: 12px 30px;
+  margin:30px
+  cursor: pointer;
+  font-size: 20px;
+}
+
+ 
+.btn:hover {
+  background-color: #c69f00 ;
+}
+
+@keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+&lt;/style&gt;
+
+&lt;br/&gt;
+&lt;br/&gt;
+
+    &lt;form method=&#34;get&#34; action=&#34;https://mathgradboard.com/./minutes/2025/april/mgb_minutes.pdf&#34;&gt;
+        
+        &lt;button class=&#34;btn&#34; style=&#34;width:100%&#34; type=&#34;submit&#34;&gt; Download&lt;/button&gt;
+&lt;/form&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+    
+
+&lt;div id=&#34;paginator&#34;&gt;
+    &lt;button class=&#34;bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded&#34; id=&#34;prev&#34;&gt;Previous&lt;/button&gt;
+    &lt;button class=&#34;bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded&#34; id=&#34;next&#34;&gt;Next&lt;/button&gt;
+&lt;/div&gt;
+&lt;div id=&#34;embed-pdf-container&#34;&gt;
+    &lt;div id=&#34;loadingWrapper&#34;&gt;
+      &lt;div id=&#34;loading&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;canvas id=&#34;the-canvas&#34;&gt;&lt;/canvas&gt;
+  &lt;/div&gt;
+  &lt;div id=&#34;paginator2&#34;&gt;
+    &lt;button class=&#34;bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded&#34; id=&#34;prev2&#34;&gt;Previous&lt;/button&gt;
+    &lt;button class=&#34;bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded&#34; id=&#34;next2&#34;&gt;Next&lt;/button&gt;
+    &amp;nbsp;
+    &amp;nbsp;
+    &lt;span&gt;Page: &lt;span id=&#34;page_num&#34;&gt;&lt;/span&gt; / &lt;span id=&#34;page_count&#34;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;script type=&#34;text/javascript&#34;&gt;
+window.onload = function() {
+
+
+
+var url = &#34;https:\/\/mathgradboard.com\/&#34; + &#39;.\/minutes\/2025\/april\/mgb_minutes.pdf&#39;;
+
+
+var hidePaginator = &#34;&#34; === &#34;true&#34;;
+var hideLoader = &#34;&#34; === &#34;true&#34;;
+var selectedPageNum = parseInt(&#34;&#34;) || 1;
+
+
+var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];
+
+
+pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;https:\/\/mathgradboard.com\/&#34; + &#39;/js/pdf-js/build/pdf.worker.js&#39;;
+
+
+var pdfDoc = null,
+    pageNum = selectedPageNum,
+    pageRendering = false,
+    pageNumPending = null,
+    scale = 3,
+    canvas = document.getElementById(&#39;the-canvas&#39;),
+    ctx = canvas.getContext(&#39;2d&#39;),
+    paginator = document.getElementById(&#34;paginator&#34;),
+    loadingWrapper = document.getElementById(&#39;loadingWrapper&#39;);
+
+
+
+showPaginator();
+showLoader();
+
+
+
+function renderPage(num) {
+  pageRendering = true;
+  
+  pdfDoc.getPage(num).then(function(page) {
+    var viewport = page.getViewport({scale: scale});
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+
+    
+    var renderContext = {
+      canvasContext: ctx,
+      viewport: viewport
+    };
+    var renderTask = page.render(renderContext);
+
+    
+    renderTask.promise.then(function() {
+      pageRendering = false;
+      showContent();
+
+      if (pageNumPending !== null) {
+        
+        renderPage(pageNumPending);
+        pageNumPending = null;
+      }
+    });
+  });
+
+  
+  document.getElementById(&#39;page_num&#39;).textContent = num;
+}
+
+
+
+function showContent() {
+  loadingWrapper.style.display = &#39;none&#39;;
+  canvas.style.display = &#39;block&#39;;
+}
+
+
+
+function showLoader() {
+  if(hideLoader) return
+  loadingWrapper.style.display = &#39;flex&#39;;
+  canvas.style.display = &#39;none&#39;;
+}
+
+
+
+function showPaginator() {
+  if(hidePaginator) return
+  paginator.style.display = &#39;block&#39;;
+}
+
+
+
+function queueRenderPage(num) {
+  if (pageRendering) {
+    pageNumPending = num;
+  } else {
+    renderPage(num);
+  }
+}
+
+
+
+function onPrevPage() {
+  if (pageNum &lt;= 1) {
+    return;
+  }
+  pageNum--;
+  queueRenderPage(pageNum);
+}
+document.getElementById(&#39;prev&#39;).addEventListener(&#39;click&#39;, onPrevPage);
+document.getElementById(&#39;prev2&#39;).addEventListener(&#39;click&#39;, onPrevPage);
+
+
+
+function onNextPage() {
+  if (pageNum &gt;= pdfDoc.numPages) {
+    return;
+  }
+  pageNum++;
+  queueRenderPage(pageNum);
+}
+document.getElementById(&#39;next&#39;).addEventListener(&#39;click&#39;, onNextPage);
+document.getElementById(&#39;next2&#39;).addEventListener(&#39;click&#39;, onNextPage);
+
+
+
+pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+  pdfDoc = pdfDoc_;
+  var numPages = pdfDoc.numPages;
+  document.getElementById(&#39;page_count&#39;).textContent = numPages;
+
+  
+  if(pageNum &gt; numPages) {
+    pageNum = numPages
+  }
+
+  
+  renderPage(pageNum);
+});
+}
+
+&lt;/script&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>March 2025</title>
+      <link>https://mathgradboard.com/minutes/2025/march/</link>
+      <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/minutes/2025/march/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Minutes 
+    &lt;div id=&#34;minutes&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#minutes&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;script type=&#34;text/javascript&#34; src= &#39;/js/pdf-js/build/pdf.js&#39;&gt;&lt;/script&gt;
+&lt;style&gt;
+#the-canvas {
+  border: 1px solid black;
+  direction: ltr;
+  width: 100%;
+  height: auto;
+  display: none;
+}
+
+#paginator {
+  display: none;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#loadingWrapper {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+}
+
+#loading {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 3px solid #d2d0d0;;
+  border-radius: 50%;
+  border-top-color: #383838;
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+}
+
+  
+ .btn {
+  background-color: #ffcd00 ;
+  border: none;
+  color: #28292b;
+  padding: 12px 30px;
+  margin:30px
+  cursor: pointer;
+  font-size: 20px;
+}
+
+ 
+.btn:hover {
+  background-color: #c69f00 ;
+}
+
+@keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+&lt;/style&gt;
+
+&lt;br/&gt;
+&lt;br/&gt;
+
+    &lt;form method=&#34;get&#34; action=&#34;https://mathgradboard.com/./minutes/2025/march/mgb_minutes.pdf&#34;&gt;
+        
+        &lt;button class=&#34;btn&#34; style=&#34;width:100%&#34; type=&#34;submit&#34;&gt; Download&lt;/button&gt;
+&lt;/form&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+    
+
+&lt;div id=&#34;paginator&#34;&gt;
+    &lt;button class=&#34;bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded&#34; id=&#34;prev&#34;&gt;Previous&lt;/button&gt;
+    &lt;button class=&#34;bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded&#34; id=&#34;next&#34;&gt;Next&lt;/button&gt;
+&lt;/div&gt;
+&lt;div id=&#34;embed-pdf-container&#34;&gt;
+    &lt;div id=&#34;loadingWrapper&#34;&gt;
+      &lt;div id=&#34;loading&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;canvas id=&#34;the-canvas&#34;&gt;&lt;/canvas&gt;
+  &lt;/div&gt;
+  &lt;div id=&#34;paginator2&#34;&gt;
+    &lt;button class=&#34;bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded&#34; id=&#34;prev2&#34;&gt;Previous&lt;/button&gt;
+    &lt;button class=&#34;bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded&#34; id=&#34;next2&#34;&gt;Next&lt;/button&gt;
+    &amp;nbsp;
+    &amp;nbsp;
+    &lt;span&gt;Page: &lt;span id=&#34;page_num&#34;&gt;&lt;/span&gt; / &lt;span id=&#34;page_count&#34;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;script type=&#34;text/javascript&#34;&gt;
+window.onload = function() {
+
+
+
+var url = &#34;https:\/\/mathgradboard.com\/&#34; + &#39;.\/minutes\/2025\/march\/mgb_minutes.pdf&#39;;
+
+
+var hidePaginator = &#34;&#34; === &#34;true&#34;;
+var hideLoader = &#34;&#34; === &#34;true&#34;;
+var selectedPageNum = parseInt(&#34;&#34;) || 1;
+
+
+var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];
+
+
+pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;https:\/\/mathgradboard.com\/&#34; + &#39;/js/pdf-js/build/pdf.worker.js&#39;;
+
+
+var pdfDoc = null,
+    pageNum = selectedPageNum,
+    pageRendering = false,
+    pageNumPending = null,
+    scale = 3,
+    canvas = document.getElementById(&#39;the-canvas&#39;),
+    ctx = canvas.getContext(&#39;2d&#39;),
+    paginator = document.getElementById(&#34;paginator&#34;),
+    loadingWrapper = document.getElementById(&#39;loadingWrapper&#39;);
+
+
+
+showPaginator();
+showLoader();
+
+
+
+function renderPage(num) {
+  pageRendering = true;
+  
+  pdfDoc.getPage(num).then(function(page) {
+    var viewport = page.getViewport({scale: scale});
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+
+    
+    var renderContext = {
+      canvasContext: ctx,
+      viewport: viewport
+    };
+    var renderTask = page.render(renderContext);
+
+    
+    renderTask.promise.then(function() {
+      pageRendering = false;
+      showContent();
+
+      if (pageNumPending !== null) {
+        
+        renderPage(pageNumPending);
+        pageNumPending = null;
+      }
+    });
+  });
+
+  
+  document.getElementById(&#39;page_num&#39;).textContent = num;
+}
+
+
+
+function showContent() {
+  loadingWrapper.style.display = &#39;none&#39;;
+  canvas.style.display = &#39;block&#39;;
+}
+
+
+
+function showLoader() {
+  if(hideLoader) return
+  loadingWrapper.style.display = &#39;flex&#39;;
+  canvas.style.display = &#39;none&#39;;
+}
+
+
+
+function showPaginator() {
+  if(hidePaginator) return
+  paginator.style.display = &#39;block&#39;;
+}
+
+
+
+function queueRenderPage(num) {
+  if (pageRendering) {
+    pageNumPending = num;
+  } else {
+    renderPage(num);
+  }
+}
+
+
+
+function onPrevPage() {
+  if (pageNum &lt;= 1) {
+    return;
+  }
+  pageNum--;
+  queueRenderPage(pageNum);
+}
+document.getElementById(&#39;prev&#39;).addEventListener(&#39;click&#39;, onPrevPage);
+document.getElementById(&#39;prev2&#39;).addEventListener(&#39;click&#39;, onPrevPage);
+
+
+
+function onNextPage() {
+  if (pageNum &gt;= pdfDoc.numPages) {
+    return;
+  }
+  pageNum++;
+  queueRenderPage(pageNum);
+}
+document.getElementById(&#39;next&#39;).addEventListener(&#39;click&#39;, onNextPage);
+document.getElementById(&#39;next2&#39;).addEventListener(&#39;click&#39;, onNextPage);
+
+
+
+pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+  pdfDoc = pdfDoc_;
+  var numPages = pdfDoc.numPages;
+  document.getElementById(&#39;page_count&#39;).textContent = numPages;
+
+  
+  if(pageNum &gt; numPages) {
+    pageNum = numPages
+  }
+
+  
+  renderPage(pageNum);
+});
+}
+
+&lt;/script&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>February 2025</title>
+      <link>https://mathgradboard.com/minutes/2025/february/</link>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/minutes/2025/february/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Minutes 
+    &lt;div id=&#34;minutes&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#minutes&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;script type=&#34;text/javascript&#34; src= &#39;/js/pdf-js/build/pdf.js&#39;&gt;&lt;/script&gt;
+&lt;style&gt;
+#the-canvas {
+  border: 1px solid black;
+  direction: ltr;
+  width: 100%;
+  height: auto;
+  display: none;
+}
+
+#paginator {
+  display: none;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#loadingWrapper {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+}
+
+#loading {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 3px solid #d2d0d0;;
+  border-radius: 50%;
+  border-top-color: #383838;
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+}
+
+  
+ .btn {
+  background-color: #ffcd00 ;
+  border: none;
+  color: #28292b;
+  padding: 12px 30px;
+  margin:30px
+  cursor: pointer;
+  font-size: 20px;
+}
+
+ 
+.btn:hover {
+  background-color: #c69f00 ;
+}
+
+@keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+&lt;/style&gt;
+
+&lt;br/&gt;
+&lt;br/&gt;
+
+    &lt;form method=&#34;get&#34; action=&#34;https://mathgradboard.com/./minutes/2025/february/mgb_minutes.pdf&#34;&gt;
+        
+        &lt;button class=&#34;btn&#34; style=&#34;width:100%&#34; type=&#34;submit&#34;&gt; Download&lt;/button&gt;
+&lt;/form&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+    
+
+&lt;div id=&#34;paginator&#34;&gt;
+    &lt;button class=&#34;bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded&#34; id=&#34;prev&#34;&gt;Previous&lt;/button&gt;
+    &lt;button class=&#34;bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded&#34; id=&#34;next&#34;&gt;Next&lt;/button&gt;
+&lt;/div&gt;
+&lt;div id=&#34;embed-pdf-container&#34;&gt;
+    &lt;div id=&#34;loadingWrapper&#34;&gt;
+      &lt;div id=&#34;loading&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;canvas id=&#34;the-canvas&#34;&gt;&lt;/canvas&gt;
+  &lt;/div&gt;
+  &lt;div id=&#34;paginator2&#34;&gt;
+    &lt;button class=&#34;bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded&#34; id=&#34;prev2&#34;&gt;Previous&lt;/button&gt;
+    &lt;button class=&#34;bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded&#34; id=&#34;next2&#34;&gt;Next&lt;/button&gt;
+    &amp;nbsp;
+    &amp;nbsp;
+    &lt;span&gt;Page: &lt;span id=&#34;page_num&#34;&gt;&lt;/span&gt; / &lt;span id=&#34;page_count&#34;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;script type=&#34;text/javascript&#34;&gt;
+window.onload = function() {
+
+
+
+var url = &#34;https:\/\/mathgradboard.com\/&#34; + &#39;.\/minutes\/2025\/february\/mgb_minutes.pdf&#39;;
+
+
+var hidePaginator = &#34;&#34; === &#34;true&#34;;
+var hideLoader = &#34;&#34; === &#34;true&#34;;
+var selectedPageNum = parseInt(&#34;&#34;) || 1;
+
+
+var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];
+
+
+pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;https:\/\/mathgradboard.com\/&#34; + &#39;/js/pdf-js/build/pdf.worker.js&#39;;
+
+
+var pdfDoc = null,
+    pageNum = selectedPageNum,
+    pageRendering = false,
+    pageNumPending = null,
+    scale = 3,
+    canvas = document.getElementById(&#39;the-canvas&#39;),
+    ctx = canvas.getContext(&#39;2d&#39;),
+    paginator = document.getElementById(&#34;paginator&#34;),
+    loadingWrapper = document.getElementById(&#39;loadingWrapper&#39;);
+
+
+
+showPaginator();
+showLoader();
+
+
+
+function renderPage(num) {
+  pageRendering = true;
+  
+  pdfDoc.getPage(num).then(function(page) {
+    var viewport = page.getViewport({scale: scale});
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+
+    
+    var renderContext = {
+      canvasContext: ctx,
+      viewport: viewport
+    };
+    var renderTask = page.render(renderContext);
+
+    
+    renderTask.promise.then(function() {
+      pageRendering = false;
+      showContent();
+
+      if (pageNumPending !== null) {
+        
+        renderPage(pageNumPending);
+        pageNumPending = null;
+      }
+    });
+  });
+
+  
+  document.getElementById(&#39;page_num&#39;).textContent = num;
+}
+
+
+
+function showContent() {
+  loadingWrapper.style.display = &#39;none&#39;;
+  canvas.style.display = &#39;block&#39;;
+}
+
+
+
+function showLoader() {
+  if(hideLoader) return
+  loadingWrapper.style.display = &#39;flex&#39;;
+  canvas.style.display = &#39;none&#39;;
+}
+
+
+
+function showPaginator() {
+  if(hidePaginator) return
+  paginator.style.display = &#39;block&#39;;
+}
+
+
+
+function queueRenderPage(num) {
+  if (pageRendering) {
+    pageNumPending = num;
+  } else {
+    renderPage(num);
+  }
+}
+
+
+
+function onPrevPage() {
+  if (pageNum &lt;= 1) {
+    return;
+  }
+  pageNum--;
+  queueRenderPage(pageNum);
+}
+document.getElementById(&#39;prev&#39;).addEventListener(&#39;click&#39;, onPrevPage);
+document.getElementById(&#39;prev2&#39;).addEventListener(&#39;click&#39;, onPrevPage);
+
+
+
+function onNextPage() {
+  if (pageNum &gt;= pdfDoc.numPages) {
+    return;
+  }
+  pageNum++;
+  queueRenderPage(pageNum);
+}
+document.getElementById(&#39;next&#39;).addEventListener(&#39;click&#39;, onNextPage);
+document.getElementById(&#39;next2&#39;).addEventListener(&#39;click&#39;, onNextPage);
+
+
+
+pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+  pdfDoc = pdfDoc_;
+  var numPages = pdfDoc.numPages;
+  document.getElementById(&#39;page_count&#39;).textContent = numPages;
+
+  
+  if(pageNum &gt; numPages) {
+    pageNum = numPages
+  }
+
+  
+  renderPage(pageNum);
+});
+}
+
+&lt;/script&gt;</description>
+      
+    </item>
     
     <item>
       <title>December 2024</title>
@@ -258,7 +2242,7 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
     </item>
     
     <item>
-      <title>November 2023</title>
+      <title>November 2024</title>
       <link>https://mathgradboard.com/minutes/2024/november/</link>
       <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
       

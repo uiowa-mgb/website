@@ -7,12 +7,12 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-    <lastBuildDate>Thu, 05 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mathgradboard.com/authors/jstarr3/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://mathgradboard.com/authors/jstarr3/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title></title>
       <link>https://mathgradboard.com/</link>
-      <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
       
       <guid>https://mathgradboard.com/</guid>
       <description>&lt;h1 class=&#34;relative group&#34;&gt;Statement of Purpose 
@@ -27,6 +27,26 @@
 &lt;/h1&gt;
 &lt;p&gt;The Math Graduate Board (MGB) exists to provide a forum for departmental discourse, to organize departmental events, and to generally enrich the graduate mathematics experience at the University of Iowa.  It is an official university student organization established and led entirely by math graduate students.
 The MGB general meetings are held monthly in the Muhly Lounge.  Meeting minutes are available shortly after.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Minutes</title>
+      <link>https://mathgradboard.com/minutes/</link>
+      <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/minutes/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>SumTimes</title>
+      <link>https://mathgradboard.com/newsletter/</link>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathgradboard.com/newsletter/</guid>
+      <description></description>
       
     </item>
     
@@ -279,16 +299,6 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
     </item>
     
     <item>
-      <title>SumTimes</title>
-      <link>https://mathgradboard.com/newsletter/</link>
-      <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://mathgradboard.com/newsletter/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>December 2024</title>
       <link>https://mathgradboard.com/minutes/2024/december/</link>
       <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
@@ -537,17 +547,7 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
     </item>
     
     <item>
-      <title>Minutes</title>
-      <link>https://mathgradboard.com/minutes/</link>
-      <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://mathgradboard.com/minutes/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>November 2023</title>
+      <title>November 2024</title>
       <link>https://mathgradboard.com/minutes/2024/november/</link>
       <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
       
