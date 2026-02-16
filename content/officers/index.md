@@ -13,7 +13,7 @@ The President is responsible for planning and running the monthly MGB meetings a
 
 **Current**
 
-- Claire Christian
+- Evelyn Smith
 
 ---
 
@@ -23,7 +23,7 @@ The Vice-President is responsible for recording minutes during any open meeting 
 
 **Current**
 
-- Matthew Barber
+- Blake Mattson
 
 ---
 ## GAUSS and DRP Co-Chairs
@@ -35,8 +35,8 @@ The Iowa DRP (Directed Reading Program) is "an initiative to pair undergraduate 
 
 **Current**
 
-- Ashwin Ayilliath Kutteri
-- Nicholas Cecil
+- Kerry Soderdahl
+- Shubhang Acharya
 
 ---
 
@@ -47,10 +47,9 @@ The GLC exists to facilitate communication between faculty and graduate students
 **Current**
 
 - Cole Hengel (Chair)
-- Garrett Mason
-- Petros Mavromichalis
+- Sam Conrow
 - Nandita Nair
-
+- Liz Brass
 
 ---
 
@@ -62,7 +61,7 @@ The Heartland Chair will find interested graduate speakers, and maintain a list 
 
 **Current**
 
-- Zachary Flood
+- Edo Biluar
 
 ---
 
@@ -73,19 +72,19 @@ The International Student Liaison shall be responsible for representing the need
 
 **Current**
 
-- Fatemeh Shanehsazan
+- Daniel Alverez Ramirez
 
 ---
 
 
-## Newseletter & T-Shirt Ministers
+## Newsletter & T-Shirt Ministers
 
 The Newsletter Committee puts together a monthly newsletter intended for the graduate students. The newsletter will inform students about current news and upcoming events while also providing general information about the graduate student experience. The chairs are responsible for coordinating the newsletter; they may delegate any amount of writing, photography, editing, layout, distribution, and any other tasks. The finished newsletter is distributed to graduate students, postdocs, and faculty; copies for undergraduates are made available in Muhly Lounge, and the file will be available on the department web page.
 
 **Current**
 
-- Paria Karimi Kousalari
-- Liz Brass
+- Claire Rochford 
+- Hasan Mohd Hasan Iqtaish
 
 ---
 
@@ -96,8 +95,8 @@ The Social Committee oversees the semi-annual department picnics, securing fundi
 
 **Current**
 
-- Blake Mattson
-- Marc Moore
+- Sam Conrow
+- Lauren Collins
 
 ---
 
@@ -107,11 +106,10 @@ The Travel Funding Committee is responsible for the organization and allotment o
 
 **Current**
 
-- Zachary Flood
-- Nikita Kapur
-- Garrett Mason
-- Jacob van Grinsven
-
+- Brooke Burson
+- Petros Mavromichalis
+- Abdul Shabeer Abdul Sattar
+- Ibrahim Mamudu
 ---
 
 ## Webmaster
@@ -122,4 +120,4 @@ OrgSync, and social networks (e.g. Facebook).
 
 **Current**
 
-- Ian Ramsey
+- Robin Huang
