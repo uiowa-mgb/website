@@ -392,6 +392,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://mathgradboard.com/directedreading/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://mathgradboard.com/gauss/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
