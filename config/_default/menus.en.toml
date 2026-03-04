@@ -38,11 +38,15 @@
   pageRef = "gauss"
   weight = 40
 
+[[main]]
+  name = "DRP"
+  pageRef = "directedreading"
+  weight = 50
 
 [[main]]
   name = "Blog"
   pageRef = "blog"
-  weight = 50
+  weight = 60
 
 [[main]]
   name = "General Resources"
@@ -61,7 +65,7 @@
   name = "Qualifying Exam Resources"
   parent = "Blog"
   pageRef = "blog/qual_resources/general"
-  weight = 60
+  weight = 61
 
 
 #[[main]]
